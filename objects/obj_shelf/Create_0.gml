@@ -5,7 +5,7 @@ height = get_obj_height(self);
 
 // Pickup zone settings
 pickup_offset = height * 0.75;
-pickup_width  = width * 0.9; // Little bit shorter than shelf
+pickup_width = width * 0.9; // Little bit shorter than shelf
 pickup_height = height * 0.75; // Not as thick
 
 // Center of pickup zone

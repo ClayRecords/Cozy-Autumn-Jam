@@ -10,5 +10,5 @@ if (ingredient != undefined) {
 
 // Draw pickup zone
 if (obj_game_manager.is_debug) {
-    draw_rectangle(pickup_x1, pickup_y1, pickup_x2, pickup_y2, false)
+	draw_rectangle(pickup_x1, pickup_y1, pickup_x2, pickup_y2, false);
 }

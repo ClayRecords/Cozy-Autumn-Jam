@@ -5,7 +5,7 @@ current_ghost = undefined;
 
 money = 0;
 
-ghost_sprites = [spr_ghost_1, spr_ghost_2, spr_ghost_3]
+ghost_sprites = [spr_ghost_1, spr_ghost_2, spr_ghost_3];
 
 // Create potion objects for testing recipes
 potion_indexes = [obj_potion_invisibility, obj_potion_foul];
