@@ -2,14 +2,8 @@
 current_ingredients = [];
 current_potion = undefined;
 
-// Create potion objects for testing recipes
-potion_indexes = [obj_potion_invisibility];
-potions = [];
-for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {
-	var potion_index = potion_indexes[i];
-	var potion = instance_create_layer(x, y, "invisible", potion_index);
-	array_push(potions, potion);
-}
+potions = obj_game_manager.potions;
+
 
 function add_ingredient(ingredient) {
     // Add something to the pot, check for resulting potion

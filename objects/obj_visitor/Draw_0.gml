@@ -3,7 +3,7 @@ draw_self();
 var player_dist = distance_to_object(obj_player);
 if (obj_register_zone.is_in_register_zone && !order_complete) {
 	draw_sprite_ext(spr_textBubble, 0, x - 20, y - 90, 1.5, 1.5, 0, 0, 1);
-	order_sprite = object_get_sprite(order);
+	order_sprite = order.sprite_index;
 	if (sprite_exists(order_sprite)) {
 		draw_sprite(order_sprite, 0, x - 5, y - 82);
 	}
