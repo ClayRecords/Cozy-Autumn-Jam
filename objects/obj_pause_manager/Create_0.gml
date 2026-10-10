@@ -40,6 +40,7 @@ function pause() {
 		{image_xscale: 3}
 	);
 }
+
 function unpause() {
 	is_paused = false;
 	instance_activate_all();

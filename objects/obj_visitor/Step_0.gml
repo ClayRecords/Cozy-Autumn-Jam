@@ -15,16 +15,15 @@ if (order_complete) {
 	}
 }
 
-
-function enter_movement(){
+function enter_movement() {
 	target_x = 192;
 	target_y = 336;
-    
-    move_towards_point(target_x, target_y, movement_speed);
-    if (abs(point_distance(x, y, target_x, target_y)) < 20) {
-	   is_entering = false;
-	   speed = 0;
-    }
+
+	move_towards_point(target_x, target_y, movement_speed);
+	if (abs(point_distance(x, y, target_x, target_y)) < 20) {
+		is_entering = false;
+		speed = 0;
+	}
 }
 
 if (is_entering) {

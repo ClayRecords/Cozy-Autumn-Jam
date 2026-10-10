@@ -7,7 +7,7 @@ if (obj_register_zone.is_in_register_zone && !order_complete) {
 		draw_sprite(order_sprite, -1, x - 5, y - 82);
 	}
 	if (keyboard_check_pressed(ord("Y")) && obj_player.potion_held) {
-        complete_transaction(obj_potion_invisibility);
+		complete_transaction(obj_potion_invisibility);
 	}
 }
 
