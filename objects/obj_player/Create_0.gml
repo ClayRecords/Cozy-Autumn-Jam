@@ -6,3 +6,5 @@ collide_objs = [obj_shelf, obj_pillar, tilemap];
 
 alarm[0] = 4 
 is_moving = false;
+
+potion_held = undefined;

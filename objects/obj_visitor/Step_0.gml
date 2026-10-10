@@ -15,8 +15,25 @@ if (order_complete) {
 	}
 }
 
-move_towards_point(target_x, target_y, movement_speed);
-if (abs(point_distance(x, y, target_x, target_y)) < 20) { 
-is_entering = false;
-    speed = 0;
+function start_enter() {
+	target_x = 192;
+	target_y = 336;
+    
+    audio_play_sound(
+		choose(snd_doorbellring1, snd_doorbellring2, snd_doorbellring3),
+		10,
+		false,
+        .1)
+    
+	move_towards_point(target_x, target_y, movement_speed);
+	if (abs(point_distance(x, y, target_x, target_y)) < 20) {
+		is_entering = false;
+		speed = 0;
+	}
+}
+
+if (is_entering) {
+	start_enter();
+} else {
+	tip = lerp(tip, 1, 0.0005);
 }

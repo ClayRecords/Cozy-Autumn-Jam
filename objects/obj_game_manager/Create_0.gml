@@ -22,7 +22,7 @@ for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {
 create_new_ghost = function() {
 	current_ghost = instance_create_layer(144, 512, "Instances", obj_visitor);
     current_ghost.sprite_index = ghost_sprites[int64(random(array_length(ghost_sprites)))];
-	current_ghost.order = potions[int64(random(array_length(potions)))];
+	current_ghost.order = potion_indexes[int64(random(array_length(potion_indexes)))];
 };
 
 self.create_new_ghost();
