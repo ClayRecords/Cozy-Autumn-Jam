@@ -8,3 +8,4 @@ alarm[0] = 4;
 is_moving = false;
 
 potion_held = undefined;
+nearest_interactable = undefined;

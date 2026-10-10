@@ -1,11 +1,17 @@
 // Debug mode, for analytics and testing
 is_debug = false;
 
+// default text align will be left!
+draw_set_halign(fa_left);
+
+
 current_ghost = undefined;
 
 money = 0;
 
 ghost_sprites = [spr_ghost_1, spr_ghost_2, spr_ghost_3];
+
+menu_music = audio_play_sound(snd_mainTheme, 10, true, 1);
 
 // Create potion objects for testing recipes
 potion_indexes = [obj_potion_invisibility, obj_potion_foul];
@@ -21,7 +27,9 @@ for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {
  */
 create_new_ghost = function() {
 	current_ghost = instance_create_layer(144, 512, "Instances", obj_visitor);
-    current_ghost.sprite_index = ghost_sprites[int64(random(array_length(ghost_sprites)))];
+	current_ghost.sprite_index = ghost_sprites[
+		int64(random(array_length(ghost_sprites)))
+	];
 	current_ghost.order = potion_indexes[int64(random(array_length(potion_indexes)))];
 };
 
