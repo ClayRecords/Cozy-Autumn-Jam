@@ -119,6 +119,7 @@
     {"id":{"name":"spr_ghost_2","path":"sprites/spr_ghost_2/spr_ghost_2.yy",},},
     {"id":{"name":"spr_ghost_3","path":"sprites/spr_ghost_3/spr_ghost_3.yy",},},
     {"id":{"name":"spr_ingredient_frog_leg","path":"sprites/spr_ingredient_frog_leg/spr_ingredient_frog_leg.yy",},},
+    {"id":{"name":"spr_prompt_interact","path":"sprites/spr_prompt_interact/spr_prompt_interact.yy",},},
     {"id":{"name":"spr_shelf","path":"sprites/spr_shelf/spr_shelf.yy",},},
     {"id":{"name":"spr_storage_cover_sprite","path":"sprites/spr_storage_cover_sprite/spr_storage_cover_sprite.yy",},},
     {"id":{"name":"spr_test_pillar","path":"sprites/spr_test_pillar/spr_test_pillar.yy",},},
