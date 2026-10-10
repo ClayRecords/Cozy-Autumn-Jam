@@ -7,6 +7,8 @@ money = 0;
 
 ghost_sprites = [spr_ghost_1, spr_ghost_2, spr_ghost_3];
 
+menu_music = audio_play_sound(snd_mainTheme, 10, true, 1);
+
 // Create potion objects for testing recipes
 potion_indexes = [obj_potion_invisibility, obj_potion_foul];
 potions = [];
