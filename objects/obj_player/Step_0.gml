@@ -17,8 +17,8 @@ move_and_collide(normalized_x, normalized_y, collide_objs);
 // Change sprite for movement direction
 is_moving = false;
 if (_horizontal != 0 || _vertical != 0) {
-    is_moving = true;
-    
+	is_moving = true;
+
 	if (_horizontal > 0) {
 		sprite_index = player_sprite_right;
 	} else if (_horizontal < 0) {
@@ -39,3 +39,17 @@ if (_horizontal != 0 || _vertical != 0) {
 		sprite_index = player_sprite_left_still;
 	}
 }
+
+nearest_interactable = undefined;
+var nearby_interactables = ds_list_create();
+var _interactable_num = instance_place_list(
+	x,
+	y,
+	obj_interactable_area,
+	nearby_interactables,
+	true
+);
+if (_interactable_num > 0) {
+	nearest_interactable = nearby_interactables[| 0];
+}
+ds_list_destroy(nearby_interactables);
