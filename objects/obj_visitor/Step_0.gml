@@ -15,9 +15,10 @@ if (order_complete) {
 	}
 }
 
-function start_enter() {
+function enter_movement() {
 	target_x = 192;
 	target_y = 336;
+
 	move_towards_point(target_x, target_y, movement_speed);
 	if (abs(point_distance(x, y, target_x, target_y)) < 20) {
 		is_entering = false;
@@ -26,7 +27,7 @@ function start_enter() {
 }
 
 if (is_entering) {
-	start_enter();
+	enter_movement();
 } else {
 	tip = lerp(tip, 1, 0.0005);
 }

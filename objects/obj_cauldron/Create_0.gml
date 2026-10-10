@@ -1,25 +1,23 @@
+// What's cookin' in the pot (potatoes, bat wings, fat kids, etc)
 current_ingredients = [];
 current_potion = undefined;
 
-potion_indexes = [obj_potion_invisibility];
-potions = [];
-for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {
-	var potion_index = potion_indexes[i];
-	var potion = instance_create_layer(x, y, "invisible", potion_index);
-	array_push(potions, potion);
-}
+potions = obj_game_manager.potions;
 
 function add_ingredient(ingredient) {
+	// Add something to the pot, check for resulting potion
 	array_push(current_ingredients, ingredient);
 	evaluate_recipes();
 	audio_play_sound(
 		choose(snd_bubble1, snd_bubble2, snd_bubble3, snd_bubble4),
-		1,
-		false
+		10,
+		false,
+		0.3
 	);
 }
 
 function evaluate_recipes() {
+	// Check all potions against current ingredients
 	current_potion = undefined;
 	if (array_length(current_ingredients) == 0) {
 		return;
@@ -34,6 +32,7 @@ function evaluate_recipes() {
 }
 
 function evaluate_recipe(potion) {
+	// Check if current ingredients match potion ingredients
 	var recipe_length = array_length(potion.recipe);
 
 	// Check if the test ingredients will make this recipe, return bool
@@ -49,6 +48,7 @@ function evaluate_recipe(potion) {
 }
 
 function flush() {
+	// Remove all ingredients, reset recipe
 	current_ingredients = [];
 	evaluate_recipes();
 }
