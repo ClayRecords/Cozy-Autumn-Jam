@@ -14,16 +14,16 @@ function start_enter() {
 	target_x = 75;
 	target_y = 270;
 
-    audio_play_sound(
+	audio_play_sound(
 		choose(snd_doorbellring1, snd_doorbellring2, snd_doorbellring3),
 		10,
 		false,
-        .1)
-    
+		0.1
+	);
 }
 
-if (is_entering) { 
-    start_enter();
+if (is_entering) {
+	start_enter();
 } else {
 	tip = lerp(tip, 1, 0.0005);
 }

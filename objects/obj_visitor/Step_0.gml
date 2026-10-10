@@ -16,7 +16,7 @@ if (order_complete) {
 }
 
 move_towards_point(target_x, target_y, movement_speed);
-if (abs(point_distance(x, y, target_x, target_y)) < 20) { 
-is_entering = false;
-    speed = 0;
+if (abs(point_distance(x, y, target_x, target_y)) < 20) {
+	is_entering = false;
+	speed = 0;
 }

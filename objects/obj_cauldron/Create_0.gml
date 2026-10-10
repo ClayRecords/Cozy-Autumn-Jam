@@ -4,7 +4,6 @@ current_potion = undefined;
 
 potions = obj_game_manager.potions;
 
-
 function add_ingredient(ingredient) {
 	// Add something to the pot, check for resulting potion
 	array_push(current_ingredients, ingredient);
@@ -13,7 +12,7 @@ function add_ingredient(ingredient) {
 		choose(snd_bubble1, snd_bubble2, snd_bubble3, snd_bubble4),
 		10,
 		false,
-        .3
+		0.3
 	);
 }
 

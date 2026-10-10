@@ -3,7 +3,7 @@ y1 = 0;
 x2 = 288;
 y2 = 448;
 
-cover_speed = .08;
-uncover_speed = .12;
+cover_speed = 0.08;
+uncover_speed = 0.12;
 
 is_in_register_zone = false;
