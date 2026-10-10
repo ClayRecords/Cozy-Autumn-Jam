@@ -1,6 +1,10 @@
 // Debug mode, for analytics and testing
 is_debug = false;
 
+// default text align will be left!
+draw_set_halign(fa_left);
+
+
 current_ghost = undefined;
 
 money = 0;
