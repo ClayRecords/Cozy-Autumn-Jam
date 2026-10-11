@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_ingredient_snail_slime",
+    "path":"sprites/spr_ingredient_snail_slime/spr_ingredient_snail_slime.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

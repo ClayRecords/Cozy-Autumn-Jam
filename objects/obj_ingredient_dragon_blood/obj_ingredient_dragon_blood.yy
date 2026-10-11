@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_ingredient_dragon_blood",
+    "path":"sprites/spr_ingredient_dragon_blood/spr_ingredient_dragon_blood.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_ingredient_lacewing_fly",
+    "path":"sprites/spr_ingredient_lacewing_fly/spr_ingredient_lacewing_fly.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

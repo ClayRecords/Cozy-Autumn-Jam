@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_ingredient_spider_silk",
+    "path":"sprites/spr_ingredient_spider_silk/spr_ingredient_spider_silk.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

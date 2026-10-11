@@ -27,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_ingredient_moon_water",
+    "path":"sprites/spr_ingredient_moon_water/spr_ingredient_moon_water.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
