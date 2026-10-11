@@ -10,6 +10,7 @@
   },
   "defaultScriptType":1,
   "Folders":[
+    {"$GMFolder":"","%Name":"sequences","folderPath":"folders/sequences.yy","name":"sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"ingredients","folderPath":"folders/objects/ingredients.yy","name":"ingredients","resourceType":"GMFolder","resourceVersion":"2.0",},
     {"$GMFolder":"","%Name":"kitchen","folderPath":"folders/objects/kitchen.yy","name":"kitchen","resourceType":"GMFolder","resourceVersion":"2.0",},
@@ -93,6 +94,7 @@
     {"id":{"name":"print","path":"scripts/print/print.yy",},},
     {"id":{"name":"sine_wave","path":"scripts/sine_wave/sine_wave.yy",},},
     {"id":{"name":"str","path":"scripts/str/str.yy",},},
+    {"id":{"name":"seq_cauldron","path":"sequences/seq_cauldron/seq_cauldron.yy",},},
     {"id":{"name":"snd_bottleclink1","path":"sounds/snd_bottleclink1/snd_bottleclink1.yy",},},
     {"id":{"name":"snd_bottleclink2","path":"sounds/snd_bottleclink2/snd_bottleclink2.yy",},},
     {"id":{"name":"snd_bottleclink3","path":"sounds/snd_bottleclink3/snd_bottleclink3.yy",},},

@@ -1,7 +1,6 @@
 event_inherited();
 
 function interact() {
-	print("Here");
 	//if (!obj_visitor.order_complete) {
 	//draw_sprite_ext(spr_textBubble, -1, x - 20, y - 90, 1.5, 1.5, 0, c_white, 1);
 	//order_sprite = obj_visitor.order.sprite_index;
