@@ -9,6 +9,7 @@ is_moving = false;
 
 potion_held = undefined;
 nearest_interactable = undefined;
+previous_nearest_interactable = undefined;
 
 inventory = array_create(8);
 inventory_size = 3;
