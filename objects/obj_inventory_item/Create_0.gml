@@ -1,4 +1,4 @@
-ingredient = undefined;
+ingredient_type = undefined;
 
 grabbed = false;
 dropped = false;
