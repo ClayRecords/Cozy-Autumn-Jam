@@ -11,8 +11,8 @@
   "name":"obj_cauldron",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"kitchen",
+    "path":"folders/objects/kitchen.yy",
   },
   "parentObjectId":null,
   "persistent":false,

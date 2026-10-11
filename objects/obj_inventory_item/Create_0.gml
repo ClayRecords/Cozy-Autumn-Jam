@@ -8,8 +8,8 @@ xx = 0;
 yy = 0;
 hover = false;
 
-function return_to_inventory(){
-    image_alpha = 1;
-    x = start_x;
-    y = start_y;
+function return_to_inventory() {
+	image_alpha = 1;
+	x = start_x;
+	y = start_y;
 }

@@ -1,34 +1,22 @@
-function start_destroy() {
-	target_x = 144;
-	target_y = 512;
-	move_towards_point(target_x, target_y, movement_speed);
-	image_alpha = lerp(image_alpha, 0, 0.1);
-	if (abs(point_distance(x, y, target_x, target_y)) < 20) {
-		is_leaving = true;
-	}
-}
-
-if (order_complete) {
-	start_destroy();
-	if (is_leaving) {
-		instance_destroy(self);
-	}
-}
-
-function enter_movement() {
-	target_x = 192;
-	target_y = 336;
-
-	move_towards_point(target_x, target_y, movement_speed);
-	if (abs(point_distance(x, y, target_x, target_y)) < 20) {
+if (is_entering) {
+	// Go to register, nothing else
+	speed = movement_speed;
+	direction = 90;
+	if (y <= target_y) {
 		is_entering = false;
 		speed = 0;
 	}
+	return;
 }
 
-if (is_entering) {
-	start_enter();
-	enter_movement();
+if (order_complete) {
+	speed = movement_speed;
+	direction = 270;
+	image_alpha = lerp(image_alpha, 0, 0.1);
 } else {
 	tip = lerp(tip, 1, 0.0005);
+}
+
+if (y >= room_height) {
+	instance_destroy();
 }
