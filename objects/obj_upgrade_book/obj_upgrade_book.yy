@@ -30,10 +30,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"upgrade_book_sprite",
-    "path":"sprites/upgrade_book_sprite/upgrade_book_sprite.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"potion_book_sprite",
+  "%Name":"spr_recipes_book",
   "bboxMode":0,
   "bbox_bottom":415,
   "bbox_left":64,
@@ -12,28 +12,28 @@
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"a6740284-1a04-4b8e-97af-4716a3b7c5ea","name":"a6740284-1a04-4b8e-97af-4716a3b7c5ea","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"79778e67-18b8-42df-8862-3fb793fe3e02","name":"79778e67-18b8-42df-8862-3fb793fe3e02","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":512,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"e9a5e000-0daa-4dd8-bd10-e9839e9781f8","blendMode":0,"displayName":"default","isLocked":false,"name":"e9a5e000-0daa-4dd8-bd10-e9839e9781f8","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"e91c5999-8203-4619-b099-c4ed5fec7835","blendMode":0,"displayName":"default","isLocked":false,"name":"e91c5999-8203-4619-b099-c4ed5fec7835","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"potion_book_sprite",
+  "name":"spr_recipes_book",
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"book_menu",
-    "path":"folders/sprites/menus/book_menu.yy",
+    "name":"recipes_book",
+    "path":"folders/sequences/recipes_book.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"potion_book_sprite",
+    "%Name":"spr_recipes_book",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"potion_book_sprite",
+    "name":"spr_recipes_book",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"a6740284-1a04-4b8e-97af-4716a3b7c5ea","path":"sprites/potion_book_sprite/potion_book_sprite.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"8e48f26e-ff85-4d2d-a10b-6774e4561382","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"79778e67-18b8-42df-8862-3fb793fe3e02","path":"sprites/spr_recipes_book/spr_recipes_book.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"4d347b09-9701-4b9a-9b45-5f8a35be7e0b","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,
