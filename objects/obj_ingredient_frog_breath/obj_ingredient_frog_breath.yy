@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ingredient_frog_leg",
-    "path":"sprites/spr_ingredient_frog_leg/spr_ingredient_frog_leg.yy",
+    "name":"spr_ingredient_frog_breath",
+    "path":"sprites/spr_ingredient_frog_breath/spr_ingredient_frog_breath.yy",
   },
   "spriteMaskId":null,
   "visible":true,
