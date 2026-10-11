@@ -4,7 +4,6 @@ menu_sequence_ref = seq_cauldron;
 
 function interact() {
 	obj_cauldron.is_brewing = true;
-
 	create_menu();
 }
 
