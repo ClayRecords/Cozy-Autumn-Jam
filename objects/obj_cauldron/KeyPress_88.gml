@@ -1,4 +1,4 @@
-if(is_brewing){
+if(is_brewing && array_length(current_ingredients) != 0){
     obj_player.potion_held = current_potion;
     
     inventory = obj_player.ds_inventory;
@@ -9,4 +9,5 @@ if(is_brewing){
             instance_destroy(item);
         }
     }
+    current_ingredients = [];
 }
