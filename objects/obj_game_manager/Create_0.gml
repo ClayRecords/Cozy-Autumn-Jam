@@ -4,10 +4,11 @@ is_debug = false;
 // default text align will be left!
 draw_set_halign(fa_left);
 
-current_ghost = undefined;
+display_set_gui_size(960, 540);
 
 money = 0;
 
+current_ghost = undefined;
 ghost_sprites = [spr_ghost_1, spr_ghost_2, spr_ghost_3];
 
 menu_music = audio_play_sound(snd_mainTheme, 10, true, 1);
