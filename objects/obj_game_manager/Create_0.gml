@@ -36,7 +36,7 @@ for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {
 }
 
 // Store ingredient INDEXES (references to objects)
-ingredient_indexes = [obj_ingredient_bat_wing, obj_ingredient_frog_leg];
+ingredient_indexes = [obj_ingredient_bat_wool, obj_ingredient_frog_breath];
 
 /**
  * Creates a new ghost object as the next customer.

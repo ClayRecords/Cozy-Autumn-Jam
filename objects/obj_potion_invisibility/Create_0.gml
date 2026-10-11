@@ -1,3 +1,3 @@
 name = "Invisibility";
-recipe = [obj_ingredient_bat_wing, obj_ingredient_frog_leg];
+recipe = [obj_ingredient_bat_wool, obj_ingredient_frog_breath];
 cost = 5;
