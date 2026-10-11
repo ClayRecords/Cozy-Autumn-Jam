@@ -4,6 +4,7 @@ event_inherited();
 
 function activate_button() {
 	obj_recipe_book_manager.go_to_next_page();
+    print(obj_recipe_book_manager.current_page_index)
 }
 
 
