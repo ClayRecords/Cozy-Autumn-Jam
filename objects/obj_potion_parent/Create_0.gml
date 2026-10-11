@@ -8,7 +8,7 @@ function evaluate_recipe(current_ingredients) {
 		return false;
 	}
 	for (i = 0; i < array_length(current_ingredients); i++) {
-        // Ingredient order matters!
+		// Ingredient order matters!
 		if (current_ingredients[i] != recipe[i]) {
 			return false;
 		}

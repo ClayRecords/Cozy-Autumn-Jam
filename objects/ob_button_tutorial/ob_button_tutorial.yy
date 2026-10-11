@@ -1,15 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_register_wait",
-  "eventList":[],
+  "%Name":"ob_button_tutorial",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_register_wait",
+  "name":"ob_button_tutorial",
   "overriddenProperties":[],
   "parent":{
-    "name":"kitchen",
-    "path":"folders/objects/kitchen.yy",
+    "name":"title",
+    "path":"folders/objects/menus/title.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_btn_parent",
+    "path":"objects/obj_btn_parent/obj_btn_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -27,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_btn_about",
+    "path":"sprites/spr_btn_about/spr_btn_about.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

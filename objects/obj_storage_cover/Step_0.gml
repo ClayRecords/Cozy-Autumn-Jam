@@ -14,12 +14,7 @@ function uncover() {
 	}
 }
 
-if (point_in_rectangle(obj_player.x, obj_player.y, x1, y1, x2, y2)) {
-	is_in_register_zone = true;
-	if (image_alpha != 1) {
-		cover_up();
-	}
-} else {
+if (place_meeting(x, y, obj_player)) {
 	//not in register zone
 	if (is_in_register_zone) {
 		is_in_register_zone = false;
@@ -28,5 +23,10 @@ if (point_in_rectangle(obj_player.x, obj_player.y, x1, y1, x2, y2)) {
 	}
 	if (image_alpha != 0) {
 		uncover();
+	}
+} else {
+	is_in_register_zone = true;
+	if (image_alpha != 1) {
+		cover_up();
 	}
 }
