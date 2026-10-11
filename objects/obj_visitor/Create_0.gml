@@ -1,31 +1,30 @@
-// order: list of potions / one potion
+// order: one potion
 // tip: (correctness of potions + time)
 
-order = undefined;
-
-order_complete = false;
-is_leaving = false;
-is_entering = true;
 movement_speed = 5;
 
+is_entering = true;
+is_leaving = false;
+
+order = undefined;
+order_complete = false;
+
 tip = 1.5;
+
+// Bell ring
+var snd_bellring = choose(snd_doorbellring1, snd_doorbellring2, snd_doorbellring3);
+audio_play_sound(snd_bellring, 10, false, 0.1);
+
+target_y = obj_register_wait.y;
 
 function complete_transaction(potion) {
 	if (order != potion) {
 		tip = 1;
-		print("HOW DARE YOU ! ", "Ordered: ", order.name, "Gave : ", potion.name);
+		print("HOW DARE YOU! ", "Ordered: ", order.name, "Gave : ", potion.name);
 	} else {
-		print("YIPPEEEE ! ", "Ordered: ", order.name, "Gave : ", potion.name);
+		print("YIPPEEEE! ", "Ordered: ", order.name, "Gave : ", potion.name);
 	}
 	obj_player.potion_held = undefined;
 	order_complete = true;
-}
-
-function start_enter() {
-	audio_play_sound(
-		choose(snd_doorbellring1, snd_doorbellring2, snd_doorbellring3),
-		10,
-		false,
-		0.1
-	);
+	obj_game_manager.get_paid(self);
 }
