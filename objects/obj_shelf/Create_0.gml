@@ -1,4 +1,4 @@
-ingredient = undefined;
+ingredient_type = undefined;
 
 width = get_obj_width(self);
 height = get_obj_height(self);

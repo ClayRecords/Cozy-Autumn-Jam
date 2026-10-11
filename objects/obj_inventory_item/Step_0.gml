@@ -1,5 +1,5 @@
-if (ingredient) {
-	sprite_index = object_get_sprite(ingredient);
+if (ingredient_type) {
+	sprite_index = object_get_sprite(ingredient_type);
 }
 
 if (grabbed) {

@@ -1,4 +1,4 @@
-ingredient = obj_empty_inventory_ingredient;
+ingredient_type = obj_empty_inventory_ingredient;
 
 grabbed = false;
 draggable = false;

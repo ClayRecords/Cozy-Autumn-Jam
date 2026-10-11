@@ -141,7 +141,7 @@ function maze_build() {
 		var shelves_size = array_length(all_shelves) - 1;
 		var random_index = irandom(shelves_size);
 		var random_shelf = all_shelves[random_index];
-		random_shelf.ingredient = ingredient;
+		random_shelf.ingredient_type = ingredient;
 		array_delete(all_shelves, random_index, 1);
 	}
 
