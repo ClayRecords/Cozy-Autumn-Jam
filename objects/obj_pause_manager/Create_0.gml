@@ -12,12 +12,12 @@ function pause() {
 
 	resolution_w = room_width;
 	resolution_h = room_height;
-    
-    if !layer_exists("PauseMenu") {
-        layer_create(depth - 1, "PauseMenu");
-    }
-    
-    pause_seq = layer_sequence_create("PauseMenu", 0, 0, seq_pause);
+
+	if (!layer_exists("PauseMenu")) {
+		layer_create(depth - 1, "PauseMenu");
+	}
+
+	pause_seq = layer_sequence_create("PauseMenu", 0, 0, seq_pause);
 
 	// Capture background
 	pause_surface = surface_create(resolution_w, resolution_h);
@@ -50,10 +50,10 @@ function cleanup() {
 	if (buffer_exists(pause_surface_buffer)) {
 		buffer_delete(pause_surface_buffer);
 	}
-    if (pause_seq != -1 && layer_sequence_exists("PauseMenu", pause_seq)) {
-        layer_sequence_destroy(pause_seq);
-    }
-    pause_seq = -1;
-    
-    instance_destroy(obj_sparkle);
+	if (pause_seq != -1 && layer_sequence_exists("PauseMenu", pause_seq)) {
+		layer_sequence_destroy(pause_seq);
+	}
+	pause_seq = -1;
+
+	instance_destroy(obj_sparkle);
 }

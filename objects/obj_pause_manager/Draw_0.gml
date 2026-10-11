@@ -1,7 +1,9 @@
-if !is_paused exit;
-if !surface_exists(pause_surface) {
-    pause_surface = surface_create(resolution_w, resolution_h);
-    buffer_set_surface(pause_surface_buffer, pause_surface, 0);
+if (!is_paused) {
+	exit;
+}
+if (!surface_exists(pause_surface)) {
+	pause_surface = surface_create(resolution_w, resolution_h);
+	buffer_set_surface(pause_surface_buffer, pause_surface, 0);
 }
 
 draw_surface_stretched(pause_surface, 0, 0, room_width, room_height);
