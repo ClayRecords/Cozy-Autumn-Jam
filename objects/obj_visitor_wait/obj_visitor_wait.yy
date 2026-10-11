@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_register_wait",
+  "%Name":"obj_visitor_wait",
   "eventList":[],
   "managed":true,
-  "name":"obj_register_wait",
+  "name":"obj_visitor_wait",
   "overriddenProperties":[],
   "parent":{
     "name":"kitchen",

@@ -1,12 +1,12 @@
 {
   "$GMObject":"",
-  "%Name":"obj_register_zone",
+  "%Name":"obj_storage_cover",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_register_zone",
+  "name":"obj_storage_cover",
   "overriddenProperties":[],
   "parent":{
     "name":"managers",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_storage_cover_sprite",
-    "path":"sprites/spr_storage_cover_sprite/spr_storage_cover_sprite.yy",
+    "name":"spr_storage_cover",
+    "path":"sprites/spr_storage_cover/spr_storage_cover.yy",
   },
   "spriteMaskId":null,
   "visible":true,

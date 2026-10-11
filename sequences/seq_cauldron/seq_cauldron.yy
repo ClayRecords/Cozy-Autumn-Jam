@@ -26,8 +26,8 @@
   },
   "name":"seq_cauldron",
   "parent":{
-    "name":"sequences",
-    "path":"folders/sequences.yy",
+    "name":"cauldron",
+    "path":"folders/sequences/cauldron.yy",
   },
   "playback":0,
   "playbackSpeed":60.0,
