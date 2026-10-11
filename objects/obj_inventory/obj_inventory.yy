@@ -10,8 +10,8 @@
   "name":"obj_inventory",
   "overriddenProperties":[],
   "parent":{
-    "name":"objects",
-    "path":"folders/objects.yy",
+    "name":"inventory",
+    "path":"folders/objects/kitchen/inventory.yy",
   },
   "parentObjectId":null,
   "persistent":false,

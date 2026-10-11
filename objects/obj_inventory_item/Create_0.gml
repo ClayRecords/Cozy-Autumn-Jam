@@ -1,7 +1,7 @@
-ingredient = undefined;
+ingredient = obj_empty_inventory_ingredient;
 
 grabbed = false;
-dropped = false;
+draggable = false;
 start_x = 0;
 start_y = 0;
 xx = 0;

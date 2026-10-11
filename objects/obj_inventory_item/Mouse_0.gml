@@ -1,4 +1,4 @@
-if (hover) {
+if (hover && draggable) {
 	grabbed = true;
 	xx = x - mouse_x;
 	yy = y - mouse_y;

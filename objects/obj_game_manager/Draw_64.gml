@@ -6,5 +6,5 @@ if (is_debug) {
 
 	draw_text(330, 10, "Potion Held: " + potion_held);
 
-	draw_text(600, 10, "Cauldron: " + str(obj_cauldron.current_ingredients));
+	draw_text(600, 10, "Inventory: " + str(obj_player.inventory));
 }
