@@ -1,0 +1,1 @@
+obj_inventory.add_ingredient_to_inventory(obj_ingredient_bat_wing);
