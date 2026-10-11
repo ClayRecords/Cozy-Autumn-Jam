@@ -17,7 +17,7 @@ function pause() {
         layer_create(depth - 1, "PauseMenu");
     }
     
-    pause_seq = layer_sequence_create("PauseMenu", room_width, room_height, seq_pause);
+    pause_seq = layer_sequence_create("PauseMenu", 0, 0, seq_pause);
 
 	// Capture background
 	pause_surface = surface_create(resolution_w, resolution_h);
@@ -35,16 +35,6 @@ function pause() {
 		1
 	);
 	buffer_get_surface(pause_surface_buffer, pause_surface, 0);
-
-	// Add buttons
-	button_x = resolution_w / 2;
-	button_y = resolution_h / 2;
-	unpause_btn = instance_create_depth(
-		0,
-		0,
-		-1000,
-		obj_pause_menu
-	);
 }
 
 function unpause() {
@@ -65,5 +55,5 @@ function cleanup() {
     }
     pause_seq = -1;
     
-    instance_destroy(obj_sparkle)
+    instance_destroy(obj_sparkle);
 }
