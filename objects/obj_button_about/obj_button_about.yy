@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_exit",
+  "%Name":"obj_button_about",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_exit",
+  "name":"obj_button_about",
   "overriddenProperties":[],
   "parent":{
     "name":"title",

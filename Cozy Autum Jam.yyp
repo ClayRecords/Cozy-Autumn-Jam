@@ -1,1145 +1,220 @@
 {
-  "$GMProject": "v1",
-  "%Name": "Cozy Autum Jam",
-  "AudioGroups": [
-    {
-      "$GMAudioGroup": "v1",
-      "%Name": "audiogroup_default",
-      "exportDir": "",
-      "name": "audiogroup_default",
-      "resourceType": "GMAudioGroup",
-      "resourceVersion": "2.0",
-      "targets": -1
-    }
+  "$GMProject":"v1",
+  "%Name":"Cozy Autum Jam",
+  "AudioGroups":[
+    {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
-  "configs": {
-    "children": [],
-    "name": "Default"
+  "configs":{
+    "children":[],
+    "name":"Default",
   },
-  "defaultScriptType": 1,
-  "Folders": [
-    {
-      "$GMFolder": "",
-      "%Name": "objects",
-      "folderPath": "folders/objects.yy",
-      "name": "objects",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "ingredients",
-      "folderPath": "folders/objects/ingredients.yy",
-      "name": "ingredients",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "kitchen",
-      "folderPath": "folders/objects/kitchen.yy",
-      "name": "kitchen",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "inventory",
-      "folderPath": "folders/objects/kitchen/inventory.yy",
-      "name": "inventory",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "managers",
-      "folderPath": "folders/objects/managers.yy",
-      "name": "managers",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "maze",
-      "folderPath": "folders/objects/maze.yy",
-      "name": "maze",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "menus",
-      "folderPath": "folders/objects/menus.yy",
-      "name": "menus",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "books",
-      "folderPath": "folders/objects/menus/books.yy",
-      "name": "books",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "shared",
-      "folderPath": "folders/objects/menus/books/shared.yy",
-      "name": "shared",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "pause",
-      "folderPath": "folders/objects/menus/pause.yy",
-      "name": "pause",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "title",
-      "folderPath": "folders/objects/menus/title.yy",
-      "name": "title",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "potions",
-      "folderPath": "folders/objects/potions.yy",
-      "name": "potions",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "rooms",
-      "folderPath": "folders/rooms.yy",
-      "name": "rooms",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "scripts",
-      "folderPath": "folders/scripts.yy",
-      "name": "scripts",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "sequences",
-      "folderPath": "folders/sequences.yy",
-      "name": "sequences",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "cauldron",
-      "folderPath": "folders/sequences/cauldron.yy",
-      "name": "cauldron",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "cauldron",
-      "folderPath": "folders/sequences/cauldron.yy",
-      "name": "cauldron",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "recipes_book",
-      "folderPath": "folders/sequences/recipes_book.yy",
-      "name": "recipes_book",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "upgrades_book",
-      "folderPath": "folders/sequences/upgrades_book.yy",
-      "name": "upgrades_book",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "sounds",
-      "folderPath": "folders/sounds.yy",
-      "name": "sounds",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "sprites",
-      "folderPath": "folders/sprites.yy",
-      "name": "sprites",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "ghost_sprites",
-      "folderPath": "folders/sprites/ghost_sprites.yy",
-      "name": "ghost_sprites",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "ingredients",
-      "folderPath": "folders/sprites/ingredients.yy",
-      "name": "ingredients",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "menus",
-      "folderPath": "folders/sprites/menus.yy",
-      "name": "menus",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "title",
-      "folderPath": "folders/sprites/menus/title.yy",
-      "name": "title",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "player_sprites",
-      "folderPath": "folders/sprites/player_sprites.yy",
-      "name": "player_sprites",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    },
-    {
-      "$GMFolder": "",
-      "%Name": "potions",
-      "folderPath": "folders/sprites/potions.yy",
-      "name": "potions",
-      "resourceType": "GMFolder",
-      "resourceVersion": "2.0"
-    }
+  "defaultScriptType":1,
+  "Folders":[
+    {"$GMFolder":"","%Name":"objects","folderPath":"folders/objects.yy","name":"objects","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"ingredients","folderPath":"folders/objects/ingredients.yy","name":"ingredients","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"kitchen","folderPath":"folders/objects/kitchen.yy","name":"kitchen","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"inventory","folderPath":"folders/objects/kitchen/inventory.yy","name":"inventory","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"managers","folderPath":"folders/objects/managers.yy","name":"managers","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"maze","folderPath":"folders/objects/maze.yy","name":"maze","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"menus","folderPath":"folders/objects/menus.yy","name":"menus","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"books","folderPath":"folders/objects/menus/books.yy","name":"books","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"shared","folderPath":"folders/objects/menus/books/shared.yy","name":"shared","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"pause","folderPath":"folders/objects/menus/pause.yy","name":"pause","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"title","folderPath":"folders/objects/menus/title.yy","name":"title","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"potions","folderPath":"folders/objects/potions.yy","name":"potions","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"rooms","folderPath":"folders/rooms.yy","name":"rooms","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"scripts","folderPath":"folders/scripts.yy","name":"scripts","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"sequences","folderPath":"folders/sequences.yy","name":"sequences","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"cauldron","folderPath":"folders/sequences/cauldron.yy","name":"cauldron","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"recipes_book","folderPath":"folders/sequences/recipes_book.yy","name":"recipes_book","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"upgrades_book","folderPath":"folders/sequences/upgrades_book.yy","name":"upgrades_book","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"sounds","folderPath":"folders/sounds.yy","name":"sounds","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"sprites","folderPath":"folders/sprites.yy","name":"sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"ghost_sprites","folderPath":"folders/sprites/ghost_sprites.yy","name":"ghost_sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"ingredients","folderPath":"folders/sprites/ingredients.yy","name":"ingredients","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"menus","folderPath":"folders/sprites/menus.yy","name":"menus","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"title","folderPath":"folders/sprites/menus/title.yy","name":"title","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"player_sprites","folderPath":"folders/sprites/player_sprites.yy","name":"player_sprites","resourceType":"GMFolder","resourceVersion":"2.0",},
+    {"$GMFolder":"","%Name":"potions","folderPath":"folders/sprites/potions.yy","name":"potions","resourceType":"GMFolder","resourceVersion":"2.0",},
   ],
-  "ForcedPrefabProjectReferences": [
-    {
-      "link": "io.gamemaker.sdfshaders-1.0.0",
-      "name": "io.gamemaker.sdfshaders-1.0.0",
-      "path": "io.gamemaker.sdfshaders-1.0.0.yyp"
-    }
+  "ForcedPrefabProjectReferences":[
+    {"link":"io.gamemaker.sdfshaders-1.0.0","name":"io.gamemaker.sdfshaders-1.0.0","path":"io.gamemaker.sdfshaders-1.0.0.yyp",},
   ],
-  "IncludedFiles": [],
-  "isEcma": false,
-  "LibraryEmitters": [],
-  "MetaData": {
-    "IDEVersion": "2026.0.0.16"
+  "IncludedFiles":[],
+  "isEcma":false,
+  "LibraryEmitters":[],
+  "MetaData":{
+    "IDEVersion":"2026.0.0.16",
   },
-  "name": "Cozy Autum Jam",
-  "resources": [
-    { "id": { "name": "fnt_book", "path": "fonts/fnt_book/fnt_book.yy" } },
-    {
-      "id": {
-        "name": "ob_button_tutorial",
-        "path": "objects/ob_button_tutorial/ob_button_tutorial.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_book_parent",
-        "path": "objects/obj_book_parent/obj_book_parent.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_btn_parent",
-        "path": "objects/obj_btn_parent/obj_btn_parent.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_button_exit",
-        "path": "objects/obj_button_exit/obj_button_exit.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_button_menu",
-        "path": "objects/obj_button_menu/obj_button_menu.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_button_start",
-        "path": "objects/obj_button_start/obj_button_start.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_button_unpause",
-        "path": "objects/obj_button_unpause/obj_button_unpause.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_cauldron_interactable_area",
-        "path": "objects/obj_cauldron_interactable_area/obj_cauldron_interactable_area.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_cauldron",
-        "path": "objects/obj_cauldron/obj_cauldron.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_close_book_btn",
-        "path": "objects/obj_close_book_btn/obj_close_book_btn.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_close_recipes_book",
-        "path": "objects/obj_close_recipes_book/obj_close_recipes_book.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_close_upgrades_book",
-        "path": "objects/obj_close_upgrades_book/obj_close_upgrades_book.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_empty_inventory_ingredient",
-        "path": "objects/obj_empty_inventory_ingredient/obj_empty_inventory_ingredient.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_game_manager",
-        "path": "objects/obj_game_manager/obj_game_manager.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_ingredient_bat_wool",
-        "path": "objects/obj_ingredient_bat_wool/obj_ingredient_bat_wool.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_ingredient_dragon_blood",
-        "path": "objects/obj_ingredient_dragon_blood/obj_ingredient_dragon_blood.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_ingredient_eye_of_newt",
-        "path": "objects/obj_ingredient_eye_of_newt/obj_ingredient_eye_of_newt.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_ingredient_frog_breath",
-        "path": "objects/obj_ingredient_frog_breath/obj_ingredient_frog_breath.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_ingredient_lacewing_fly",
-        "path": "objects/obj_ingredient_lacewing_fly/obj_ingredient_lacewing_fly.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_ingredient_moon_water",
-        "path": "objects/obj_ingredient_moon_water/obj_ingredient_moon_water.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_ingredient_parent",
-        "path": "objects/obj_ingredient_parent/obj_ingredient_parent.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_ingredient_snail_slime",
-        "path": "objects/obj_ingredient_snail_slime/obj_ingredient_snail_slime.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_ingredient_spider_silk",
-        "path": "objects/obj_ingredient_spider_silk/obj_ingredient_spider_silk.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_interactable_area",
-        "path": "objects/obj_interactable_area/obj_interactable_area.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_inventory_item",
-        "path": "objects/obj_inventory_item/obj_inventory_item.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_inventory",
-        "path": "objects/obj_inventory/obj_inventory.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_locked_inventory",
-        "path": "objects/obj_locked_inventory/obj_locked_inventory.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_maze_builder",
-        "path": "objects/obj_maze_builder/obj_maze_builder.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_menu_interactable_area",
-        "path": "objects/obj_menu_interactable_area/obj_menu_interactable_area.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_next_page_btn",
-        "path": "objects/obj_next_page_btn/obj_next_page_btn.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_pause_manager",
-        "path": "objects/obj_pause_manager/obj_pause_manager.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_pause_menu",
-        "path": "objects/obj_pause_menu/obj_pause_menu.yy"
-      }
-    },
-    {
-      "id": { "name": "obj_pillar", "path": "objects/obj_pillar/obj_pillar.yy" }
-    },
-    {
-      "id": { "name": "obj_player", "path": "objects/obj_player/obj_player.yy" }
-    },
-    {
-      "id": {
-        "name": "obj_potion_book",
-        "path": "objects/obj_potion_book/obj_potion_book.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_potion_find_lost_items",
-        "path": "objects/obj_potion_find_lost_items/obj_potion_find_lost_items.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_potion_flight",
-        "path": "objects/obj_potion_flight/obj_potion_flight.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_potion_foul",
-        "path": "objects/obj_potion_foul/obj_potion_foul.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_potion_hair_growth",
-        "path": "objects/obj_potion_hair_growth/obj_potion_hair_growth.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_potion_healing",
-        "path": "objects/obj_potion_healing/obj_potion_healing.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_potion_invisibility",
-        "path": "objects/obj_potion_invisibility/obj_potion_invisibility.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_potion_mystery",
-        "path": "objects/obj_potion_mystery/obj_potion_mystery.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_potion_parent",
-        "path": "objects/obj_potion_parent/obj_potion_parent.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_potion_stink_bomb",
-        "path": "objects/obj_potion_stink_bomb/obj_potion_stink_bomb.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_potion_strength",
-        "path": "objects/obj_potion_strength/obj_potion_strength.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_potion_water_breathing",
-        "path": "objects/obj_potion_water_breathing/obj_potion_water_breathing.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_potion_x_ray",
-        "path": "objects/obj_potion_x_ray/obj_potion_x_ray.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_previous_page_btn",
-        "path": "objects/obj_previous_page_btn/obj_previous_page_btn.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_recipes_book_manager",
-        "path": "objects/obj_recipes_book_manager/obj_recipes_book_manager.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_register_interactable_area",
-        "path": "objects/obj_register_interactable_area/obj_register_interactable_area.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_shelf_pickup",
-        "path": "objects/obj_shelf_pickup/obj_shelf_pickup.yy"
-      }
-    },
-    { "id": { "name": "obj_shelf", "path": "objects/obj_shelf/obj_shelf.yy" } },
-    {
-      "id": {
-        "name": "obj_sparkle",
-        "path": "objects/obj_sparkle/obj_sparkle.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_storage_cover",
-        "path": "objects/obj_storage_cover/obj_storage_cover.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_upgrade_book",
-        "path": "objects/obj_upgrade_book/obj_upgrade_book.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_upgrades_book_manager",
-        "path": "objects/obj_upgrades_book_manager/obj_upgrades_book_manager.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_visitor_spawn",
-        "path": "objects/obj_visitor_spawn/obj_visitor_spawn.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_visitor_wait",
-        "path": "objects/obj_visitor_wait/obj_visitor_wait.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "obj_visitor",
-        "path": "objects/obj_visitor/obj_visitor.yy"
-      }
-    },
-    { "id": { "name": "Room1", "path": "rooms/Room1/Room1.yy" } },
-    { "id": { "name": "Title", "path": "rooms/Title/Title.yy" } },
-    {
-      "id": { "name": "angle_lerp", "path": "scripts/angle_lerp/angle_lerp.yy" }
-    },
-    {
-      "id": {
-        "name": "angle_script_calculations",
-        "path": "scripts/angle_script_calculations/angle_script_calculations.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "get_ingredients",
-        "path": "scripts/get_ingredients/get_ingredients.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "get_object_dimensions",
-        "path": "scripts/get_object_dimensions/get_object_dimensions.yy"
-      }
-    },
-    { "id": { "name": "macros", "path": "scripts/macros/macros.yy" } },
-    {
-      "id": { "name": "maze_build", "path": "scripts/maze_build/maze_build.yy" }
-    },
-    {
-      "id": {
-        "name": "move_to_solid",
-        "path": "scripts/move_to_solid/move_to_solid.yy"
-      }
-    },
-    { "id": { "name": "print", "path": "scripts/print/print.yy" } },
-    { "id": { "name": "sine_wave", "path": "scripts/sine_wave/sine_wave.yy" } },
-    { "id": { "name": "str", "path": "scripts/str/str.yy" } },
-    {
-      "id": {
-        "name": "seq_cauldron",
-        "path": "sequences/seq_cauldron/seq_cauldron.yy"
-      }
-    },
-    {
-      "id": { "name": "seq_pause", "path": "sequences/seq_pause/seq_pause.yy" }
-    },
-    {
-      "id": {
-        "name": "seq_recipes_book",
-        "path": "sequences/seq_recipes_book/seq_recipes_book.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "seq_upgrades_book",
-        "path": "sequences/seq_upgrades_book/seq_upgrades_book.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_bottleclink1",
-        "path": "sounds/snd_bottleclink1/snd_bottleclink1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_bottleclink2",
-        "path": "sounds/snd_bottleclink2/snd_bottleclink2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_bottleclink3",
-        "path": "sounds/snd_bottleclink3/snd_bottleclink3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_bottleclink4",
-        "path": "sounds/snd_bottleclink4/snd_bottleclink4.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_bottleclink5",
-        "path": "sounds/snd_bottleclink5/snd_bottleclink5.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_bottleclink6",
-        "path": "sounds/snd_bottleclink6/snd_bottleclink6.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_bubble1",
-        "path": "sounds/snd_bubble1/snd_bubble1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_bubble2",
-        "path": "sounds/snd_bubble2/snd_bubble2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_bubble3",
-        "path": "sounds/snd_bubble3/snd_bubble3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_bubble4",
-        "path": "sounds/snd_bubble4/snd_bubble4.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_doorbellring1",
-        "path": "sounds/snd_doorbellring1/snd_doorbellring1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_doorbellring2",
-        "path": "sounds/snd_doorbellring2/snd_doorbellring2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_doorbellring3",
-        "path": "sounds/snd_doorbellring3/snd_doorbellring3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_footstep1",
-        "path": "sounds/snd_footstep1/snd_footstep1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_footstep2",
-        "path": "sounds/snd_footstep2/snd_footstep2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_ghostHappy1",
-        "path": "sounds/snd_ghostHappy1/snd_ghostHappy1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_ghostHappy2",
-        "path": "sounds/snd_ghostHappy2/snd_ghostHappy2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_ghostHappy3",
-        "path": "sounds/snd_ghostHappy3/snd_ghostHappy3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_mainTheme",
-        "path": "sounds/snd_mainTheme/snd_mainTheme.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_menuclick1",
-        "path": "sounds/snd_menuclick1/snd_menuclick1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_menuclick2",
-        "path": "sounds/snd_menuclick2/snd_menuclick2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_menuMusic",
-        "path": "sounds/snd_menuMusic/snd_menuMusic.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_pageturn1",
-        "path": "sounds/snd_pageturn1/snd_pageturn1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_pageturn2",
-        "path": "sounds/snd_pageturn2/snd_pageturn2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_pageturn3",
-        "path": "sounds/snd_pageturn3/snd_pageturn3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_pageturn4",
-        "path": "sounds/snd_pageturn4/snd_pageturn4.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_pickup1",
-        "path": "sounds/snd_pickup1/snd_pickup1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_pickup2",
-        "path": "sounds/snd_pickup2/snd_pickup2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "snd_pickup3",
-        "path": "sounds/snd_pickup3/snd_pickup3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "Game_Jam_Layout_Temp",
-        "path": "sprites/Game_Jam_Layout_Temp/Game_Jam_Layout_Temp.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "Game_Jam_Layout_Temp2",
-        "path": "sprites/Game_Jam_Layout_Temp2/Game_Jam_Layout_Temp2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "player_sprite_down_still",
-        "path": "sprites/player_sprite_down_still/player_sprite_down_still.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "player_sprite_down",
-        "path": "sprites/player_sprite_down/player_sprite_down.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "player_sprite_left_still",
-        "path": "sprites/player_sprite_left_still/player_sprite_left_still.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "player_sprite_left",
-        "path": "sprites/player_sprite_left/player_sprite_left.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "player_sprite_right_still",
-        "path": "sprites/player_sprite_right_still/player_sprite_right_still.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "player_sprite_right",
-        "path": "sprites/player_sprite_right/player_sprite_right.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "player_sprite_up_still",
-        "path": "sprites/player_sprite_up_still/player_sprite_up_still.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "player_sprite_up",
-        "path": "sprites/player_sprite_up/player_sprite_up.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_background",
-        "path": "sprites/spr_background/spr_background.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_btn_about",
-        "path": "sprites/spr_btn_about/spr_btn_about.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_btn_start",
-        "path": "sprites/spr_btn_start/spr_btn_start.yy"
-      }
-    },
-    { "id": { "name": "spr_btn", "path": "sprites/spr_btn/spr_btn.yy" } },
-    {
-      "id": {
-        "name": "spr_cauldron",
-        "path": "sprites/spr_cauldron/spr_cauldron.yy"
-      }
-    },
-    { "id": { "name": "spr_close", "path": "sprites/spr_close/spr_close.yy" } },
-    {
-      "id": {
-        "name": "spr_ghost_1",
-        "path": "sprites/spr_ghost_1/spr_ghost_1.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ghost_2",
-        "path": "sprites/spr_ghost_2/spr_ghost_2.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ghost_3",
-        "path": "sprites/spr_ghost_3/spr_ghost_3.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ingredient_bat_wool",
-        "path": "sprites/spr_ingredient_bat_wool/spr_ingredient_bat_wool.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ingredient_dragon_blood",
-        "path": "sprites/spr_ingredient_dragon_blood/spr_ingredient_dragon_blood.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ingredient_eye_of_newt",
-        "path": "sprites/spr_ingredient_eye_of_newt/spr_ingredient_eye_of_newt.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ingredient_frog_breath",
-        "path": "sprites/spr_ingredient_frog_breath/spr_ingredient_frog_breath.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ingredient_lacewing_fly",
-        "path": "sprites/spr_ingredient_lacewing_fly/spr_ingredient_lacewing_fly.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ingredient_moon_water",
-        "path": "sprites/spr_ingredient_moon_water/spr_ingredient_moon_water.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ingredient_snail_slime",
-        "path": "sprites/spr_ingredient_snail_slime/spr_ingredient_snail_slime.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_ingredient_spider_silk",
-        "path": "sprites/spr_ingredient_spider_silk/spr_ingredient_spider_silk.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_inventory_slot",
-        "path": "sprites/spr_inventory_slot/spr_inventory_slot.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_locked_inventory_slot",
-        "path": "sprites/spr_locked_inventory_slot/spr_locked_inventory_slot.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_main_menu",
-        "path": "sprites/spr_main_menu/spr_main_menu.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_open_inventory_slot",
-        "path": "sprites/spr_open_inventory_slot/spr_open_inventory_slot.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_pause_menu",
-        "path": "sprites/spr_pause_menu/spr_pause_menu.yy"
-      }
-    },
-    {
-      "id": { "name": "spr_pillar", "path": "sprites/spr_pillar/spr_pillar.yy" }
-    },
-    {
-      "id": {
-        "name": "spr_potion_find_lost_items",
-        "path": "sprites/spr_potion_find_lost_items/spr_potion_find_lost_items.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_potion_flight",
-        "path": "sprites/spr_potion_flight/spr_potion_flight.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_potion_foul",
-        "path": "sprites/spr_potion_foul/spr_potion_foul.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_potion_hair_growth",
-        "path": "sprites/spr_potion_hair_growth/spr_potion_hair_growth.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_potion_healing",
-        "path": "sprites/spr_potion_healing/spr_potion_healing.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_potion_invisibility",
-        "path": "sprites/spr_potion_invisibility/spr_potion_invisibility.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_potion_mystery",
-        "path": "sprites/spr_potion_mystery/spr_potion_mystery.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_potion_stink_bomb",
-        "path": "sprites/spr_potion_stink_bomb/spr_potion_stink_bomb.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_potion_strength",
-        "path": "sprites/spr_potion_strength/spr_potion_strength.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_potion_water_breathing",
-        "path": "sprites/spr_potion_water_breathing/spr_potion_water_breathing.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_potion_x_ray",
-        "path": "sprites/spr_potion_x_ray/spr_potion_x_ray.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_prompt_interact",
-        "path": "sprites/spr_prompt_interact/spr_prompt_interact.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_recipes_book",
-        "path": "sprites/spr_recipes_book/spr_recipes_book.yy"
-      }
-    },
-    { "id": { "name": "spr_shelf", "path": "sprites/spr_shelf/spr_shelf.yy" } },
-    {
-      "id": {
-        "name": "spr_sparkle",
-        "path": "sprites/spr_sparkle/spr_sparkle.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_storage_cover",
-        "path": "sprites/spr_storage_cover/spr_storage_cover.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_textBubble",
-        "path": "sprites/spr_textBubble/spr_textBubble.yy"
-      }
-    },
-    {
-      "id": {
-        "name": "spr_upgrades_book",
-        "path": "sprites/spr_upgrades_book/spr_upgrades_book.yy"
-      }
-    },
-    { "id": { "name": "TileSet", "path": "sprites/TileSet/TileSet.yy" } },
-    { "id": { "name": "Tiles", "path": "tilesets/Tiles/Tiles.yy" } }
+  "name":"Cozy Autum Jam",
+  "resources":[
+    {"id":{"name":"fnt_book","path":"fonts/fnt_book/fnt_book.yy",},},
+    {"id":{"name":"obj_book_parent","path":"objects/obj_book_parent/obj_book_parent.yy",},},
+    {"id":{"name":"obj_btn_parent","path":"objects/obj_btn_parent/obj_btn_parent.yy",},},
+    {"id":{"name":"obj_button_about","path":"objects/obj_button_about/obj_button_about.yy",},},
+    {"id":{"name":"obj_button_menu","path":"objects/obj_button_menu/obj_button_menu.yy",},},
+    {"id":{"name":"obj_button_start","path":"objects/obj_button_start/obj_button_start.yy",},},
+    {"id":{"name":"obj_button_tutorial","path":"objects/obj_button_tutorial/obj_button_tutorial.yy",},},
+    {"id":{"name":"obj_button_unpause","path":"objects/obj_button_unpause/obj_button_unpause.yy",},},
+    {"id":{"name":"obj_cauldron_interactable_area","path":"objects/obj_cauldron_interactable_area/obj_cauldron_interactable_area.yy",},},
+    {"id":{"name":"obj_cauldron","path":"objects/obj_cauldron/obj_cauldron.yy",},},
+    {"id":{"name":"obj_close_book_btn","path":"objects/obj_close_book_btn/obj_close_book_btn.yy",},},
+    {"id":{"name":"obj_close_recipes_book","path":"objects/obj_close_recipes_book/obj_close_recipes_book.yy",},},
+    {"id":{"name":"obj_close_upgrades_book","path":"objects/obj_close_upgrades_book/obj_close_upgrades_book.yy",},},
+    {"id":{"name":"obj_empty_inventory_ingredient","path":"objects/obj_empty_inventory_ingredient/obj_empty_inventory_ingredient.yy",},},
+    {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},},
+    {"id":{"name":"obj_ingredient_bat_wool","path":"objects/obj_ingredient_bat_wool/obj_ingredient_bat_wool.yy",},},
+    {"id":{"name":"obj_ingredient_dragon_blood","path":"objects/obj_ingredient_dragon_blood/obj_ingredient_dragon_blood.yy",},},
+    {"id":{"name":"obj_ingredient_eye_of_newt","path":"objects/obj_ingredient_eye_of_newt/obj_ingredient_eye_of_newt.yy",},},
+    {"id":{"name":"obj_ingredient_frog_breath","path":"objects/obj_ingredient_frog_breath/obj_ingredient_frog_breath.yy",},},
+    {"id":{"name":"obj_ingredient_lacewing_fly","path":"objects/obj_ingredient_lacewing_fly/obj_ingredient_lacewing_fly.yy",},},
+    {"id":{"name":"obj_ingredient_moon_water","path":"objects/obj_ingredient_moon_water/obj_ingredient_moon_water.yy",},},
+    {"id":{"name":"obj_ingredient_parent","path":"objects/obj_ingredient_parent/obj_ingredient_parent.yy",},},
+    {"id":{"name":"obj_ingredient_snail_slime","path":"objects/obj_ingredient_snail_slime/obj_ingredient_snail_slime.yy",},},
+    {"id":{"name":"obj_ingredient_spider_silk","path":"objects/obj_ingredient_spider_silk/obj_ingredient_spider_silk.yy",},},
+    {"id":{"name":"obj_interactable_area","path":"objects/obj_interactable_area/obj_interactable_area.yy",},},
+    {"id":{"name":"obj_inventory_item","path":"objects/obj_inventory_item/obj_inventory_item.yy",},},
+    {"id":{"name":"obj_inventory","path":"objects/obj_inventory/obj_inventory.yy",},},
+    {"id":{"name":"obj_locked_inventory","path":"objects/obj_locked_inventory/obj_locked_inventory.yy",},},
+    {"id":{"name":"obj_maze_builder","path":"objects/obj_maze_builder/obj_maze_builder.yy",},},
+    {"id":{"name":"obj_menu_interactable_area","path":"objects/obj_menu_interactable_area/obj_menu_interactable_area.yy",},},
+    {"id":{"name":"obj_next_page_btn","path":"objects/obj_next_page_btn/obj_next_page_btn.yy",},},
+    {"id":{"name":"obj_pause_manager","path":"objects/obj_pause_manager/obj_pause_manager.yy",},},
+    {"id":{"name":"obj_pause_menu","path":"objects/obj_pause_menu/obj_pause_menu.yy",},},
+    {"id":{"name":"obj_pillar","path":"objects/obj_pillar/obj_pillar.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"obj_potion_book","path":"objects/obj_potion_book/obj_potion_book.yy",},},
+    {"id":{"name":"obj_potion_find_lost_items","path":"objects/obj_potion_find_lost_items/obj_potion_find_lost_items.yy",},},
+    {"id":{"name":"obj_potion_flight","path":"objects/obj_potion_flight/obj_potion_flight.yy",},},
+    {"id":{"name":"obj_potion_foul","path":"objects/obj_potion_foul/obj_potion_foul.yy",},},
+    {"id":{"name":"obj_potion_hair_growth","path":"objects/obj_potion_hair_growth/obj_potion_hair_growth.yy",},},
+    {"id":{"name":"obj_potion_healing","path":"objects/obj_potion_healing/obj_potion_healing.yy",},},
+    {"id":{"name":"obj_potion_invisibility","path":"objects/obj_potion_invisibility/obj_potion_invisibility.yy",},},
+    {"id":{"name":"obj_potion_mystery","path":"objects/obj_potion_mystery/obj_potion_mystery.yy",},},
+    {"id":{"name":"obj_potion_parent","path":"objects/obj_potion_parent/obj_potion_parent.yy",},},
+    {"id":{"name":"obj_potion_stink_bomb","path":"objects/obj_potion_stink_bomb/obj_potion_stink_bomb.yy",},},
+    {"id":{"name":"obj_potion_strength","path":"objects/obj_potion_strength/obj_potion_strength.yy",},},
+    {"id":{"name":"obj_potion_water_breathing","path":"objects/obj_potion_water_breathing/obj_potion_water_breathing.yy",},},
+    {"id":{"name":"obj_potion_x_ray","path":"objects/obj_potion_x_ray/obj_potion_x_ray.yy",},},
+    {"id":{"name":"obj_previous_page_btn","path":"objects/obj_previous_page_btn/obj_previous_page_btn.yy",},},
+    {"id":{"name":"obj_recipes_book_manager","path":"objects/obj_recipes_book_manager/obj_recipes_book_manager.yy",},},
+    {"id":{"name":"obj_register_interactable_area","path":"objects/obj_register_interactable_area/obj_register_interactable_area.yy",},},
+    {"id":{"name":"obj_shelf_pickup","path":"objects/obj_shelf_pickup/obj_shelf_pickup.yy",},},
+    {"id":{"name":"obj_shelf","path":"objects/obj_shelf/obj_shelf.yy",},},
+    {"id":{"name":"obj_sparkle","path":"objects/obj_sparkle/obj_sparkle.yy",},},
+    {"id":{"name":"obj_storage_cover","path":"objects/obj_storage_cover/obj_storage_cover.yy",},},
+    {"id":{"name":"obj_upgrade_book","path":"objects/obj_upgrade_book/obj_upgrade_book.yy",},},
+    {"id":{"name":"obj_upgrades_book_manager","path":"objects/obj_upgrades_book_manager/obj_upgrades_book_manager.yy",},},
+    {"id":{"name":"obj_visitor_spawn","path":"objects/obj_visitor_spawn/obj_visitor_spawn.yy",},},
+    {"id":{"name":"obj_visitor_wait","path":"objects/obj_visitor_wait/obj_visitor_wait.yy",},},
+    {"id":{"name":"obj_visitor","path":"objects/obj_visitor/obj_visitor.yy",},},
+    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Title","path":"rooms/Title/Title.yy",},},
+    {"id":{"name":"angle_lerp","path":"scripts/angle_lerp/angle_lerp.yy",},},
+    {"id":{"name":"angle_script_calculations","path":"scripts/angle_script_calculations/angle_script_calculations.yy",},},
+    {"id":{"name":"get_ingredients","path":"scripts/get_ingredients/get_ingredients.yy",},},
+    {"id":{"name":"get_object_dimensions","path":"scripts/get_object_dimensions/get_object_dimensions.yy",},},
+    {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
+    {"id":{"name":"maze_build","path":"scripts/maze_build/maze_build.yy",},},
+    {"id":{"name":"move_to_solid","path":"scripts/move_to_solid/move_to_solid.yy",},},
+    {"id":{"name":"print","path":"scripts/print/print.yy",},},
+    {"id":{"name":"sine_wave","path":"scripts/sine_wave/sine_wave.yy",},},
+    {"id":{"name":"str","path":"scripts/str/str.yy",},},
+    {"id":{"name":"seq_cauldron","path":"sequences/seq_cauldron/seq_cauldron.yy",},},
+    {"id":{"name":"seq_pause","path":"sequences/seq_pause/seq_pause.yy",},},
+    {"id":{"name":"seq_recipes_book","path":"sequences/seq_recipes_book/seq_recipes_book.yy",},},
+    {"id":{"name":"seq_upgrades_book","path":"sequences/seq_upgrades_book/seq_upgrades_book.yy",},},
+    {"id":{"name":"snd_bottleclink1","path":"sounds/snd_bottleclink1/snd_bottleclink1.yy",},},
+    {"id":{"name":"snd_bottleclink2","path":"sounds/snd_bottleclink2/snd_bottleclink2.yy",},},
+    {"id":{"name":"snd_bottleclink3","path":"sounds/snd_bottleclink3/snd_bottleclink3.yy",},},
+    {"id":{"name":"snd_bottleclink4","path":"sounds/snd_bottleclink4/snd_bottleclink4.yy",},},
+    {"id":{"name":"snd_bottleclink5","path":"sounds/snd_bottleclink5/snd_bottleclink5.yy",},},
+    {"id":{"name":"snd_bottleclink6","path":"sounds/snd_bottleclink6/snd_bottleclink6.yy",},},
+    {"id":{"name":"snd_bubble1","path":"sounds/snd_bubble1/snd_bubble1.yy",},},
+    {"id":{"name":"snd_bubble2","path":"sounds/snd_bubble2/snd_bubble2.yy",},},
+    {"id":{"name":"snd_bubble3","path":"sounds/snd_bubble3/snd_bubble3.yy",},},
+    {"id":{"name":"snd_bubble4","path":"sounds/snd_bubble4/snd_bubble4.yy",},},
+    {"id":{"name":"snd_doorbellring1","path":"sounds/snd_doorbellring1/snd_doorbellring1.yy",},},
+    {"id":{"name":"snd_doorbellring2","path":"sounds/snd_doorbellring2/snd_doorbellring2.yy",},},
+    {"id":{"name":"snd_doorbellring3","path":"sounds/snd_doorbellring3/snd_doorbellring3.yy",},},
+    {"id":{"name":"snd_footstep1","path":"sounds/snd_footstep1/snd_footstep1.yy",},},
+    {"id":{"name":"snd_footstep2","path":"sounds/snd_footstep2/snd_footstep2.yy",},},
+    {"id":{"name":"snd_ghostHappy1","path":"sounds/snd_ghostHappy1/snd_ghostHappy1.yy",},},
+    {"id":{"name":"snd_ghostHappy2","path":"sounds/snd_ghostHappy2/snd_ghostHappy2.yy",},},
+    {"id":{"name":"snd_ghostHappy3","path":"sounds/snd_ghostHappy3/snd_ghostHappy3.yy",},},
+    {"id":{"name":"snd_mainTheme","path":"sounds/snd_mainTheme/snd_mainTheme.yy",},},
+    {"id":{"name":"snd_menuclick1","path":"sounds/snd_menuclick1/snd_menuclick1.yy",},},
+    {"id":{"name":"snd_menuclick2","path":"sounds/snd_menuclick2/snd_menuclick2.yy",},},
+    {"id":{"name":"snd_menuMusic","path":"sounds/snd_menuMusic/snd_menuMusic.yy",},},
+    {"id":{"name":"snd_pageturn1","path":"sounds/snd_pageturn1/snd_pageturn1.yy",},},
+    {"id":{"name":"snd_pageturn2","path":"sounds/snd_pageturn2/snd_pageturn2.yy",},},
+    {"id":{"name":"snd_pageturn3","path":"sounds/snd_pageturn3/snd_pageturn3.yy",},},
+    {"id":{"name":"snd_pageturn4","path":"sounds/snd_pageturn4/snd_pageturn4.yy",},},
+    {"id":{"name":"snd_pickup1","path":"sounds/snd_pickup1/snd_pickup1.yy",},},
+    {"id":{"name":"snd_pickup2","path":"sounds/snd_pickup2/snd_pickup2.yy",},},
+    {"id":{"name":"snd_pickup3","path":"sounds/snd_pickup3/snd_pickup3.yy",},},
+    {"id":{"name":"Game_Jam_Layout_Temp","path":"sprites/Game_Jam_Layout_Temp/Game_Jam_Layout_Temp.yy",},},
+    {"id":{"name":"Game_Jam_Layout_Temp2","path":"sprites/Game_Jam_Layout_Temp2/Game_Jam_Layout_Temp2.yy",},},
+    {"id":{"name":"player_sprite_down_still","path":"sprites/player_sprite_down_still/player_sprite_down_still.yy",},},
+    {"id":{"name":"player_sprite_down","path":"sprites/player_sprite_down/player_sprite_down.yy",},},
+    {"id":{"name":"player_sprite_left_still","path":"sprites/player_sprite_left_still/player_sprite_left_still.yy",},},
+    {"id":{"name":"player_sprite_left","path":"sprites/player_sprite_left/player_sprite_left.yy",},},
+    {"id":{"name":"player_sprite_right_still","path":"sprites/player_sprite_right_still/player_sprite_right_still.yy",},},
+    {"id":{"name":"player_sprite_right","path":"sprites/player_sprite_right/player_sprite_right.yy",},},
+    {"id":{"name":"player_sprite_up_still","path":"sprites/player_sprite_up_still/player_sprite_up_still.yy",},},
+    {"id":{"name":"player_sprite_up","path":"sprites/player_sprite_up/player_sprite_up.yy",},},
+    {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+    {"id":{"name":"spr_btn_about","path":"sprites/spr_btn_about/spr_btn_about.yy",},},
+    {"id":{"name":"spr_btn_start","path":"sprites/spr_btn_start/spr_btn_start.yy",},},
+    {"id":{"name":"spr_btn","path":"sprites/spr_btn/spr_btn.yy",},},
+    {"id":{"name":"spr_cauldron","path":"sprites/spr_cauldron/spr_cauldron.yy",},},
+    {"id":{"name":"spr_close","path":"sprites/spr_close/spr_close.yy",},},
+    {"id":{"name":"spr_ghost_1","path":"sprites/spr_ghost_1/spr_ghost_1.yy",},},
+    {"id":{"name":"spr_ghost_2","path":"sprites/spr_ghost_2/spr_ghost_2.yy",},},
+    {"id":{"name":"spr_ghost_3","path":"sprites/spr_ghost_3/spr_ghost_3.yy",},},
+    {"id":{"name":"spr_ingredient_bat_wool","path":"sprites/spr_ingredient_bat_wool/spr_ingredient_bat_wool.yy",},},
+    {"id":{"name":"spr_ingredient_dragon_blood","path":"sprites/spr_ingredient_dragon_blood/spr_ingredient_dragon_blood.yy",},},
+    {"id":{"name":"spr_ingredient_eye_of_newt","path":"sprites/spr_ingredient_eye_of_newt/spr_ingredient_eye_of_newt.yy",},},
+    {"id":{"name":"spr_ingredient_frog_breath","path":"sprites/spr_ingredient_frog_breath/spr_ingredient_frog_breath.yy",},},
+    {"id":{"name":"spr_ingredient_lacewing_fly","path":"sprites/spr_ingredient_lacewing_fly/spr_ingredient_lacewing_fly.yy",},},
+    {"id":{"name":"spr_ingredient_moon_water","path":"sprites/spr_ingredient_moon_water/spr_ingredient_moon_water.yy",},},
+    {"id":{"name":"spr_ingredient_snail_slime","path":"sprites/spr_ingredient_snail_slime/spr_ingredient_snail_slime.yy",},},
+    {"id":{"name":"spr_ingredient_spider_silk","path":"sprites/spr_ingredient_spider_silk/spr_ingredient_spider_silk.yy",},},
+    {"id":{"name":"spr_inventory_slot","path":"sprites/spr_inventory_slot/spr_inventory_slot.yy",},},
+    {"id":{"name":"spr_locked_inventory_slot","path":"sprites/spr_locked_inventory_slot/spr_locked_inventory_slot.yy",},},
+    {"id":{"name":"spr_main_menu","path":"sprites/spr_main_menu/spr_main_menu.yy",},},
+    {"id":{"name":"spr_open_inventory_slot","path":"sprites/spr_open_inventory_slot/spr_open_inventory_slot.yy",},},
+    {"id":{"name":"spr_pause_menu","path":"sprites/spr_pause_menu/spr_pause_menu.yy",},},
+    {"id":{"name":"spr_pillar","path":"sprites/spr_pillar/spr_pillar.yy",},},
+    {"id":{"name":"spr_potion_find_lost_items","path":"sprites/spr_potion_find_lost_items/spr_potion_find_lost_items.yy",},},
+    {"id":{"name":"spr_potion_flight","path":"sprites/spr_potion_flight/spr_potion_flight.yy",},},
+    {"id":{"name":"spr_potion_foul","path":"sprites/spr_potion_foul/spr_potion_foul.yy",},},
+    {"id":{"name":"spr_potion_hair_growth","path":"sprites/spr_potion_hair_growth/spr_potion_hair_growth.yy",},},
+    {"id":{"name":"spr_potion_healing","path":"sprites/spr_potion_healing/spr_potion_healing.yy",},},
+    {"id":{"name":"spr_potion_invisibility","path":"sprites/spr_potion_invisibility/spr_potion_invisibility.yy",},},
+    {"id":{"name":"spr_potion_mystery","path":"sprites/spr_potion_mystery/spr_potion_mystery.yy",},},
+    {"id":{"name":"spr_potion_stink_bomb","path":"sprites/spr_potion_stink_bomb/spr_potion_stink_bomb.yy",},},
+    {"id":{"name":"spr_potion_strength","path":"sprites/spr_potion_strength/spr_potion_strength.yy",},},
+    {"id":{"name":"spr_potion_water_breathing","path":"sprites/spr_potion_water_breathing/spr_potion_water_breathing.yy",},},
+    {"id":{"name":"spr_potion_x_ray","path":"sprites/spr_potion_x_ray/spr_potion_x_ray.yy",},},
+    {"id":{"name":"spr_prompt_interact","path":"sprites/spr_prompt_interact/spr_prompt_interact.yy",},},
+    {"id":{"name":"spr_recipes_book","path":"sprites/spr_recipes_book/spr_recipes_book.yy",},},
+    {"id":{"name":"spr_shelf","path":"sprites/spr_shelf/spr_shelf.yy",},},
+    {"id":{"name":"spr_sparkle","path":"sprites/spr_sparkle/spr_sparkle.yy",},},
+    {"id":{"name":"spr_storage_cover","path":"sprites/spr_storage_cover/spr_storage_cover.yy",},},
+    {"id":{"name":"spr_textBubble","path":"sprites/spr_textBubble/spr_textBubble.yy",},},
+    {"id":{"name":"spr_upgrades_book","path":"sprites/spr_upgrades_book/spr_upgrades_book.yy",},},
+    {"id":{"name":"TileSet","path":"sprites/TileSet/TileSet.yy",},},
+    {"id":{"name":"Tiles","path":"tilesets/Tiles/Tiles.yy",},},
   ],
-  "resourceType": "GMProject",
-  "resourceVersion": "2.0",
-  "RoomOrderNodes": [
-    { "roomId": { "name": "Title", "path": "rooms/Title/Title.yy" } },
-    { "roomId": { "name": "Room1", "path": "rooms/Room1/Room1.yy" } }
+  "resourceType":"GMProject",
+  "resourceVersion":"2.0",
+  "RoomOrderNodes":[
+    {"roomId":{"name":"Title","path":"rooms/Title/Title.yy",},},
+    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
-  "templateType": "game",
-  "TextureGroups": [
-    {
-      "$GMTextureGroup": "",
-      "%Name": "Default",
-      "autocrop": true,
-      "border": 2,
-      "compressFormat": "bz2",
-      "customOptions": "",
-      "directory": "",
-      "groupParent": null,
-      "isScaled": true,
-      "loadType": "default",
-      "mipsToGenerate": 0,
-      "name": "Default",
-      "resourceType": "GMTextureGroup",
-      "resourceVersion": "2.0",
-      "targets": -1
-    }
-  ]
+  "templateType":"game",
+  "TextureGroups":[
+    {"$GMTextureGroup":"","%Name":"Default","autocrop":true,"border":2,"compressFormat":"bz2","customOptions":"","directory":"","groupParent":null,"isScaled":true,"loadType":"default","mipsToGenerate":0,"name":"Default","resourceType":"GMTextureGroup","resourceVersion":"2.0","targets":-1,},
+  ],
 }
