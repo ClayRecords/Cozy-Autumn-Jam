@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_bat_wing",
+    "path":"sprites/spr_bat_wing/spr_bat_wing.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

@@ -27,6 +27,7 @@ function enter_movement() {
 }
 
 if (is_entering) {
+	start_enter();
 	enter_movement();
 } else {
 	tip = lerp(tip, 1, 0.0005);

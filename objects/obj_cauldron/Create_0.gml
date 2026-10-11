@@ -1,7 +1,6 @@
 // What's cookin' in the pot (potatoes, bat wings, fat kids, etc)
 current_ingredients = [];
 current_potion = undefined;
-
 potions = obj_game_manager.potions;
 
 function add_ingredient(ingredient) {

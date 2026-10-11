@@ -11,12 +11,14 @@ var dir = image_angle + 90;
 var px = x + lengthdir_x(pickup_offset, dir);
 var py = y + lengthdir_y(pickup_offset, dir);
 
-instance_create_layer(
+// Create interact area
+pickup_area = instance_create_layer(
 	px,
 	py,
 	"Instances",
 	obj_shelf_pickup,
 	{
+		parent_shelf: self,
 		image_angle: image_angle,
 		image_index: image_index,
 		image_yscale: image_yscale * 0.75,
