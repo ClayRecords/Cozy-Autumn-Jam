@@ -1,0 +1,1 @@
+obj_recipes_book_manager.destroy_menu()
