@@ -17,7 +17,7 @@ tip = 1.5;
 var snd_bellring = choose(snd_doorbellring1, snd_doorbellring2, snd_doorbellring3);
 audio_play_sound(snd_bellring, 10, false, 0.1);
 
-target_y = obj_register_wait.y;
+target_y = obj_visitor_wait.y;
 
 function set_show_order() {
 	show_order_timer = show_order_timer_max;
@@ -30,7 +30,6 @@ function complete_transaction(potion) {
 	} else {
 		print("YIPPEEEE! ", "Ordered: ", order.name, "Gave : ", potion.name);
 	}
-	obj_player.potion_held = undefined;
 	order_complete = true;
 	obj_game_manager.get_paid(self);
 }
