@@ -1,6 +1,6 @@
 {
   "$GMObject":"",
-  "%Name":"obj_recipe_book_manager",
+  "%Name":"obj_book_manager_parent",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
@@ -10,11 +10,11 @@
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_recipe_book_manager",
+  "name":"obj_book_manager_parent",
   "overriddenProperties":[],
   "parent":{
-    "name":"managers",
-    "path":"folders/objects/managers.yy",
+    "name":"books",
+    "path":"folders/objects/managers/books.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -34,10 +34,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"book",
-    "path":"sprites/book/book.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }

@@ -10,8 +10,8 @@
   "name":"obj_previous_page_btn",
   "overriddenProperties":[],
   "parent":{
-    "name":"recipe_book",
-    "path":"folders/objects/menus/recipe_book.yy",
+    "name":"shared",
+    "path":"folders/objects/menus/books/shared.yy",
   },
   "parentObjectId":{
     "name":"obj_btn_parent",

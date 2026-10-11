@@ -26,7 +26,7 @@
   "origin":0,
   "parent":{
     "name":"book_menu",
-    "path":"folders/sprites/player_sprites/menus/book_menu.yy",
+    "path":"folders/sprites/menus/book_menu.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",

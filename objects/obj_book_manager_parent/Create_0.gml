@@ -1,3 +1,4 @@
+book = ""
 is_book_open = false
 
 pause_surface = -1;
@@ -44,8 +45,8 @@ function go_to_previous_page() {
 
 
 function cleanup() {
-    if (instance_exists(obj_close_recipe_book_btn)) {
-        instance_destroy((obj_close_recipe_book_btn))
+    if (instance_exists(obj_close_book_btn)) {
+        instance_destroy((obj_close_book_btn))
     }
 }
 
