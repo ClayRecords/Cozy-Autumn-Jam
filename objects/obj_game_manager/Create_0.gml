@@ -13,7 +13,20 @@ ghost_sprites = [spr_ghost_1, spr_ghost_2, spr_ghost_3];
 menu_music = audio_play_sound(snd_mainTheme, 10, true, 1);
 
 // Create potion objects for testing recipes
-potion_indexes = [obj_potion_invisibility, obj_potion_foul];
+potion_indexes = [
+	obj_potion_find_lost_items,
+	obj_potion_flight,
+	obj_potion_foul,
+	obj_potion_hair_growth,
+	obj_potion_healing,
+	obj_potion_invisibility,
+	obj_potion_mystery,
+	obj_potion_parent,
+	obj_potion_stink_bomb,
+	obj_potion_strength,
+	obj_potion_water_breathing,
+	obj_potion_x_ray
+];
 potions = [];
 for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {
 	var potion_index = potion_indexes[i];

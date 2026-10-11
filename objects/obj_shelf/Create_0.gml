@@ -18,7 +18,7 @@ pickup_area = instance_create_layer(
 	"Instances",
 	obj_shelf_pickup,
 	{
-		parent_shelf: self,
+		parent_shelf: self.id,
 		image_angle: image_angle,
 		image_index: image_index,
 		image_yscale: image_yscale * 0.75,

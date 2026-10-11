@@ -9,7 +9,10 @@
     "name":"potions",
     "path":"folders/objects/potions.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_potion_parent",
+    "path":"objects/obj_potion_parent/obj_potion_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
