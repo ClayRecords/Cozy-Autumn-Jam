@@ -1,8 +1,8 @@
 inventory_coordinates = [[410, 65], [474, 65], [410, 129]];
 
 function add_ingredient_to_inventory(ingredient) {
-	item_count = array_length(obj_player.ds_inventory);
-	if (item_count >= obj_player.ds_inventory_size) {
+	item_count = array_length(obj_player.inventory);
+	if (item_count >= obj_player.inventory_size) {
 		return;
 	}
 	new_inventory_item = instance_create_layer(
@@ -14,5 +14,5 @@ function add_ingredient_to_inventory(ingredient) {
 	new_inventory_item.ingredient = ingredient;
 	new_inventory_item.start_x = new_inventory_item.x;
 	new_inventory_item.start_y = new_inventory_item.y;
-	array_push(obj_player.ds_inventory, new_inventory_item);
+	array_push(obj_player.inventory, new_inventory_item);
 }
