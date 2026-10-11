@@ -1,6 +1,6 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_bat_wing",
+  "%Name":"spr_ingredient_bat_wing",
   "bboxMode":0,
   "bbox_bottom":12,
   "bbox_left":2,
@@ -21,19 +21,19 @@
   "layers":[
     {"$GMImageLayer":"","%Name":"88283c31-3014-4da7-a0bc-e38faf71abee","blendMode":0,"displayName":"default","isLocked":false,"name":"88283c31-3014-4da7-a0bc-e38faf71abee","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_bat_wing",
+  "name":"spr_ingredient_bat_wing",
   "nineSlice":null,
   "origin":4,
   "parent":{
-    "name":"sprites",
-    "path":"folders/sprites.yy",
+    "name":"ingredients",
+    "path":"folders/sprites/ingredients.yy",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_bat_wing",
+    "%Name":"spr_ingredient_bat_wing",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_bat_wing",
+    "name":"spr_ingredient_bat_wing",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,7 +69,7 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06452196-dd31-46f8-ae0e-76261e4f3025","path":"sprites/spr_bat_wing/spr_bat_wing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"06452196-dd31-46f8-ae0e-76261e4f3025","path":"sprites/spr_ingredient_bat_wing/spr_ingredient_bat_wing.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
               },"Disabled":false,"id":"84a4a29b-46a8-4277-9a22-d9a376dc871f","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
