@@ -26,8 +26,8 @@
   },
   "name":"seq_recipes_book",
   "parent":{
-    "name":"sequences",
-    "path":"folders/sequences.yy",
+    "name":"recipes_book",
+    "path":"folders/sequences/recipes_book.yy",
   },
   "playback":0,
   "playbackSpeed":60.0,
