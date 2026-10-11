@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-button_text = "Start";
+button_text = "";
 
 function activate_button() {
 	room_goto_next();
