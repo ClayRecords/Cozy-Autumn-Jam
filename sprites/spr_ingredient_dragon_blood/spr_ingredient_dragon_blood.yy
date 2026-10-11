@@ -1,27 +1,27 @@
 {
   "$GMSprite":"v2",
-  "%Name":"spr_ingredient_frog_leg",
+  "%Name":"spr_ingredient_dragon_blood",
   "bboxMode":0,
   "bbox_bottom":31,
-  "bbox_left":2,
-  "bbox_right":29,
-  "bbox_top":0,
+  "bbox_left":1,
+  "bbox_right":30,
+  "bbox_top":1,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
   "edgeFiltering":false,
   "For3D":false,
   "frames":[
-    {"$GMSpriteFrame":"v1","%Name":"4c78adcf-02c0-4650-afde-8a213a3733d4","name":"4c78adcf-02c0-4650-afde-8a213a3733d4","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
+    {"$GMSpriteFrame":"v1","%Name":"84265d65-000f-46ae-8b08-c4aa10dce24c","name":"84265d65-000f-46ae-8b08-c4aa10dce24c","resourceType":"GMSpriteFrame","resourceVersion":"2.0",},
   ],
   "gridX":0,
   "gridY":0,
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"30fbb973-a2ae-440c-96cc-75db76ae132a","blendMode":0,"displayName":"default","isLocked":false,"name":"30fbb973-a2ae-440c-96cc-75db76ae132a","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"5cb90c17-3e58-4e94-ad89-d9400907a0ef","blendMode":0,"displayName":"default","isLocked":false,"name":"5cb90c17-3e58-4e94-ad89-d9400907a0ef","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
-  "name":"spr_ingredient_frog_leg",
+  "name":"spr_ingredient_dragon_blood",
   "nineSlice":null,
   "origin":4,
   "parent":{
@@ -33,7 +33,7 @@
   "resourceVersion":"2.0",
   "sequence":{
     "$GMSequence":"v1",
-    "%Name":"spr_ingredient_frog_leg",
+    "%Name":"spr_ingredient_dragon_blood",
     "autoRecord":true,
     "backdropHeight":768,
     "backdropImageOpacity":0.5,
@@ -57,7 +57,7 @@
       "resourceType":"KeyframeStore<MomentsEventKeyframe>",
       "resourceVersion":"2.0",
     },
-    "name":"spr_ingredient_frog_leg",
+    "name":"spr_ingredient_dragon_blood",
     "playback":1,
     "playbackSpeed":30.0,
     "playbackSpeedType":0,
@@ -69,8 +69,8 @@
     "tracks":[
       {"$GMSpriteFramesTrack":"","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"$KeyframeStore<SpriteFrameKeyframe>":"","Keyframes":[
             {"$Keyframe<SpriteFrameKeyframe>":"","Channels":{
-                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"4c78adcf-02c0-4650-afde-8a213a3733d4","path":"sprites/spr_ingredient_frog_leg/spr_ingredient_frog_leg.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
-              },"Disabled":false,"id":"4796c075-c7cc-4722-b657-2b21873817d0","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
+                "0":{"$SpriteFrameKeyframe":"","Id":{"name":"84265d65-000f-46ae-8b08-c4aa10dce24c","path":"sprites/spr_ingredient_dragon_blood/spr_ingredient_dragon_blood.yy",},"resourceType":"SpriteFrameKeyframe","resourceVersion":"2.0",},
+              },"Disabled":false,"id":"b928e453-0b12-427c-b5e0-b6e7671fcbf8","IsCreationKey":false,"Key":0.0,"Length":1.0,"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"2.0","Stretch":false,},
           ],"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"2.0",},"modifiers":[],"name":"frames","resourceType":"GMSpriteFramesTrack","resourceVersion":"2.0","spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange":null,

@@ -1,20 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_recipe_invisibility",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_ingredient_eye_of_newt",
+  "eventList":[],
   "managed":true,
-  "name":"obj_recipe_invisibility",
+  "name":"obj_ingredient_eye_of_newt",
   "overriddenProperties":[],
   "parent":{
-    "name":"recipes",
-    "path":"folders/objects/recipes.yy",
+    "name":"ingredients",
+    "path":"folders/objects/ingredients.yy",
   },
-  "parentObjectId":{
-    "name":"obj_recipe_parent",
-    "path":"objects/obj_recipe_parent/obj_recipe_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -32,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_ingredient_eye_of_newt",
+    "path":"sprites/spr_ingredient_eye_of_newt/spr_ingredient_eye_of_newt.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
