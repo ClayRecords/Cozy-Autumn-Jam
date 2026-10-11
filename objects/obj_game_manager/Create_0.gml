@@ -13,6 +13,18 @@ ghost_sprites = [spr_ghost_1, spr_ghost_2, spr_ghost_3];
 
 menu_music = audio_play_sound(snd_mainTheme, 10, true, 1);
 
+// Store ingredient INDEXES (references to objects)
+ingredient_indexes = [
+    obj_ingredient_bat_wool,
+    obj_ingredient_dragon_blood,
+    obj_ingredient_eye_of_newt,
+    obj_ingredient_frog_breath,
+    obj_ingredient_lacewing_fly,
+    obj_ingredient_moon_water,
+    obj_ingredient_snail_slime,
+    obj_ingredient_spider_silk
+];
+
 // Create potion objects for testing recipes
 potion_indexes = [
 	obj_potion_find_lost_items,
@@ -34,9 +46,6 @@ for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {
 	var potion = instance_create_layer(x, y, "invisible", potion_index);
 	array_push(potions, potion);
 }
-
-// Store ingredient INDEXES (references to objects)
-ingredient_indexes = [obj_ingredient_bat_wool, obj_ingredient_frog_breath];
 
 /**
  * Creates a new ghost object as the next customer.
