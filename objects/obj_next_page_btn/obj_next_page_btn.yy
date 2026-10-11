@@ -35,10 +35,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"next_page",
-    "path":"sprites/next_page/next_page.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
