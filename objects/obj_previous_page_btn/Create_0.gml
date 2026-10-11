@@ -5,9 +5,9 @@ function activate_button() {
 	obj_recipe_book_manager.go_to_previous_page();
 }
 
-clicked = false
-previous_page_button_width = sprite_get_width(previous_page)
-previous_page_button_height = sprite_get_height(previous_page)
+clicked = false;
+previous_page_button_width = sprite_get_width(previous_page);
+previous_page_button_height = sprite_get_height(previous_page);
 
 hovering = position_meeting(device_mouse_x_to_gui(0), device_mouse_y_to_gui(0), id);
 
