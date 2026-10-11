@@ -1,11 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_upgrades_book_interactable_area_1",
+  "%Name":"obj_upgrades_book_manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_upgrades_book_interactable_area_1",
+  "name":"obj_upgrades_book_manager",
   "overriddenProperties":[],
   "parent":{
     "name":"kitchen",

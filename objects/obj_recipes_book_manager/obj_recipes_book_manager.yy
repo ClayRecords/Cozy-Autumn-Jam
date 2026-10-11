@@ -1,19 +1,20 @@
 {
   "$GMObject":"",
-  "%Name":"obj_book_manager_parent",
+  "%Name":"obj_recipes_book_manager",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":9,"eventType":9,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_book_manager_parent",
+  "name":"obj_recipes_book_manager",
   "overriddenProperties":[],
   "parent":{
-    "name":"books",
-    "path":"folders/objects/managers/books.yy",
+    "name":"kitchen",
+    "path":"folders/objects/kitchen.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_menu_interactable_area",
+    "path":"objects/obj_menu_interactable_area/obj_menu_interactable_area.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -31,7 +32,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_background",
+    "path":"sprites/spr_background/spr_background.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

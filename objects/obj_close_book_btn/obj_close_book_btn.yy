@@ -36,8 +36,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"close",
-    "path":"sprites/close/close.yy",
+    "name":"spr_close",
+    "path":"sprites/spr_close/spr_close.yy",
   },
   "spriteMaskId":null,
   "visible":true,

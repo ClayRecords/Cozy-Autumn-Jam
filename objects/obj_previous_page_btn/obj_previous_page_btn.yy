@@ -34,10 +34,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"previous_page",
-    "path":"sprites/previous_page/previous_page.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
