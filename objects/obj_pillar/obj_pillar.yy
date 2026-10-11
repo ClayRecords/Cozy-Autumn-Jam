@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":true,
   "spriteId":{
-    "name":"spr_test_pillar",
-    "path":"sprites/spr_test_pillar/spr_test_pillar.yy",
+    "name":"spr_pillar",
+    "path":"sprites/spr_pillar/spr_pillar.yy",
   },
   "spriteMaskId":null,
   "visible":true,
