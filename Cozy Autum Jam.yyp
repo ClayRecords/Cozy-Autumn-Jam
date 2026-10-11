@@ -111,6 +111,7 @@
     {"id":{"name":"player_sprite_up_still","path":"sprites/player_sprite_up_still/player_sprite_up_still.yy",},},
     {"id":{"name":"player_sprite_up","path":"sprites/player_sprite_up/player_sprite_up.yy",},},
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
+    {"id":{"name":"spr_bat_wing","path":"sprites/spr_bat_wing/spr_bat_wing.yy",},},
     {"id":{"name":"spr_btn_exit","path":"sprites/spr_btn_exit/spr_btn_exit.yy",},},
     {"id":{"name":"spr_btn_start","path":"sprites/spr_btn_start/spr_btn_start.yy",},},
     {"id":{"name":"spr_btn","path":"sprites/spr_btn/spr_btn.yy",},},

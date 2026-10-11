@@ -85,6 +85,8 @@ function maze_build() {
 	// Remove the entrance shelf always.
 	v_shelf[# 0, MAZE_ENTRY_ROW] = 0;
 
+	var all_shelves = [];
+
 	for (var i = 0; i < MAZE_COLS - 1; i++) {
 		for (var j = 0; j < MAZE_ROWS; j++) {
 			if (h_shelf[# i, j]) {
@@ -97,13 +99,14 @@ function maze_build() {
 					shelf_angle = 0;
 				}
 				// Horizontal Shelves
-				instance_create_layer(
+				var shelf = instance_create_layer(
 					MAZE_X0 + i * MAZE_COL_SPACE + MAZE_COL_SPACE / 2,
 					MAZE_Y0 + j * MAZE_COL_SPACE,
 					"MazeShelves",
 					obj_shelf,
 					{image_angle: shelf_angle}
 				);
+				array_push(all_shelves, shelf);
 			}
 		}
 	}
@@ -119,16 +122,28 @@ function maze_build() {
 					shelf_angle = 90;
 				}
 				// Vertical Shelves
-				var s = instance_create_layer(
+				var shelf = instance_create_layer(
 					MAZE_X0 + i * MAZE_COL_SPACE,
 					MAZE_Y0 + j * MAZE_COL_SPACE + MAZE_COL_SPACE / 2,
 					"MazeShelves",
 					obj_shelf,
 					{image_angle: shelf_angle}
 				);
+				array_push(all_shelves, shelf);
 			}
 		}
 	}
+
+	//Put ingredients on shelves
+    var ingredient_length = array_length(obj_game_manager.ingredient_indexes)
+    for (var i = 0; i < ingredient_length ; i++) {
+        var ingredient = obj_game_manager.ingredient_indexes[i]
+        var shelves_size = array_length(all_shelves)
+        var random_index = irandom(shelves_size)
+        var random_shelf = all_shelves[random_index]
+        random_shelf.ingredient = ingredient
+        array_delete(all_shelves, random_index, 1);
+    }
 
 	ds_grid_destroy(h_shelf);
 	ds_grid_destroy(v_shelf);

@@ -11,6 +11,7 @@ var dir = image_angle + 90;
 var px = x + lengthdir_x(pickup_offset, dir);
 var py = y + lengthdir_y(pickup_offset, dir);
 
+// Create interact area
 pickup_area = instance_create_layer(
 	px,
 	py,
