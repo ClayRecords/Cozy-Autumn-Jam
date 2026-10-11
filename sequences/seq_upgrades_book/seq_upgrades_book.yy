@@ -26,8 +26,8 @@
   },
   "name":"seq_upgrades_book",
   "parent":{
-    "name":"sequences",
-    "path":"folders/sequences.yy",
+    "name":"upgrades_book",
+    "path":"folders/sequences/upgrades_book.yy",
   },
   "playback":0,
   "playbackSpeed":60.0,
