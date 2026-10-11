@@ -54,7 +54,7 @@ create_new_ghost = function() {
 	current_ghost = instance_create_layer(
 		obj_visitor_spawn.x,
 		obj_visitor_spawn.y,
-		"Instances",
+		"Instances_foreground",
 		obj_visitor
 	);
 	current_ghost.sprite_index = ghost_sprites[

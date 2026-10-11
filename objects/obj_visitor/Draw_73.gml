@@ -15,8 +15,8 @@ if (show_order_timer > 0) {
 	}
 
 	// Show order bubble and order
-	var spr_x = x + 40;
-	var spr_y = y - 60;
+	var spr_x = x + 48;
+	var spr_y = y - 40;
     
     // animation
     var frame_duration = 250;

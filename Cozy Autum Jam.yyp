@@ -161,6 +161,7 @@
     {"id":{"name":"spr_btn_about","path":"sprites/spr_btn_about/spr_btn_about.yy",},},
     {"id":{"name":"spr_btn_start","path":"sprites/spr_btn_start/spr_btn_start.yy",},},
     {"id":{"name":"spr_btn","path":"sprites/spr_btn/spr_btn.yy",},},
+    {"id":{"name":"spr_cash_register","path":"sprites/spr_cash_register/spr_cash_register.yy",},},
     {"id":{"name":"spr_cauldron","path":"sprites/spr_cauldron/spr_cauldron.yy",},},
     {"id":{"name":"spr_close","path":"sprites/spr_close/spr_close.yy",},},
     {"id":{"name":"spr_counter_back","path":"sprites/spr_counter_back/spr_counter_back.yy",},},
