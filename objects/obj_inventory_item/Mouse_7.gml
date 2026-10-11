@@ -4,11 +4,11 @@ if (grabbed && !dropped) {
 		image_alpha = 0;
         
         //delete from inventory list :)
-        //inventory = obj_player.inventory;
-        //item_index = array_get_index(inventory, self);
-        //if(item_index != -1){
-            //array_delete(inventory, item_index, 1);
-        //}
+        inventory = obj_player.inventory;
+        item_index = array_get_index(inventory, self);
+        if(item_index != -1){
+            array_delete(inventory, item_index, 1);
+        }
 	}
 	dropped = true;
 	grabbed = false;
