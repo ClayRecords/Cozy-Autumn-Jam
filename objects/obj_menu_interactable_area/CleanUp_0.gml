@@ -1,1 +1,1 @@
-destroy_menu()
+destroy_menu();

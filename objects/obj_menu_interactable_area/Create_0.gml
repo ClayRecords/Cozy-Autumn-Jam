@@ -19,8 +19,8 @@ function create_menu() {
 	if (!layer_sequence_exists("menu_sequence", menu_sequence)) {
 		menu_sequence = layer_sequence_create(
 			"menu_sequence",
-			display_get_gui_width() / 2,
-			display_get_gui_height() / 2,
+			obj_register_zone.x,
+			obj_register_zone.y,
 			menu_sequence_ref
 		);
 	}
