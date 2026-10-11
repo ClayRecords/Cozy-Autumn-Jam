@@ -3,8 +3,8 @@ inventory_coordinates = [[410, 65], [474, 65], [410, 129], [474, 129], [410, 193
 function add_ingredient_to_inventory(ingredient) {
     for(i=0; i<array_length(inventory_coordinates); i++){
         current_inventory_item = obj_player.inventory[i];
-        if(current_inventory_item.ingredient == obj_empty_inventory_ingredient ){
-            current_inventory_item.ingredient = ingredient;
+        if(current_inventory_item.ingredient_type == obj_empty_inventory_ingredient ){
+            current_inventory_item.ingredient_type = ingredient;
             current_inventory_item.draggable = true;
             break;
         }
