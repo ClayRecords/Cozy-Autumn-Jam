@@ -22,7 +22,7 @@ function evaluate_recipes() {
 		return;
 	}
 
-	for (var i = 0; i <= array_length(potions) - 1; i++) {
+	for (var i = 0; i < array_length(potions); i++) {
 		var potion = potions[i];
 		if (evaluate_recipe(potion)) {
 			current_potion = potion;
