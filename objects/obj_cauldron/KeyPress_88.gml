@@ -1,0 +1,12 @@
+if(is_brewing){
+    obj_player.potion_held = current_potion;
+    
+    inventory = obj_player.ds_inventory;
+    print(str(inventory));
+    for(i = 0; i<array_length(inventory); i++){
+        item = inventory[i];
+        if(item.dropped){
+            instance_destroy(item);
+        }
+    }
+}

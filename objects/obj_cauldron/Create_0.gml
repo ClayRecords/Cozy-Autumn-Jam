@@ -1,8 +1,10 @@
 // What's cookin' in the pot (potatoes, bat wings, fat kids, etc)
 current_ingredients = [];
-current_potion = undefined;
+current_potion = obj_potion_foul;
 
 potions = obj_game_manager.potions;
+
+is_brewing = false;
 
 function add_ingredient(ingredient) {
 	// Add something to the pot, check for resulting potion
@@ -18,7 +20,7 @@ function add_ingredient(ingredient) {
 
 function evaluate_recipes() {
 	// Check all potions against current ingredients
-	current_potion = undefined;
+	current_potion = obj_potion_foul;
 	if (array_length(current_ingredients) == 0) {
 		return;
 	}

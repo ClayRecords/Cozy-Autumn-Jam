@@ -30,7 +30,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_textBubble",
+    "path":"sprites/spr_textBubble/spr_textBubble.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

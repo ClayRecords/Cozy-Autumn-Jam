@@ -10,3 +10,6 @@ is_moving = false;
 inventory = {};
 potion_held = undefined;
 nearest_interactable = undefined;
+
+ds_inventory = [];
+ds_inventory_size = 3;
