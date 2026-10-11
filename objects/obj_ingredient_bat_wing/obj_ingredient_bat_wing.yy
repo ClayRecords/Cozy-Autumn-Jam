@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_textBubble",
-    "path":"sprites/spr_textBubble/spr_textBubble.yy",
+    "name":"spr_bat_wing",
+    "path":"sprites/spr_bat_wing/spr_bat_wing.yy",
   },
   "spriteMaskId":null,
   "visible":true,

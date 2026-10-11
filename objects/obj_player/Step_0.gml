@@ -49,7 +49,11 @@ var _interactable_num = instance_place_list(
 	nearby_interactables,
 	true
 );
-if (_interactable_num > 0) {
-	nearest_interactable = nearby_interactables[| 0];
+for (var i = 0; i < ds_list_size(nearby_interactables); i++) {
+	var near_interactable = nearby_interactables[| i];
+	if (near_interactable.active) {
+		nearest_interactable = near_interactable;
+		break;
+	}
 }
 ds_list_destroy(nearby_interactables);

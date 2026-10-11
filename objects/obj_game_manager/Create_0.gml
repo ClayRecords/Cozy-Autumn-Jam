@@ -4,7 +4,6 @@ is_debug = false;
 // default text align will be left!
 draw_set_halign(fa_left);
 
-
 current_ghost = undefined;
 
 money = 0;
@@ -21,6 +20,9 @@ for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {
 	var potion = instance_create_layer(x, y, "invisible", potion_index);
 	array_push(potions, potion);
 }
+
+// Create potion objects for testing recipes
+ingredient_indexes = [obj_ingredient_bat_wing, obj_ingredient_frog_leg];
 
 /**
  * Creates a new ghost object as the next customer.
