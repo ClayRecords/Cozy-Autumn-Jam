@@ -138,11 +138,11 @@ function maze_build() {
 	var ingredient_length = array_length(obj_game_manager.ingredient_indexes);
 	for (var i = 0; i < ingredient_length; i++) {
 		var ingredient = obj_game_manager.ingredient_indexes[i];
-		var shelves_size = array_length(all_shelves);
+		var shelves_size = array_length(all_shelves) - 1;
 		var random_index = irandom(shelves_size);
 		var random_shelf = all_shelves[random_index];
 		random_shelf.ingredient = ingredient;
-		array_delete(all_shelves, random_index - 1, 1);
+		array_delete(all_shelves, random_index, 1);
 	}
 
 	ds_grid_destroy(h_shelf);
