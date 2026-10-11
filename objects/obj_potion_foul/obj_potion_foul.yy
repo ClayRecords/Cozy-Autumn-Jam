@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test_potion_1",
-    "path":"sprites/spr_test_potion_1/spr_test_potion_1.yy",
+    "name":"spr_potion_foul",
+    "path":"sprites/spr_potion_foul/spr_potion_foul.yy",
   },
   "spriteMaskId":null,
   "visible":true,

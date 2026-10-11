@@ -1,1 +1,1 @@
-pickup_area.active = ingredient != undefined;
+pickup_area.active = ingredient_type != undefined;

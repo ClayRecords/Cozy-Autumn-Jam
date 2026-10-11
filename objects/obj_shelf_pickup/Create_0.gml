@@ -1,5 +1,6 @@
 event_inherited();
 
 function interact() {
-	//parent_shelf
+	// Issue, obj_inventory does not exist
+	obj_inventory.add_ingredient_to_inventory(parent_shelf.ingredient_type);
 }

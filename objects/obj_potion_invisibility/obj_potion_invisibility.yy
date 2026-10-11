@@ -35,8 +35,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_test_potion",
-    "path":"sprites/spr_test_potion/spr_test_potion.yy",
+    "name":"spr_potion_invisibility",
+    "path":"sprites/spr_potion_invisibility/spr_potion_invisibility.yy",
   },
   "spriteMaskId":null,
   "visible":true,

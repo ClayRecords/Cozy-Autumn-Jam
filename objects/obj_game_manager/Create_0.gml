@@ -4,16 +4,30 @@ is_debug = false;
 // default text align will be left!
 draw_set_halign(fa_left);
 
-current_ghost = undefined;
+display_set_gui_size(960, 540);
 
 money = 0;
 
+current_ghost = undefined;
 ghost_sprites = [spr_ghost_1, spr_ghost_2, spr_ghost_3];
 
 menu_music = audio_play_sound(snd_mainTheme, 10, true, 1);
 
 // Create potion objects for testing recipes
-potion_indexes = [obj_potion_invisibility, obj_potion_foul];
+potion_indexes = [
+	obj_potion_find_lost_items,
+	obj_potion_flight,
+	obj_potion_foul,
+	obj_potion_hair_growth,
+	obj_potion_healing,
+	obj_potion_invisibility,
+	obj_potion_mystery,
+	obj_potion_parent,
+	obj_potion_stink_bomb,
+	obj_potion_strength,
+	obj_potion_water_breathing,
+	obj_potion_x_ray
+];
 potions = [];
 for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {
 	var potion_index = potion_indexes[i];
@@ -21,14 +35,19 @@ for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {
 	array_push(potions, potion);
 }
 
-// Create potion objects for testing recipes
+// Store ingredient INDEXES (references to objects)
 ingredient_indexes = [obj_ingredient_bat_wing, obj_ingredient_frog_leg];
 
 /**
  * Creates a new ghost object as the next customer.
  */
 create_new_ghost = function() {
-	current_ghost = instance_create_layer(144, 512, "Instances", obj_visitor);
+	current_ghost = instance_create_layer(
+		obj_visitor_spawn.x,
+		obj_visitor_spawn.y,
+		"Instances",
+		obj_visitor
+	);
 	current_ghost.sprite_index = ghost_sprites[
 		int64(random(array_length(ghost_sprites)))
 	];
