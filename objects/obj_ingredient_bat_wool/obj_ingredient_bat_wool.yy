@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_ingredient_frog_leg",
+  "%Name":"obj_ingredient_bat_wool",
   "eventList":[],
   "managed":true,
-  "name":"obj_ingredient_frog_leg",
+  "name":"obj_ingredient_bat_wool",
   "overriddenProperties":[],
   "parent":{
     "name":"ingredients",
@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ingredient_frog_leg",
-    "path":"sprites/spr_ingredient_frog_leg/spr_ingredient_frog_leg.yy",
+    "name":"spr_ingredient_bat_wing",
+    "path":"sprites/spr_ingredient_bat_wing/spr_ingredient_bat_wing.yy",
   },
   "spriteMaskId":null,
   "visible":true,

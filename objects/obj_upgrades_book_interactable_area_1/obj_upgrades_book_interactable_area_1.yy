@@ -10,8 +10,8 @@
     "path":"folders/objects/kitchen.yy",
   },
   "parentObjectId":{
-    "name":"obj_interactable_area",
-    "path":"objects/obj_interactable_area/obj_interactable_area.yy",
+    "name":"obj_menu_interactable_area",
+    "path":"objects/obj_menu_interactable_area/obj_menu_interactable_area.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,

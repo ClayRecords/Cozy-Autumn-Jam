@@ -2,7 +2,6 @@
   "$GMObject":"",
   "%Name":"obj_cauldron_interactable_area",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":12,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
@@ -13,8 +12,8 @@
     "path":"folders/objects/kitchen.yy",
   },
   "parentObjectId":{
-    "name":"obj_interactable_area",
-    "path":"objects/obj_interactable_area/obj_interactable_area.yy",
+    "name":"obj_menu_interactable_area",
+    "path":"objects/obj_menu_interactable_area/obj_menu_interactable_area.yy",
   },
   "persistent":false,
   "physicsAngularDamping":0.1,
