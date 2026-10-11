@@ -1,6 +1,6 @@
 {
   "$GMFont":"",
-  "%Name":"fnt_book_title",
+  "%Name":"fnt_book",
   "AntiAlias":1,
   "applyKerning":0,
   "ascender":29,
@@ -117,10 +117,10 @@
   "last":0,
   "lineHeight":36,
   "maintainGms1Font":false,
-  "name":"fnt_book_title",
+  "name":"fnt_book",
   "parent":{
-    "name":"upgrades_book",
-    "path":"folders/sequences/upgrades_book.yy",
+    "name":"sequences",
+    "path":"folders/sequences.yy",
   },
   "pointRounding":0,
   "ranges":[

@@ -12,7 +12,6 @@ if (grabbed) {
 			}
 		}
 		if (item_index != -1) {
-			print("released!!!!");
 			ingredient_type = obj_empty_inventory_ingredient;
 			inventory[item_index] = {
 				ingredient_type: obj_empty_inventory_ingredient,
