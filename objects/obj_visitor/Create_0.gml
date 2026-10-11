@@ -6,6 +6,8 @@ movement_speed = 5;
 is_entering = true;
 is_leaving = false;
 
+show_order_timer = 0;
+show_order_timer_max = 300;
 order = undefined;
 order_complete = false;
 
@@ -16,6 +18,10 @@ var snd_bellring = choose(snd_doorbellring1, snd_doorbellring2, snd_doorbellring
 audio_play_sound(snd_bellring, 10, false, 0.1);
 
 target_y = obj_register_wait.y;
+
+function set_show_order() {
+	show_order_timer = show_order_timer_max;
+}
 
 function complete_transaction(potion) {
 	if (order != potion) {
