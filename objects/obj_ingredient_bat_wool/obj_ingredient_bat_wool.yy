@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_ingredient_bat_wing",
-    "path":"sprites/spr_ingredient_bat_wing/spr_ingredient_bat_wing.yy",
+    "name":"spr_ingredient_bat_wool",
+    "path":"sprites/spr_ingredient_bat_wool/spr_ingredient_bat_wool.yy",
   },
   "spriteMaskId":null,
   "visible":true,

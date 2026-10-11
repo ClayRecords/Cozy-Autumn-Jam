@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_recipe_parent",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"obj_ingredient_dragon_blood",
+  "eventList":[],
   "managed":true,
-  "name":"obj_recipe_parent",
+  "name":"obj_ingredient_dragon_blood",
   "overriddenProperties":[],
   "parent":{
-    "name":"recipes",
-    "path":"folders/objects/recipes.yy",
+    "name":"ingredients",
+    "path":"folders/objects/ingredients.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -29,7 +27,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_ingredient_dragon_blood",
+    "path":"sprites/spr_ingredient_dragon_blood/spr_ingredient_dragon_blood.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }

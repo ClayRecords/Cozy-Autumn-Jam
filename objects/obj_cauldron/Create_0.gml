@@ -27,26 +27,10 @@ function evaluate_recipes() {
 
 	for (var i = 0; i < array_length(potions); i++) {
 		var potion = potions[i];
-		if (evaluate_recipe(potion)) {
+		if (potion.evaluate_recipe(current_ingredients)) {
 			current_potion = potion;
 		}
 	}
-}
-
-function evaluate_recipe(potion) {
-	// Check if current ingredients match potion ingredients
-	var recipe_length = array_length(potion.recipe);
-
-	// Check if the test ingredients will make this recipe, return bool
-	if (recipe_length != array_length(current_ingredients)) {
-		return false;
-	}
-	for (i = 0; i <= array_length(current_ingredients) - 1; i++) {
-		if (potion.recipe[i] != current_ingredients[i]) {
-			return false;
-		}
-	}
-	return true;
 }
 
 function flush() {
