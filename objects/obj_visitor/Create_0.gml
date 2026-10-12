@@ -26,9 +26,9 @@ function set_show_order() {
 function complete_transaction(potion) {
 	if (order.name != potion.name) {
 		tip = 1;
-		print("HOW DARE YOU! ", "Ordered: ", order.name, ". Gave : ", potion.name);
+		print("HOW DARE YOU! ", "Ordered: ", order.name, ". Gave: ", potion.name);
 	} else {
-		print("YIPPEEEE! ", "Ordered: ", order.name, ". Gave : ", potion.name);
+		print("YIPPEEEE! ", "Ordered: ", order.name, ". Gave: ", potion.name);
 	}
 	order_complete = true;
 	obj_game_manager.get_paid(self);
