@@ -29,5 +29,5 @@ function add_ingredient_to_inventory(ingredient) {
 			break; // Stop looking for slots
 		}
 	}
-	print(str(inventory));
+	print("Picked up: ", ingredient);
 }
