@@ -10,3 +10,5 @@ can_interact = function() {
 function activate_button() {
 	// Do something
 }
+
+do_sparkle = true;
