@@ -4,6 +4,7 @@ event_inherited();
 button_text = "";
 
 function activate_button() {
-	game_end()
+	game_end();
 }
-do_sparkle=false;
+
+do_sparkle = false;

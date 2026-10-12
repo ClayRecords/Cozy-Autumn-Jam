@@ -1,9 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_potion_recipe_1",
-  "eventList":[],
+  "%Name":"obj_next_page_btn",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"obj_potion_recipe_1",
+  "name":"obj_next_page_btn",
   "overriddenProperties":[],
   "parent":{
     "name":"recipes_book",
@@ -28,9 +30,9 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_potion_foul",
-    "path":"sprites/spr_potion_foul/spr_potion_foul.yy",
+    "name":"spr_next_page_btn",
+    "path":"sprites/spr_next_page_btn/spr_next_page_btn.yy",
   },
   "spriteMaskId":null,
-  "visible":false,
+  "visible":true,
 }
