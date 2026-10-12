@@ -184,6 +184,7 @@
     {"id":{"name":"spr_inventory_slot","path":"sprites/spr_inventory_slot/spr_inventory_slot.yy",},},
     {"id":{"name":"spr_locked_inventory_slot","path":"sprites/spr_locked_inventory_slot/spr_locked_inventory_slot.yy",},},
     {"id":{"name":"spr_main_menu","path":"sprites/spr_main_menu/spr_main_menu.yy",},},
+    {"id":{"name":"spr_menu_cauldron","path":"sprites/spr_menu_cauldron/spr_menu_cauldron.yy",},},
     {"id":{"name":"spr_open_inventory_slot","path":"sprites/spr_open_inventory_slot/spr_open_inventory_slot.yy",},},
     {"id":{"name":"spr_pause_menu","path":"sprites/spr_pause_menu/spr_pause_menu.yy",},},
     {"id":{"name":"spr_pillar","path":"sprites/spr_pillar/spr_pillar.yy",},},
