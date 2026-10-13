@@ -1,6 +1,6 @@
 if (grabbed) {
-    //roughly where the cauldron is
-	if (mouse_y > 330) && (mouse_y < 430) && (mouse_x > 540) && (mouse_x < 740) {
+	//roughly where the cauldron is
+	if ((mouse_y > 330) && (mouse_y < 430) && (mouse_x > 540) && (mouse_x < 740)) {
 		obj_cauldron.add_ingredient(ingredient_type);
 
 		//delete from inventory list

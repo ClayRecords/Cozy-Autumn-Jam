@@ -1,6 +1,6 @@
 function get_ingredients() {
 	var _ingredients = {};
-	_ingredients.frog_breath = obj_ingredient_frog_breath
+	_ingredients.frog_breath = obj_ingredient_frog_breath;
 	_ingredients.bat_wool = obj_ingredient_bat_wool;
 
 	return _ingredients;
