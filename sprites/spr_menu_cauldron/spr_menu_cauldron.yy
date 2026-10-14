@@ -19,7 +19,7 @@
   "height":512,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f498f3fb-c133-41ee-8a47-dae5aedfdb38","blendMode":0,"displayName":"default","isLocked":false,"name":"f498f3fb-c133-41ee-8a47-dae5aedfdb38","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"b61bea71-337f-4e7b-8c16-14848fa2e236","blendMode":0,"displayName":"default","isLocked":false,"name":"b61bea71-337f-4e7b-8c16-14848fa2e236","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_menu_cauldron",
   "nineSlice":null,

@@ -61,18 +61,7 @@ create_new_ghost = function() {
 	current_ghost.sprite_index = spr_ghost_1;
 
 	current_ghost.order = potion_indexes[int64(random(array_length(potion_indexes)))];
-	//TODO make not possible to choose foul potion or potion parent
-	//I think this will reroll the ghost if it does choose an unobtainable potion
-	if (
-		current_ghost.order == obj_potion_foul
-		|| current_ghost.order == obj_potion_parent
-	) {
-		print(
-			"Ghost wants an unobtainable potion: ",
-			current_ghost.order.name,
-			". What a prick."
-		);
-	}
+
 };
 
 self.create_new_ghost();

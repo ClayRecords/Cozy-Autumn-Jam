@@ -33,6 +33,12 @@ function evaluate_recipes() {
 	}
 }
 
+function brew() {
+	// give player potion, remove all ingredients
+	obj_player.potion_held = current_potion;
+	current_ingredients = [];
+}
+
 function flush() {
 	// Remove all ingredients, reset recipe
 	current_ingredients = [];
