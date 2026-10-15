@@ -168,6 +168,7 @@
     {"id":{"name":"spr_background","path":"sprites/spr_background/spr_background.yy",},},
     {"id":{"name":"spr_book_potions","path":"sprites/spr_book_potions/spr_book_potions.yy",},},
     {"id":{"name":"spr_book_upgrades","path":"sprites/spr_book_upgrades/spr_book_upgrades.yy",},},
+    {"id":{"name":"spr_brew_popup","path":"sprites/spr_brew_popup/spr_brew_popup.yy",},},
     {"id":{"name":"spr_btn_about","path":"sprites/spr_btn_about/spr_btn_about.yy",},},
     {"id":{"name":"spr_btn_start","path":"sprites/spr_btn_start/spr_btn_start.yy",},},
     {"id":{"name":"spr_btn","path":"sprites/spr_btn/spr_btn.yy",},},

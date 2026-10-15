@@ -51,6 +51,7 @@ for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {
  * Creates a new ghost object as the next customer.
  */
 create_new_ghost = function() {
+    //TODO set small delay for ghost spawn
 	current_ghost = instance_create_layer(
 		obj_visitor_spawn.x,
 		obj_visitor_spawn.y,
