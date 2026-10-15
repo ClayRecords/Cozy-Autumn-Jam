@@ -1,7 +1,7 @@
 if (is_entering) {
 	// Go to register, nothing else
 	direction = 90;
-    image_alpha = lerp(image_alpha, 1, 0.05);
+	image_alpha = lerp(image_alpha, 1, 0.05);
 	if (y <= target_y) {
 		is_entering = false;
 		speed = 0;

@@ -11,6 +11,4 @@ function interact() {
 		obj_visitor.set_show_order();
 		return;
 	}
-
-
 }

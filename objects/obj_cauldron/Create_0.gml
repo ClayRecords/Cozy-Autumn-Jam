@@ -6,8 +6,8 @@ potions = obj_game_manager.potions;
 
 is_brewing = false;
 
-show_brew_timer = 0
-show_brew_timer_max = 300
+show_brew_timer = 0;
+show_brew_timer_max = 300;
 
 last_brewed = undefined;
 
@@ -40,19 +40,19 @@ function evaluate_recipes() {
 
 function brew() {
 	// give player potion, remove all ingredients
-    if (array_length(current_ingredients) == 0) {
+	if (array_length(current_ingredients) == 0) {
 		return;
 	}
-    last_brewed = current_potion;
+	last_brewed = current_potion;
 	obj_player.potion_held = last_brewed;
-	current_ingredients = []
-    audio_play_sound(
+	current_ingredients = [];
+	audio_play_sound(
 		choose(snd_bubble1, snd_bubble2, snd_bubble3, snd_bubble4),
 		10,
 		false,
 		0.3
 	);
-    set_show_brew();
+	set_show_brew();
 }
 
 function flush() {
@@ -62,6 +62,6 @@ function flush() {
 }
 
 function set_show_brew() {
-	obj_menu_interactable_area.destroy_menu()
-    show_brew_timer = show_brew_timer_max;
+	obj_menu_interactable_area.destroy_menu();
+	show_brew_timer = show_brew_timer_max;
 }

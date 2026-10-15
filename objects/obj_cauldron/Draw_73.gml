@@ -17,9 +17,8 @@ if (show_brew_timer > 0) {
 	}
 
 	// Show order bubble and order
-	var spr_x = obj_storage_cover.x
-	var spr_y = obj_storage_cover.y
-
+	var spr_x = obj_storage_cover.x;
+	var spr_y = obj_storage_cover.y;
 
 	var potion_sprite = last_brewed.sprite_index;
 	draw_sprite_ext(spr_brew_popup, 0, spr_x, spr_y, 1, 1, 0, c_white, alpha);

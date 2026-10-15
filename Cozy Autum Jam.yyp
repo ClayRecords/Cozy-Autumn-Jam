@@ -98,6 +98,7 @@
     {"id":{"name":"obj_potion_strength","path":"objects/obj_potion_strength/obj_potion_strength.yy",},},
     {"id":{"name":"obj_potion_water_breathing","path":"objects/obj_potion_water_breathing/obj_potion_water_breathing.yy",},},
     {"id":{"name":"obj_potion_x_ray","path":"objects/obj_potion_x_ray/obj_potion_x_ray.yy",},},
+    {"id":{"name":"obj_prev_page_btn","path":"objects/obj_prev_page_btn/obj_prev_page_btn.yy",},},
     {"id":{"name":"obj_recipes_book_manager","path":"objects/obj_recipes_book_manager/obj_recipes_book_manager.yy",},},
     {"id":{"name":"obj_recipes_book","path":"objects/obj_recipes_book/obj_recipes_book.yy",},},
     {"id":{"name":"obj_register_interactable_area","path":"objects/obj_register_interactable_area/obj_register_interactable_area.yy",},},
