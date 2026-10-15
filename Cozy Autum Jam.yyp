@@ -146,6 +146,8 @@
     {"id":{"name":"snd_ghostHappy1","path":"sounds/snd_ghostHappy1/snd_ghostHappy1.yy",},},
     {"id":{"name":"snd_ghostHappy2","path":"sounds/snd_ghostHappy2/snd_ghostHappy2.yy",},},
     {"id":{"name":"snd_ghostHappy3","path":"sounds/snd_ghostHappy3/snd_ghostHappy3.yy",},},
+    {"id":{"name":"snd_ghostSad1","path":"sounds/snd_ghostSad1/snd_ghostSad1.yy",},},
+    {"id":{"name":"snd_ghostSad2","path":"sounds/snd_ghostSad2/snd_ghostSad2.yy",},},
     {"id":{"name":"snd_mainTheme","path":"sounds/snd_mainTheme/snd_mainTheme.yy",},},
     {"id":{"name":"snd_menuclick1","path":"sounds/snd_menuclick1/snd_menuclick1.yy",},},
     {"id":{"name":"snd_menuclick2","path":"sounds/snd_menuclick2/snd_menuclick2.yy",},},

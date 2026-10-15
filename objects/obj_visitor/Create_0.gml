@@ -37,9 +37,11 @@ function complete_transaction(potion) {
 		tip = 1;
 		order_correct = false;
 		print("HOW DARE YOU! ", "Ordered: ", order.name, ". Gave: ", potion.name);
+        audio_play_sound(choose(snd_ghostSad1, snd_ghostSad2), 5, false, 0.7);
 	} else {
 		print("YIPPEEEE! ", "Ordered: ", order.name, ". Gave: ", potion.name);
 		order_correct = true;
+        audio_play_sound(choose(snd_ghostHappy1, snd_ghostHappy2, snd_ghostHappy3), 5, false, 0.7);
 	}
 	set_show_result();
 	order_complete = true;
