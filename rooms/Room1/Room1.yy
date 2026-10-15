@@ -19,6 +19,7 @@
     {"name":"inst_4F9551ED","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6C9483E7","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2CB56315","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_4AB43B26","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -38,6 +39,7 @@
         {"$GMRInstance":"v4","%Name":"inst_6E3E08A5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6E3E08A5","objectId":{"name":"obj_storage_cover","path":"objects/obj_storage_cover/obj_storage_cover.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":640.0,"y":272.0,},
         {"$GMRInstance":"v4","%Name":"inst_2CB56315","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CB56315","objectId":{"name":"obj_maze_builder","path":"objects/obj_maze_builder/obj_maze_builder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":96.0,},
         {"$GMRInstance":"v4","%Name":"inst_2CB56315","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CB56315","objectId":{"name":"obj_maze_builder","path":"objects/obj_maze_builder/obj_maze_builder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":480.0,},
+        {"$GMRInstance":"v4","%Name":"inst_4AB43B26","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4AB43B26","objectId":{"name":"obj_kitchen_cover","path":"objects/obj_kitchen_cover/obj_kitchen_cover.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":0.5,"scaleY":1.0625,"x":152.0,"y":272.0,},
       ],"layers":[],"name":"game_managers","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_foreground","depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[],"layers":[],"name":"Instances_foreground","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"sprites_foreground","assets":[

@@ -1,9 +1,18 @@
 _list = [];
 
 // 1. Convert the element ID into the actual sequence instance struct
-var _seq_struct = layer_sequence_get_instance(
-	obj_cauldron_interactable_area.menu_sequence
+var _seq_struct = undefined
+
+if (obj_cauldron.is_brewing){
+    _seq_struct = layer_sequence_get_instance(
+    obj_cauldron_interactable_area.menu_sequence
+    )
+}
+if(obj_kitchen_cover.is_in_maze){
+    _seq_struct = layer_sequence_get_instance(
+	obj_kitchen_cover.kitchen_cover_sequence
 );
+}
 
 with (obj_inventory_item) {
 	if (in_sequence && sequence_instance == _seq_struct) {
