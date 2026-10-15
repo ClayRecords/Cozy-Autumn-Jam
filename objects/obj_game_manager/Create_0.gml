@@ -6,6 +6,9 @@ draw_set_halign(fa_left);
 
 display_set_gui_size(960, 540);
 
+cursor_sprite = spr_cursor;
+window_set_cursor(cr_none)
+
 money = 0;
 
 current_ghost = undefined;
