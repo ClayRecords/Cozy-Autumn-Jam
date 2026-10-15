@@ -60,6 +60,9 @@ for (var i = 0; i < ds_list_size(nearby_interactables); i++) {
 }
 ds_list_destroy(nearby_interactables);
 
-if (previous_nearest_interactable != undefined && previous_nearest_interactable != nearest_interactable) {
+if (
+	previous_nearest_interactable != undefined
+	&& previous_nearest_interactable != nearest_interactable
+) {
 	previous_nearest_interactable.leave_interact_area();
 }

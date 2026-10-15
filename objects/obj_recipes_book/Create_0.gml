@@ -5,7 +5,6 @@ font_color = make_colour_rgb(52, 52, 52);
 
 function next_page() {
 	current_page++;
-	draw_page();
 }
 
 function previous_page() {

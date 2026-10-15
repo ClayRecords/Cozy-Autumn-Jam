@@ -45,12 +45,12 @@ if (show_result_timer > 0) {
 	}
 
 	// Show bubble and result
-    
-    var result_sprite = spr_reaction_happy;
-    if (order_correct = false){
-        result_sprite = spr_reaction_sad;
-    }
-    
+
+	var result_sprite = spr_reaction_happy;
+	if (order_correct == false) {
+		result_sprite = spr_reaction_sad;
+	}
+
 	var spr_x = x + 48;
 	var spr_y = y - 40;
 
@@ -58,7 +58,7 @@ if (show_result_timer > 0) {
 	var frame_duration = 250;
 	var bubble_frame_count = sprite_get_number(spr_textBubble);
 	var bubble_subimg = (current_time div frame_duration) % bubble_frame_count;
-  
-    draw_sprite_ext(spr_textBubble, bubble_subimg, spr_x, spr_y, 1, 1, 0, c_white, alpha);
+
+	draw_sprite_ext(spr_textBubble, bubble_subimg, spr_x, spr_y, 1, 1, 0, c_white, alpha);
 	draw_sprite_ext(result_sprite, 0, spr_x, spr_y - 5, 1, 1, 0, c_white, alpha);
 }

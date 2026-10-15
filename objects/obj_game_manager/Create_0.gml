@@ -8,7 +8,7 @@ display_set_gui_size(960, 540);
 
 // Cursor cute
 cursor_sprite = spr_cursor;
-window_set_cursor(cr_none)
+window_set_cursor(cr_none);
 
 money = 0;
 current_ghost = undefined;
@@ -47,6 +47,7 @@ for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {
 	var potion = instance_create_layer(x, y, "invisible", potion_index);
 	array_push(potions, potion);
 }
+instance_create_layer(x, y, "invisible", obj_potion_foul);
 
 /**
  * Creates a new ghost object as the next customer.

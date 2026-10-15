@@ -7,7 +7,7 @@ is_in_maze = false;
 
 function create_menu() {
 	if (!layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
-        print("creating sequence")
+		print("creating sequence");
 		kitchen_cover_sequence = layer_sequence_create(
 			"menu_sequence",
 			obj_kitchen_cover.x,
@@ -18,11 +18,11 @@ function create_menu() {
 }
 
 function destroy_menu() {
-    print("attempting to destroy")
+	print("attempting to destroy");
 	if (layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
-        print("attempting to destroy 2")
+		print("attempting to destroy 2");
 		layer_sequence_destroy(kitchen_cover_sequence);
-        print("attempting to destroy 3")
+		print("attempting to destroy 3");
 	}
 }
 
@@ -30,7 +30,7 @@ function cover_up() {
 	image_alpha += cover_speed;
 	if (image_alpha >= 1) {
 		image_alpha = 1;
-        create_menu()
+		create_menu();
 	}
 }
 
@@ -40,6 +40,6 @@ function uncover() {
 		image_alpha = 0;
 		is_cover_down = true;
 		is_cover_up = false;
-        destroy_menu()
+		destroy_menu();
 	}
 }
