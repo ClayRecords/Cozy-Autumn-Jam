@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_close",
-    "path":"sprites/spr_close/spr_close.yy",
+    "name":"button_exit",
+    "path":"sprites/button_exit/button_exit.yy",
   },
   "spriteMaskId":null,
   "visible":true,
