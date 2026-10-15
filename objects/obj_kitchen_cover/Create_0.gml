@@ -6,23 +6,27 @@ kitchen_cover_sequence = undefined;
 is_in_maze = false;
 
 function create_menu() {
-	if (!layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
-		print("creating sequence");
+    if (!layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
+		print("creating sequence"); 
+
 		kitchen_cover_sequence = layer_sequence_create(
 			"menu_sequence",
 			obj_kitchen_cover.x,
 			obj_kitchen_cover.y,
 			seq_kitchen_cover
 		);
+        
+        
+        var _inv = instance_find(obj_inventory, 0);
+        if (_inv != noone) {
+            _inv.refresh_inventory_display();
+        }
 	}
 }
 
 function destroy_menu() {
-	print("attempting to destroy");
 	if (layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
-		print("attempting to destroy 2");
 		layer_sequence_destroy(kitchen_cover_sequence);
-		print("attempting to destroy 3");
 	}
 }
 

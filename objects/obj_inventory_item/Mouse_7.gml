@@ -4,7 +4,7 @@ if (grabbed) {
 		obj_cauldron.add_ingredient(ingredient_type);
 
 		//delete from inventory list
-		inventory = obj_player.inventory;
+		inventory = obj_inventory.inventory;
 		item_index = -1;
 		for (i = 0; i < array_length(inventory); i++) {
 			if (inventory[i].ingredient_type == ingredient_type) {
