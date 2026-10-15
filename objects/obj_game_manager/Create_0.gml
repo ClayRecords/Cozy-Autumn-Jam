@@ -1,18 +1,17 @@
 // Debug mode, for analytics and testing
 is_debug = false;
 
-// default text align will be left!
+// Default text align will be left!
 draw_set_halign(fa_left);
 
 display_set_gui_size(960, 540);
 
+// Cursor cute
 cursor_sprite = spr_cursor;
 window_set_cursor(cr_none)
 
 money = 0;
-
 current_ghost = undefined;
-ghost_sprites = [spr_ghost_1, spr_ghost_2, spr_ghost_3];
 
 menu_music = audio_play_sound(snd_mainTheme, 10, true, 1);
 
@@ -32,7 +31,6 @@ ingredient_indexes = [
 potion_indexes = [
 	obj_potion_find_lost_items,
 	obj_potion_flight,
-	obj_potion_foul,
 	obj_potion_hair_growth,
 	obj_potion_healing,
 	obj_potion_invisibility,
