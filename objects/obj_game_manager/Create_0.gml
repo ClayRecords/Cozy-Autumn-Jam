@@ -47,6 +47,8 @@ for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {
 	array_push(potions, potion);
 }
 
+
+
 /**
  * Creates a new ghost object as the next customer.
  */
@@ -62,7 +64,6 @@ create_new_ghost = function() {
 	current_ghost.sprite_index = spr_ghost_1;
 
 	current_ghost.order = potion_indexes[int64(random(array_length(potion_indexes)))];
-
 };
 
 self.create_new_ghost();
@@ -71,6 +72,7 @@ self.create_new_ghost();
  * Increase money based on potion cost + tip from visitor.
  * @param {Id.instance} obj_visitor visitor who has been taken care of.
  */
+
 function get_paid(obj_visitor) {
 	potion_cost = obj_visitor.order.cost;
 	tip_percent = obj_visitor.tip;

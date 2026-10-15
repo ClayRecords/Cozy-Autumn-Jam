@@ -211,6 +211,8 @@
     {"id":{"name":"spr_potion_water_breathing","path":"sprites/spr_potion_water_breathing/spr_potion_water_breathing.yy",},},
     {"id":{"name":"spr_potion_x_ray","path":"sprites/spr_potion_x_ray/spr_potion_x_ray.yy",},},
     {"id":{"name":"spr_prompt_interact","path":"sprites/spr_prompt_interact/spr_prompt_interact.yy",},},
+    {"id":{"name":"spr_reaction_happy","path":"sprites/spr_reaction_happy/spr_reaction_happy.yy",},},
+    {"id":{"name":"spr_reaction_sad","path":"sprites/spr_reaction_sad/spr_reaction_sad.yy",},},
     {"id":{"name":"spr_recipes_book","path":"sprites/spr_recipes_book/spr_recipes_book.yy",},},
     {"id":{"name":"spr_room_background","path":"sprites/spr_room_background/spr_room_background.yy",},},
     {"id":{"name":"spr_shelf","path":"sprites/spr_shelf/spr_shelf.yy",},},

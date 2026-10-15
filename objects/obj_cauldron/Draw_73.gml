@@ -21,7 +21,7 @@ if (show_brew_timer > 0) {
 	var spr_y = obj_storage_cover.y
 
 
-	var potion_sprite = obj_player.potion_held.sprite_index;
+	var potion_sprite = last_brewed.sprite_index;
 	draw_sprite_ext(spr_brew_popup, 0, spr_x, spr_y, 1, 1, 0, c_white, alpha);
 	draw_sprite_ext(potion_sprite, 0, spr_x, spr_y, 5, 5, 0, c_white, alpha);
 }

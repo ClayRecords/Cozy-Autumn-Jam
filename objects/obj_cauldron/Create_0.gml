@@ -9,6 +9,8 @@ is_brewing = false;
 show_brew_timer = 0
 show_brew_timer_max = 300
 
+last_brewed = undefined;
+
 function add_ingredient(ingredient) {
 	// Add something to the pot, check for resulting potion
 	array_push(current_ingredients, ingredient);
@@ -41,7 +43,8 @@ function brew() {
     if (array_length(current_ingredients) == 0) {
 		return;
 	}
-	obj_player.potion_held = current_potion;
+    last_brewed = current_potion;
+	obj_player.potion_held = last_brewed;
 	current_ingredients = []
     audio_play_sound(
 		choose(snd_bubble1, snd_bubble2, snd_bubble3, snd_bubble4),
