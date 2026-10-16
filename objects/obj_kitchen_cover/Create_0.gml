@@ -28,14 +28,14 @@ function destroy_menu() {
 }
 
 function cover_up() {
-    create_menu();
+	create_menu();
 	image_alpha += cover_speed;
 	if (image_alpha >= 1) {
 		image_alpha = 1;
 	}
-    if (layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
-    layer_sequence_alpha(kitchen_cover_sequence,image_alpha);
-    }
+	if (layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
+		layer_sequence_alpha(kitchen_cover_sequence, image_alpha);
+	}
 }
 
 function uncover() {
@@ -44,7 +44,7 @@ function uncover() {
 		image_alpha = 0;
 		destroy_menu();
 	}
-    if (layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
-    layer_sequence_alpha(kitchen_cover_sequence,image_alpha);
-    }
+	if (layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
+		layer_sequence_alpha(kitchen_cover_sequence, image_alpha);
+	}
 }

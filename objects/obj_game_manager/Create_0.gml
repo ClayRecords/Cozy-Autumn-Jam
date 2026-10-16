@@ -15,7 +15,7 @@ current_ghost = undefined;
 
 menu_music = audio_play_sound(snd_mainTheme, 10, true, 1);
 
-// Store ingredient INDEXES (references to objects)
+// Create ingredient instances
 ingredient_indexes = [
 	obj_ingredient_bat_wool,
 	obj_ingredient_dragon_blood,
@@ -26,20 +26,27 @@ ingredient_indexes = [
 	obj_ingredient_snail_slime,
 	obj_ingredient_spider_silk
 ];
+ingredients = [];
+ingredients_struct = {};
+for (var i = 0; i <= array_length(ingredient_indexes) - 1; i++) {
+	var ingredient_index = ingredient_indexes[i];
+	var ingredient = instance_create_layer(x, y, "invisible", ingredient_index);
+	array_push(ingredients, ingredient);
+	ingredients_struct[ingredient_index] = ingredient;
+}
 
-// Create potion objects for testing recipes
+// Create potion instances
 potion_indexes = [
 	obj_potion_find_lost_items,
 	obj_potion_flight,
 	obj_potion_hair_growth,
 	obj_potion_healing,
 	obj_potion_invisibility,
-	obj_potion_mystery,
-	obj_potion_parent,
 	obj_potion_stink_bomb,
 	obj_potion_strength,
 	obj_potion_water_breathing,
-	obj_potion_x_ray
+	obj_potion_x_ray,
+	obj_potion_mystery
 ];
 potions = [];
 for (var i = 0; i <= array_length(potion_indexes) - 1; i++) {

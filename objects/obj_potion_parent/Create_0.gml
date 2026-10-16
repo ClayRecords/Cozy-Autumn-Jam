@@ -1,4 +1,5 @@
 name = "";
+description = "";
 recipe = [];
 cost = 0;
 

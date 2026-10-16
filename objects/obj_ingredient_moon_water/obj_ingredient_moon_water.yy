@@ -4,12 +4,17 @@
   "eventList":[],
   "managed":true,
   "name":"obj_ingredient_moon_water",
-  "overriddenProperties":[],
+  "overriddenProperties":[
+    {"$GMOverriddenProperty":"v1","%Name":"","name":"","objectId":{"name":"obj_ingredient_parent","path":"objects/obj_ingredient_parent/obj_ingredient_parent.yy",},"propertyId":{"name":"name","path":"objects/obj_ingredient_parent/obj_ingredient_parent.yy",},"resourceType":"GMOverriddenProperty","resourceVersion":"2.0","value":"Moon Water",},
+  ],
   "parent":{
     "name":"ingredients",
     "path":"folders/objects/ingredients.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_ingredient_parent",
+    "path":"objects/obj_ingredient_parent/obj_ingredient_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,

@@ -1,7 +1,7 @@
 // Inherit the parent event
 event_inherited();
 
-name = "Underwater Breathing";
+name = "Water Breathing";
 recipe = [
 	obj_ingredient_moon_water,
 	obj_ingredient_moon_water,

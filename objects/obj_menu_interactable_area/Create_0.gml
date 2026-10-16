@@ -11,7 +11,6 @@ open_speed = 0.08;
 close_speed = 0.12;
 seq_alpha = 0;
 
-
 function interact() {
 	create_menu();
 }
@@ -22,7 +21,7 @@ function leave_interact_area() {
 
 function create_menu() {
 	menu_opening = true; //this makes the alpha fade in at the step event
-    if (menu_sequence_ref == undefined) {
+	if (menu_sequence_ref == undefined) {
 		throw "Menu must set sequence";
 	}
 	if (!layer_sequence_exists("menu_sequence", menu_sequence)) {
@@ -33,10 +32,8 @@ function create_menu() {
 			menu_sequence_ref
 		);
 	}
-    
-   
 }
 
 function destroy_menu() {
-    menu_closing = true; //this makes the alpha fade out at the step event
+	menu_closing = true; //this makes the alpha fade out at the step event
 }
