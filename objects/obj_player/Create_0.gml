@@ -1,4 +1,4 @@
-speed_multi = 3;
+move_speed = 3;
 mask_index = player_sprite_down;
 
 tilemap = layer_tilemap_get_id("Tilemap");

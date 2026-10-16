@@ -20,10 +20,9 @@
     {"name":"inst_6C9483E7","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4AB43B26","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2B4A4E88","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_2CB56315","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_6EBB773C","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_69222D84","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4723257C","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2CB56315","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -55,7 +54,6 @@
     {"$GMRInstanceLayer":"","%Name":"Instances","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_6B4BC45B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6B4BC45B","objectId":{"name":"obj_cauldron","path":"objects/obj_cauldron/obj_cauldron.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":144.0,},
         {"$GMRInstance":"v4","%Name":"inst_708F88F5","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_708F88F5","objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":224.0,"y":192.0,},
-        {"$GMRInstance":"v4","%Name":"inst_6EBB773C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_6EBB773C","objectId":{"name":"obj_little_baby","path":"objects/obj_little_baby/obj_little_baby.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":160.0,"y":160.0,},
         {"$GMRInstance":"v4","%Name":"inst_4723257C","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4723257C","objectId":{"name":"obj_money_drawer","path":"objects/obj_money_drawer/obj_money_drawer.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":216.0,"y":32.0,},
       ],"layers":[],"name":"Instances","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRAssetLayer":"","%Name":"sprites_background","assets":[
