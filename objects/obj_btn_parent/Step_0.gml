@@ -1,4 +1,5 @@
-function handle_hover() {
+if (active) {
+    function handle_hover() {
 	if (!do_sparkle) {
 		return;
 	}
@@ -34,6 +35,8 @@ if (do_sparkle == true) {
 	} else if (!hovering) {
 		handle_not_hover();
 	}
+}
+    
 }
 
 was_hovering = hovering;

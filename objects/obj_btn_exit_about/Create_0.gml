@@ -1,10 +1,8 @@
 // Inherit the parent event
 event_inherited();
 
-button_text = "";
-
 function activate_button() {
-	game_end();
+	obj_button_about.destroy_menu();
 }
 
 do_sparkle = false;

@@ -1,20 +1,19 @@
 {
   "$GMObject":"",
-  "%Name":"obj_button_exit",
+  "%Name":"obj_tutorial",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":64,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_button_exit",
+  "name":"obj_tutorial",
   "overriddenProperties":[],
   "parent":{
     "name":"title",
     "path":"folders/objects/menus/title.yy",
   },
-  "parentObjectId":{
-    "name":"obj_btn_parent",
-    "path":"objects/obj_btn_parent/obj_btn_parent.yy",
-  },
+  "parentObjectId":null,
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -33,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"button_exit",
-    "path":"sprites/button_exit/button_exit.yy",
+    "name":"spr_menu_tutorial",
+    "path":"sprites/spr_menu_tutorial/spr_menu_tutorial.yy",
   },
   "spriteMaskId":null,
   "visible":true,
