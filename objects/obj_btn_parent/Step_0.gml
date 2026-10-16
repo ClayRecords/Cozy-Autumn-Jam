@@ -14,6 +14,10 @@ if (mouse_check_button_released(mb_left)) {
 }
 
 function handle_hover() {
+	if (!do_sparkle) {
+		return;
+	}
+
 	var _cx = (bbox_left + bbox_right) / 2;
 	var _cy = (bbox_top + bbox_bottom) / 2;
 	var _a = image_angle;
@@ -39,12 +43,10 @@ function handle_not_hover() {
 	}
 }
 
-if (do_sparkle == true) {
-	if (hovering && !was_hovering) {
-		handle_hover();
-	} else if (!hovering && was_hovering) {
-		handle_not_hover();
-	}
+if (hovering && !was_hovering) {
+	handle_hover();
+} else if (!hovering && was_hovering) {
+	handle_not_hover();
 }
 
 was_hovering = hovering;

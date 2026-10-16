@@ -2,7 +2,7 @@
   "$GMObject":"",
   "%Name":"obj_close_recipes_book",
   "eventList":[
-    {"$GMEvent":"v1","%Name":"","eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
   "name":"obj_close_recipes_book",
@@ -11,7 +11,10 @@
     "name":"recipes_book",
     "path":"folders/sequences/recipes_book.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_btn_parent",
+    "path":"objects/obj_btn_parent/obj_btn_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
