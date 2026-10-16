@@ -43,10 +43,12 @@ function handle_not_hover() {
 	}
 }
 
-if (hovering && !was_hovering) {
-	handle_hover();
-} else if (!hovering && was_hovering) {
-	handle_not_hover();
+if (do_sparkle == true) {
+	if (hovering && !was_hovering) {
+		handle_hover();
+	} else if (!hovering) {
+		handle_not_hover();
+	}
 }
 
 was_hovering = hovering;

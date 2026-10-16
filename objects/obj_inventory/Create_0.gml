@@ -5,6 +5,7 @@ inventory = array_create_ext(8, function() {
 });
 
 inventory_size = 1; //to start with.
+inventory_max_size = 8;
 
 function add_ingredient_to_inventory(ingredient) {
 	for (var i = 0; i < inventory_size; i++) {
