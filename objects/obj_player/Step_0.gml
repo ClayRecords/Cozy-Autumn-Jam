@@ -7,8 +7,8 @@ var normalized_x = 0;
 var normalized_y = 0;
 var vector_length = point_distance(0, 0, _horizontal, _vertical);
 if (vector_length > 0) {
-	normalized_x = _horizontal / vector_length * speed_multi;
-	normalized_y = _vertical / vector_length * speed_multi;
+	normalized_x = _horizontal / vector_length * move_speed;
+	normalized_y = _vertical / vector_length * move_speed;
 }
 
 // Move

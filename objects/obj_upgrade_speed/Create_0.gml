@@ -12,5 +12,5 @@ cost = 3;
 cost_increase = 1;
 
 function do_upgrade() {
-	obj_player.speed_multi += 0.5;
+	obj_player.move_speed += 0.5;
 }

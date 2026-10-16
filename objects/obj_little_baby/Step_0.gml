@@ -1,9 +1,8 @@
 is_moving = false;
+move_speed = parent.move_speed;
 
-var move_speed = obj_player.speed_multi;
-
-if (instance_exists(obj_player)) {
-	if (distance_to_object(obj_player) > 10) {
+if (instance_exists(parent)) {
+	if (distance_to_object(parent) > 10) {
 		is_moving = true;
 	} else {
 		is_moving = false;
@@ -11,13 +10,15 @@ if (instance_exists(obj_player)) {
 }
 
 if (is_moving) {
-	move_towards_point(obj_player.x, obj_player.y, move_speed - 1);
+    not_moving_count = 0
+	move_towards_point(parent.x, parent.y, move_speed - 1);
 } else {
 	speed = 0;
+    not_moving_count++
 }
 
-x_difference = obj_little_baby.x - obj_player.x;
-y_difference = obj_little_baby.y - obj_player.y;
+var x_difference = x - parent.x;
+var y_difference = y - parent.y;
 
 if (is_moving) {
 	if (abs(x_difference) < 20) {
@@ -31,6 +32,6 @@ if (is_moving) {
 	} else {
 		sprite_index = little_baby_right_walking;
 	}
-} else {
+} else if (not_moving_count > 15) {
 	sprite_index = little_baby_front;
 }
