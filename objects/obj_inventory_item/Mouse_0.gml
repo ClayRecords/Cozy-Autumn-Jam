@@ -1,4 +1,4 @@
-if (hover && draggable) {
+if (hover && draggable && obj_cauldron.is_brewing) {
 	grabbed = true;
 	xx = x - mouse_x;
 	yy = y - mouse_y;
