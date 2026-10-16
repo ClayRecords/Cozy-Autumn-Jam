@@ -5,13 +5,16 @@ font_color = make_colour_rgb(52, 52, 52);
 
 function next_page() {
 	current_page++;
-    audio_play_sound(choose(snd_pageturn1, snd_pageturn2, snd_pageturn3, snd_pageturn4), 5, false, 0.3)
+	var snd_pageturn = choose(snd_pageturn1, snd_pageturn2, snd_pageturn3, snd_pageturn4);
+	audio_play_sound(snd_pageturn, 5, false, 0.3);
 }
 
 function previous_page() {
 	current_page--;
-    audio_play_sound(choose(snd_pageturn1, snd_pageturn2, snd_pageturn3, snd_pageturn4), 5, false, 0.3)
+	var snd_pageturn = choose(snd_pageturn1, snd_pageturn2, snd_pageturn3, snd_pageturn4);
+	audio_play_sound(snd_pageturn, 5, false, 0.3);
 }
+
 function draw_page() {
 	draw_set_halign(textalign_center);
 	draw_set_color(font_color);

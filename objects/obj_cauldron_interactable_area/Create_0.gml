@@ -6,7 +6,7 @@ function interact() {
 	obj_cauldron.is_brewing = true;
 
 	create_menu();
-    obj_inventory.refresh_inventory_display();
+	obj_inventory.refresh_inventory_display();
 }
 
 function leave_interact_area() {

@@ -53,7 +53,6 @@ instance_create_layer(x, y, "invisible", obj_potion_foul);
  * Creates a new ghost object as the next customer.
  */
 create_new_ghost = function() {
-
 	current_ghost = instance_create_layer(
 		obj_visitor_spawn.x,
 		obj_visitor_spawn.y,

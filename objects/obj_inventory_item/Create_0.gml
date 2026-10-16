@@ -13,4 +13,3 @@ function return_to_inventory() {
 	x = start_x;
 	y = start_y;
 }
-

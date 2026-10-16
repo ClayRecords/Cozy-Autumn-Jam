@@ -1,5 +1,5 @@
 if (is_debug) {
-    draw_set_halign(fa_left);
+	draw_set_halign(fa_left);
 	draw_text(10, 10, "* Debug Mode");
 	draw_text(200, 10, "Money: " + str(money));
 
@@ -27,11 +27,8 @@ if (is_debug) {
 	draw_text(400, 450, "POTION BREWING: " + potion_name);
 	draw_text(400, 500, "Cauldron: " + str(obj_cauldron.current_ingredients));
 
-    draw_text(10, 50, "X = give potion currently in cauldron");
-    draw_text(10, 70, "Z = flush cauldron");
-    draw_text(10, 90, "C = give requested potion");
-    draw_text(10, 110, "V = add inv slot");
-
+	draw_text(10, 50, "X = give potion currently in cauldron");
+	draw_text(10, 70, "Z = flush cauldron");
+	draw_text(10, 90, "C = give requested potion");
+	draw_text(10, 110, "V = add inv slot");
 }
-
-
