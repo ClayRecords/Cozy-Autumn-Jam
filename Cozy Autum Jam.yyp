@@ -57,6 +57,7 @@
     {"id":{"name":"obj_button_start","path":"objects/obj_button_start/obj_button_start.yy",},},
     {"id":{"name":"obj_button_tutorial","path":"objects/obj_button_tutorial/obj_button_tutorial.yy",},},
     {"id":{"name":"obj_button_unpause","path":"objects/obj_button_unpause/obj_button_unpause.yy",},},
+    {"id":{"name":"obj_cauldron_area","path":"objects/obj_cauldron_area/obj_cauldron_area.yy",},},
     {"id":{"name":"obj_cauldron_interactable_area","path":"objects/obj_cauldron_interactable_area/obj_cauldron_interactable_area.yy",},},
     {"id":{"name":"obj_cauldron","path":"objects/obj_cauldron/obj_cauldron.yy",},},
     {"id":{"name":"obj_clickable","path":"objects/obj_clickable/obj_clickable.yy",},},
