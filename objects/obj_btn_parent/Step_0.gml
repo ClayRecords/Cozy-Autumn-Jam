@@ -1,18 +1,3 @@
-hovering = position_meeting(mouse_x, mouse_y, id);
-
-if (hovering && mouse_check_button_pressed(mb_left)) {
-	clicked = true;
-}
-
-if (mouse_check_button_released(mb_left)) {
-	clicked = false;
-
-	if (hovering) {
-		audio_play_sound(choose(snd_menuclick1, snd_menuclick2), 1, false, 0.3);
-		activate_button();
-	}
-}
-
 function handle_hover() {
 	if (!do_sparkle) {
 		return;

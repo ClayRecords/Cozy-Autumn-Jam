@@ -59,6 +59,7 @@
     {"id":{"name":"obj_button_unpause","path":"objects/obj_button_unpause/obj_button_unpause.yy",},},
     {"id":{"name":"obj_cauldron_interactable_area","path":"objects/obj_cauldron_interactable_area/obj_cauldron_interactable_area.yy",},},
     {"id":{"name":"obj_cauldron","path":"objects/obj_cauldron/obj_cauldron.yy",},},
+    {"id":{"name":"obj_clickable","path":"objects/obj_clickable/obj_clickable.yy",},},
     {"id":{"name":"obj_close_recipes_book","path":"objects/obj_close_recipes_book/obj_close_recipes_book.yy",},},
     {"id":{"name":"obj_close_upgrades_book","path":"objects/obj_close_upgrades_book/obj_close_upgrades_book.yy",},},
     {"id":{"name":"obj_empty_inventory_ingredient","path":"objects/obj_empty_inventory_ingredient/obj_empty_inventory_ingredient.yy",},},

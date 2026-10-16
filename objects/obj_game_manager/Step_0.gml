@@ -1,6 +1,6 @@
 // Check for hovered buttons, change cursor
 var any_btn_hover = false;
-with (obj_btn_parent) {
+with (obj_clickable) {
 	if (hovering) {
 		any_btn_hover = true;
 		break;

@@ -1,3 +1,5 @@
+event_inherited();
+
 if (grabbed) {
 	//roughly where the cauldron is
 	if ((x > 330) && (y < 430) && (x > 540) && (y < 740)) {

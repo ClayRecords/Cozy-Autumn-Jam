@@ -1,3 +1,5 @@
+event_inherited();
+
 hovering = false;
 was_hovering = false;
 clicked = false;
