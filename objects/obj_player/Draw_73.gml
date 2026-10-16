@@ -1,7 +1,6 @@
 // Floating E
 if (nearest_interactable != undefined) {
-	var frame_duration = 250;
-	var frame_count = sprite_get_number(spr_prompt_interact);
-	var subimg = (current_time div frame_duration) % frame_count;
-	draw_sprite(spr_prompt_interact, subimg, x, y - 50);
+	var target_y = y - 50;
+	var draw_y = target_y + sine_between(current_time, 3000, -3, 3);
+	draw_sprite(spr_prompt_interact, 0, x, draw_y);
 }
