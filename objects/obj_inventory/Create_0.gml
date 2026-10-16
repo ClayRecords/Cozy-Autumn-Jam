@@ -4,7 +4,8 @@ inventory = array_create_ext(8, function() {
 	return {ingredient_type: obj_empty_inventory_ingredient, draggable: false};
 });
 
-inventory_size = 1; //to start with.
+inventory_size_start = 2;
+inventory_size = inventory_size_start;
 inventory_max_size = 8;
 
 function add_ingredient_to_inventory(ingredient) {
