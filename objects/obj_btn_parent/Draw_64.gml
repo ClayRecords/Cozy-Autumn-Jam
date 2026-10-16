@@ -1,6 +1,8 @@
 // Set tint based on state
 var tint = c_white;
-if (clicked) {
+if (!active) {
+	tint = make_color_rgb(100, 100, 100);
+} else if (clicked) {
 	tint = make_color_rgb(200, 200, 200);
 } else if (hovering) {
 	tint = make_color_rgb(220, 220, 220);

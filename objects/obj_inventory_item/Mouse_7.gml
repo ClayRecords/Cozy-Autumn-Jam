@@ -1,9 +1,8 @@
 event_inherited();
 
-
 if (grabbed) {
-    // Dropped over cauldron
-    if (position_meeting(mouse_x, mouse_y, obj_cauldron_area)) {
+	// Dropped over cauldron
+	if (position_meeting(mouse_x, mouse_y, obj_cauldron_area)) {
 		obj_cauldron.add_ingredient(ingredient_type);
 
 		//delete from inventory list

@@ -1,6 +1,6 @@
 current_page = 0;
 potions_length = array_length(obj_game_manager.potions);
-page_max = round(potions_length / 2);
+max_page = potions_length;
 font_color = make_colour_rgb(52, 52, 52);
 
 function next_page() {
