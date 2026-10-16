@@ -120,7 +120,7 @@
     {"id":{"name":"Title","path":"rooms/Title/Title.yy",},},
     {"id":{"name":"angle_lerp","path":"scripts/angle_lerp/angle_lerp.yy",},},
     {"id":{"name":"angle_script_calculations","path":"scripts/angle_script_calculations/angle_script_calculations.yy",},},
-    {"id":{"name":"get_ingredients","path":"scripts/get_ingredients/get_ingredients.yy",},},
+    {"id":{"name":"draw_text_good","path":"scripts/draw_text_good/draw_text_good.yy",},},
     {"id":{"name":"get_object_dimensions","path":"scripts/get_object_dimensions/get_object_dimensions.yy",},},
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
     {"id":{"name":"maze_build","path":"scripts/maze_build/maze_build.yy",},},

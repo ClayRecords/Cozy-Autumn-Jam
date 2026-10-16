@@ -33,12 +33,12 @@ function draw_page() {
 
 function draw_title_page() {
 	var title = "Recipes";
-	draw_text_transformed(obj_page_title_1.x, obj_page_title_1.y - 15, title, 2, 2, 0);
-	var text =
-		"Potions, concoctions, elixirs, draughts, tinctures, and infusions!"
-		+ "\n\nCombine ingredients in a cauldron to prepare something magical."
-		+ "\n\nBut make sure you follow the recipe exactly to avoid dangerous side effects! Or worse, a dissatisfied customer!";
-	draw_text_ext(obj_page_content_1.x, obj_page_content_1.y, text, 15, 175);
+    draw_text_good(obj_page_title_1.x, obj_page_title_1.y, title, 0.75, 200);
+	
+    var text= "Potions, concoctions, elixirs, draughts, tinctures, and infusions!"
+    + "\n\nMy customers are going to love these magical brews!"
+    + "\n\nI need to follow my recipes exactly to avoid dangerous side effects. Or worse, a dissatisfied customer!";
+    draw_text_good(obj_page_content_1.x, obj_page_content_1.y, text, .3, 200);
 }
 
 function draw_potion_page() {
@@ -55,13 +55,13 @@ function draw_potion_page() {
 	var content_2 = obj_page_content_2;
 
 	// Potion title, description, and sprite
-	draw_text_ext_transformed(title_1.x, title_1.y, potion.name, 16, 100, 2, 2, 0);
-	draw_text_ext(title_1.x, title_1.y + 50, potion.description, 16, 200);
+	draw_text_good(title_1.x, title_1.y, potion.name, .5, 150);
+	draw_text_good(title_1.x, title_1.y + 50, potion.description, .3, 200);
 	var potion_sprite = potion.sprite_index;
 	draw_sprite_ext(potion_sprite, 0, content_1.x, content_1.y + 30, 3, 3, 0, c_white, 1);
 
 	// Ingredients
-	draw_text_transformed(title_2.x, title_2.y, "Recipe", 1.5, 1.5, 0);
+	draw_text_good(title_2.x, title_2.y, "Recipe", 0.5, 150);
 	var y_offset = -75;
 	for (var i = 0; i < array_length(potion.recipe); i++) {
 		var ingredient_index = potion.recipe[i];
@@ -69,10 +69,10 @@ function draw_potion_page() {
 
 		// Sprite
 		var ingredient_sprite = ingredient.sprite_index;
-		draw_sprite(ingredient_sprite, 0, content_2.x  -65, content_2.y + y_offset);
+		draw_sprite(ingredient_sprite, 0, content_2.x - 65, content_2.y + y_offset);
 
 		// Name
-		draw_text(content_2.x, content_2.y + y_offset, ingredient.name);
+		draw_text_good(content_2.x, content_2.y + y_offset, ingredient.name, 0.3, 200);
 		y_offset += 35;
 	}
 }

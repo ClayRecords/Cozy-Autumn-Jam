@@ -2,7 +2,7 @@
 event_inherited();
 
 name = "Water Breathing";
-description = "";
+description = "For after work when I need to drink wine and not come up for air.";
 recipe = [
 	obj_ingredient_moon_water,
 	obj_ingredient_moon_water,

@@ -1,9 +1,9 @@
 {
   "$GMScript":"v1",
-  "%Name":"get_ingredients",
+  "%Name":"draw_text_good",
   "isCompatibility":false,
   "isDnD":false,
-  "name":"get_ingredients",
+  "name":"draw_text_good",
   "parent":{
     "name":"scripts",
     "path":"folders/scripts.yy",
