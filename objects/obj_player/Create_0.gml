@@ -10,3 +10,5 @@ is_moving = false;
 potion_held = undefined;
 nearest_interactable = undefined;
 previous_nearest_interactable = undefined;
+
+do_depth_sort = true;

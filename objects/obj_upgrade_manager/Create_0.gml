@@ -3,7 +3,7 @@ speed_level_max = 5;
 speed_cost = 5;
 
 inventory_level = 0;
-inventory_level_max = 7; //starts at 0 so max is 8 slots
+inventory_level_max = 7; //starts at 0 so max is 8 slots. Consider starting at 2 though?
 inventory_cost = 5;
 
 function purchase_upgrade(upgrade_type) {

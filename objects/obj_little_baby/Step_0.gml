@@ -1,5 +1,7 @@
 is_moving = false;
 
+var move_speed = obj_player.speed_multi;
+
 if (instance_exists(obj_player)) {
 	if (distance_to_object(obj_player) > 10) {
 		is_moving = true;
@@ -9,7 +11,7 @@ if (instance_exists(obj_player)) {
 }
 
 if (is_moving) {
-	move_towards_point(obj_player.x, obj_player.y, 2);
+	move_towards_point(obj_player.x, obj_player.y, move_speed-1);
 } else {
 	speed = 0;
 }
