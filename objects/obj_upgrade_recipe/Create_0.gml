@@ -10,7 +10,7 @@ level_max =
 	array_length(obj_game_manager.potions) - obj_game_manager.known_potions_start_count;
 
 cost = 3;
-cost_increase = 5;
+cost_increase = 2;
 
 function do_upgrade() {
 	obj_game_manager.known_potions_count++;

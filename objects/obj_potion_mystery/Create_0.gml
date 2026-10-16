@@ -3,7 +3,7 @@ event_inherited();
 
 name = "Mystery";
 description = "My own personal recipe. So secretive, I can't even write it down here...";
-cost = 12;
+cost = 15;
 
 all_ingredients = obj_game_manager.ingredient_indexes;
 

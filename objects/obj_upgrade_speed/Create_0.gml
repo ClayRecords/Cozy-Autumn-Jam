@@ -9,7 +9,7 @@ level = 0;
 level_max = 3;
 
 cost = 3;
-cost_increase = 3;
+cost_increase = 1;
 
 function do_upgrade() {
 	obj_player.speed_multi += 0.5;
