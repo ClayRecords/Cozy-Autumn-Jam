@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_kitchen_cover",
-    "path":"sprites/spr_kitchen_cover/spr_kitchen_cover.yy",
+    "name":"spr_cover",
+    "path":"sprites/spr_cover/spr_cover.yy",
   },
   "spriteMaskId":null,
   "visible":true,

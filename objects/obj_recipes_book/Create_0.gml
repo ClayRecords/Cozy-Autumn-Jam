@@ -33,12 +33,13 @@ function draw_page() {
 
 function draw_title_page() {
 	var title = "Recipes";
-    draw_text_good(obj_page_title_1.x, obj_page_title_1.y, title, 0.75, 200);
-	
-    var text= "Potions, concoctions, elixirs, draughts, tinctures, and infusions!"
-    + "\n\nMy customers are going to love these magical brews!"
-    + "\n\nI need to follow my recipes exactly to avoid dangerous side effects. Or worse, a dissatisfied customer!";
-    draw_text_good(obj_page_content_1.x, obj_page_content_1.y, text, .3, 200);
+	draw_text_good(obj_page_title_1.x, obj_page_title_1.y, title, 0.75, 200);
+
+	var text =
+		"Potions, concoctions, elixirs, draughts, tinctures, and infusions!"
+		+ "\n\nMy customers are going to love these magical brews!"
+		+ "\n\nI need to follow my recipes exactly to avoid dangerous side effects. Or worse, a dissatisfied customer!";
+	draw_text_good(obj_page_content_1.x, obj_page_content_1.y, text, 0.3, 200);
 }
 
 function draw_potion_page() {
@@ -55,8 +56,8 @@ function draw_potion_page() {
 	var content_2 = obj_page_content_2;
 
 	// Potion title, description, and sprite
-	draw_text_good(title_1.x, title_1.y, potion.name, .5, 150);
-	draw_text_good(title_1.x, title_1.y + 50, potion.description, .3, 200);
+	draw_text_good(title_1.x, title_1.y, potion.name, 0.5, 150);
+	draw_text_good(title_1.x, title_1.y + 50, potion.description, 0.3, 200);
 	var potion_sprite = potion.sprite_index;
 	draw_sprite_ext(potion_sprite, 0, content_1.x, content_1.y + 30, 3, 3, 0, c_white, 1);
 
