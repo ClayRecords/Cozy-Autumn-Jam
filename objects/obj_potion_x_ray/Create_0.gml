@@ -2,6 +2,7 @@
 event_inherited();
 
 name = "X-Ray Vision";
+description = "";
 recipe = [
 	obj_ingredient_eye_of_newt,
 	obj_ingredient_eye_of_newt,

@@ -2,6 +2,7 @@
 event_inherited();
 
 name = "Water Breathing";
+description = "";
 recipe = [
 	obj_ingredient_moon_water,
 	obj_ingredient_moon_water,
