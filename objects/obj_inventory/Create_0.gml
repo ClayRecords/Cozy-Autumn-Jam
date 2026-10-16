@@ -1,49 +1,46 @@
-
 alarm[0] = 1;
 
 inventory = array_create_ext(8, function() {
-    return {
-        ingredient_type: obj_empty_inventory_ingredient,
-        draggable: false
-    };
+	return {ingredient_type: obj_empty_inventory_ingredient, draggable: false};
 });
 
 inventory_size = 1; //to start with.
-
+inventory_max_size = 8;
 
 function add_ingredient_to_inventory(ingredient) {
-    for (var i = 0; i < inventory_size; i++) {
-        var _slot = inventory[i];
+	for (var i = 0; i < inventory_size; i++) {
+		var _slot = inventory[i];
 
-        if (_slot.ingredient_type == obj_empty_inventory_ingredient) {
-            _slot.ingredient_type = ingredient;
-            _slot.draggable = true;
+		if (_slot.ingredient_type == obj_empty_inventory_ingredient) {
+			_slot.ingredient_type = ingredient;
+			_slot.draggable = true;
 
-            print("Picked up: ", ingredient);
+			print("Picked up: ", ingredient);
+			snd_pickup = choose(snd_pickup1, snd_pickup2, snd_pickup3);
+			pickup = audio_play_sound(snd_pickup, 5, false, 0.5);
 
-            refresh_inventory_display();
-            alarm[0] = 1;
+			refresh_inventory_display();
+			alarm[0] = 1;
 
-            return;
-        }
-    }
-
-    print("Inventory full!");
+			return;
+		}
+	}
+	print("Inventory full!");
+	audio_play_sound(snd_error, 5, false, 0.5);
 }
 
-
 function refresh_inventory_display() {
-    var _index = 0;
+	var _index = 0;
 
-    with (obj_inventory_item) {
-        if (_index < array_length(obj_inventory.inventory)) {
-            var _data = obj_inventory.inventory[_index];
+	with (obj_inventory_item) {
+		if (_index < array_length(obj_inventory.inventory)) {
+			var _data = obj_inventory.inventory[_index];
 
-            sprite_index = object_get_sprite(_data.ingredient_type);
-            ingredient_type = _data.ingredient_type;
-            draggable = _data.draggable;
+			sprite_index = object_get_sprite(_data.ingredient_type);
+			ingredient_type = _data.ingredient_type;
+			draggable = _data.draggable;
 
-            _index++;
-        }
-    }
+			_index++;
+		}
+	}
 }

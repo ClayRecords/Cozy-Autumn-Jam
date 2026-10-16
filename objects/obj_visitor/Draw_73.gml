@@ -1,3 +1,4 @@
+// Draw order bubble
 if (show_order_timer > 0) {
 	show_order_timer--;
 

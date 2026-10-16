@@ -1,14 +1,15 @@
+event_inherited();
+
+active = true;
+
 hovering = false;
-clicked = false;
 was_hovering = false;
+clicked = false;
+
+do_sparkle = true;
 sparkle_l = noone;
 sparkle_r = noone;
-can_interact = function() {
-	return true;
-};
 
 function activate_button() {
 	// Do something
 }
-
-do_sparkle = true;

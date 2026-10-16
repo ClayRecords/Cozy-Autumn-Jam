@@ -32,8 +32,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_storage_cover",
-    "path":"sprites/spr_storage_cover/spr_storage_cover.yy",
+    "name":"spr_cover",
+    "path":"sprites/spr_cover/spr_cover.yy",
   },
   "spriteMaskId":null,
   "visible":true,

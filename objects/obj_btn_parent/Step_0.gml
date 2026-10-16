@@ -1,19 +1,8 @@
-hovering = position_meeting(mouse_x, mouse_y, id);
-
-if (hovering && mouse_check_button_pressed(mb_left)) {
-	clicked = true;
-}
-
-if (mouse_check_button_released(mb_left)) {
-	clicked = false;
-
-	if (hovering) {
-		audio_play_sound(choose(snd_menuclick1, snd_menuclick2), 1, false, 0.3);
-		activate_button();
-	}
-}
-
 function handle_hover() {
+	if (!do_sparkle) {
+		return;
+	}
+
 	var _cx = (bbox_left + bbox_right) / 2;
 	var _cy = (bbox_top + bbox_bottom) / 2;
 	var _a = image_angle;
@@ -42,7 +31,7 @@ function handle_not_hover() {
 if (do_sparkle == true) {
 	if (hovering && !was_hovering) {
 		handle_hover();
-	} else if (!hovering && was_hovering) {
+	} else if (!hovering) {
 		handle_not_hover();
 	}
 }

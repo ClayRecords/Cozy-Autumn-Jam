@@ -1,6 +1,8 @@
+event_inherited();
+
 if (grabbed) {
-	//roughly where the cauldron is
-	if ((mouse_y > 330) && (mouse_y < 430) && (mouse_x > 540) && (mouse_x < 740)) {
+	// Dropped over cauldron
+	if (position_meeting(mouse_x, mouse_y, obj_cauldron_area)) {
 		obj_cauldron.add_ingredient(ingredient_type);
 
 		//delete from inventory list
@@ -20,7 +22,6 @@ if (grabbed) {
 			};
 			draggable = false;
 			dropped = false;
-			grabbed = false;
 			return_to_inventory();
 		}
 	}

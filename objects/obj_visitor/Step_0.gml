@@ -9,6 +9,11 @@ if (is_entering) {
 	return;
 }
 
+if (!is_entering && !order_complete) {
+	// Bob
+	y = target_y + sine_between(current_time, 3000, -3, 3);
+}
+
 if (order_complete) {
 	// Leave
 	speed = movement_speed;

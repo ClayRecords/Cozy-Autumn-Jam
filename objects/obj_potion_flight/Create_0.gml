@@ -2,6 +2,7 @@
 event_inherited();
 
 name = "Flight";
+description = "For when a ghost just can't get it up. No judging.";
 recipe = [
 	obj_ingredient_lacewing_fly,
 	obj_ingredient_lacewing_fly,
