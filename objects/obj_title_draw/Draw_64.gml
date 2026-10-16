@@ -11,7 +11,7 @@ function draw_title_page() {
 		"My small business is growing!"
 		+ "\n\nAs I get gold from my customers, I can invest it in my potion shop."
 		+ "\n\nI can diversify my product offerings, hire some huggable helpers, and make potion brewing more efficient.";
-	draw_text_good(x, y + 120, text, 0.3, 180);
+	draw_text_good(x, y + 60, text, 0.3, 180);
 }
 
 draw_title_page();

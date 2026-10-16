@@ -2,4 +2,4 @@
 event_inherited();
 
 upgrade_type = "speed";
-button_text = "speed";
+button_text = "Upgrade Speed";

@@ -19,11 +19,11 @@ y_difference = obj_little_baby.y - obj_player.y;
 
 if (is_moving) {
 	if (abs(x_difference) < 20) {
-		if (y_difference < 0) { 
-            sprite_index = little_baby_front;
-        } else{
-            sprite_index = little_baby_back;
-        } 
+		if (y_difference < 0) {
+			sprite_index = little_baby_front;
+		} else {
+			sprite_index = little_baby_back;
+		}
 	} else if (x_difference > 0) {
 		sprite_index = little_baby_left_walking;
 	} else {

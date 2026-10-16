@@ -30,5 +30,5 @@ if (is_debug) {
 		+ "\nZ = flush cauldron"
 		+ "\nC = give requested potion"
 		+ "\nV = add inv slot";
-	draw_text(10, 450, debug_commands_text);
+	draw_text(10, 380, debug_commands_text);
 }
