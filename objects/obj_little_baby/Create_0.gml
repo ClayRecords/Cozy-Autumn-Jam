@@ -1,1 +1,1 @@
-mask_index = little_baby_front
+mask_index = little_baby_front;
