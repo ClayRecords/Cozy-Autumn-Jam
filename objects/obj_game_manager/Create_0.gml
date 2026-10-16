@@ -3,6 +3,7 @@ is_debug = false;
 
 // Default text align will be left!
 draw_set_halign(fa_left);
+draw_set_font(fnt_book);
 
 display_set_gui_size(960, 540);
 

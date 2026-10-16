@@ -28,7 +28,6 @@ function draw_page() {
 
 	draw_set_halign(textalign_left);
 	draw_set_color(c_white);
-	draw_set_font(-1);
 }
 
 function draw_title_page() {
