@@ -26,9 +26,10 @@ if (is_debug) {
 	draw_text(400, 500, "Cauldron: " + str(obj_cauldron.current_ingredients));
 
 	var debug_commands_text =
-		"X = give potion currently in cauldron"
-		+ "\nZ = flush cauldron"
+		"Z = flush cauldron"
+		+ "\nX = give potion currently in cauldron"
 		+ "\nC = give requested potion"
-		+ "\nV = add inv slot";
-	draw_text(10, 380, debug_commands_text);
+		+ "\nV = add inv slot"
+		+ "\nB = add money";
+	draw_text(10, 360, debug_commands_text);
 }

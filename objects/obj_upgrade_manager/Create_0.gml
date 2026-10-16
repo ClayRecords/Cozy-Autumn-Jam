@@ -1,10 +1,18 @@
 speed_level = 0;
-speed_level_max = 5;
-speed_cost = 5;
+speed_level_max = 3;
+speed_cost = 3;
+speed_cost_increase = 3;
 
 inventory_level = 0;
 inventory_level_max = 7; //starts at 0 so max is 8 slots. Consider starting at 2 though?
-inventory_cost = 5;
+inventory_cost = 3;
+inventory_cost_increase = 3;
+
+recipes_level = 0;
+recipes_level_max =
+	array_length(obj_game_manager.potions) - obj_game_manager.known_potions_start_count;
+recipes_cost = 3;
+recipes_cost_increase = 5;
 
 function purchase_upgrade(upgrade_type) {
 	var cost = 0;

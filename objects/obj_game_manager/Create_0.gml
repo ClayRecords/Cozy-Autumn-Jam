@@ -13,7 +13,8 @@ window_set_cursor(cr_none);
 
 money = 0;
 current_ghost = undefined;
-known_potions_count = 3;
+known_potions_start_count = 3;
+known_potions_count = known_potions_start_count;
 
 menu_music = audio_play_sound(snd_mainTheme, 10, true, 1);
 
