@@ -17,6 +17,7 @@ function previous_page() {
 
 function draw_page() {
 	draw_set_halign(textalign_center);
+	draw_set_valign(fa_middle);
 	draw_set_color(font_color);
 	draw_set_font(fnt_default_large);
 	if (current_page == 0) {
@@ -27,6 +28,7 @@ function draw_page() {
 	}
 
 	draw_set_halign(textalign_left);
+	draw_set_valign(fa_top);
 	draw_set_color(c_white);
 	draw_set_font(fnt_default);
 }
@@ -39,7 +41,28 @@ function draw_title_page() {
 		"Potions, concoctions, elixirs, draughts, tinctures, and infusions!"
 		+ "\n\nMy customers are going to love these magical brews!"
 		+ "\n\nI need to follow my recipes exactly to avoid dangerous side effects. Or worse, a dissatisfied customer!";
-	draw_text_good(obj_page_content_1.x, obj_page_content_1.y - 50, text, 0.3, 180);
+	draw_text_good(obj_page_content_1.x, obj_page_content_1.y, text, 0.3, 180);
+
+	var known_potions_count_text =
+		"Potion offerings: " + str(obj_game_manager.known_potions_count);
+	draw_text_good(
+		obj_page_title_2.x,
+		obj_page_title_2.y + 5,
+		known_potions_count_text,
+		0.4,
+		180
+	);
+
+	var potion_upgrades_text =
+		"These customers are eager for more offerings!"
+		+ "\n\nI can invest in my company and learn more recipes from the upgrades menu!";
+	draw_text_good(
+		obj_page_content_2.x,
+		obj_page_content_2.y,
+		potion_upgrades_text,
+		0.3,
+		180
+	);
 }
 
 function draw_potion_page() {

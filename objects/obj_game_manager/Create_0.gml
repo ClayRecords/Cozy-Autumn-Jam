@@ -69,10 +69,8 @@ create_new_ghost = function() {
 		"Instances_foreground",
 		obj_visitor
 	);
-
 	current_ghost.sprite_index = spr_ghost_1;
-
-	current_ghost.order = potion_indexes[int64(random(array_length(potion_indexes)))];
+	current_ghost.order = potion_indexes[int64(random(known_potions_count))];
 };
 
 self.create_new_ghost();
