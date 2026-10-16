@@ -7,7 +7,7 @@ with (obj_btn_parent) {
 	}
 }
 if (any_btn_hover) {
-	cursor_sprite = spr_cursor;
+	cursor_sprite = spr_cursor_select;
 } else {
 	cursor_sprite = spr_cursor;
 }
