@@ -18,7 +18,7 @@ function previous_page() {
 function draw_page() {
 	draw_set_halign(textalign_center);
 	draw_set_color(font_color);
-	draw_set_font(fnt_book);
+	draw_set_font(fnt_default_large);
 	if (current_page == 0) {
 		draw_title_page();
 		// index?
@@ -28,6 +28,7 @@ function draw_page() {
 
 	draw_set_halign(textalign_left);
 	draw_set_color(c_white);
+	draw_set_font(fnt_default);
 }
 
 function draw_title_page() {
@@ -38,7 +39,7 @@ function draw_title_page() {
 		"Potions, concoctions, elixirs, draughts, tinctures, and infusions!"
 		+ "\n\nMy customers are going to love these magical brews!"
 		+ "\n\nI need to follow my recipes exactly to avoid dangerous side effects. Or worse, a dissatisfied customer!";
-	draw_text_good(obj_page_content_1.x, obj_page_content_1.y, text, 0.3, 200);
+	draw_text_good(obj_page_content_1.x, obj_page_content_1.y - 50, text, 0.3, 200);
 }
 
 function draw_potion_page() {

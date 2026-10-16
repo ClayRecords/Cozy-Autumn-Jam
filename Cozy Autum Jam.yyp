@@ -47,7 +47,8 @@
   },
   "name":"Cozy Autum Jam",
   "resources":[
-    {"id":{"name":"fnt_book","path":"fonts/fnt_book/fnt_book.yy",},},
+    {"id":{"name":"fnt_default_large","path":"fonts/fnt_default_large/fnt_default_large.yy",},},
+    {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},},
     {"id":{"name":"obj_btn_parent","path":"objects/obj_btn_parent/obj_btn_parent.yy",},},
     {"id":{"name":"obj_button_about","path":"objects/obj_button_about/obj_button_about.yy",},},
     {"id":{"name":"obj_button_brew","path":"objects/obj_button_brew/obj_button_brew.yy",},},
