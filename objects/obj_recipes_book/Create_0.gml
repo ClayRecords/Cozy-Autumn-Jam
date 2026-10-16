@@ -39,7 +39,7 @@ function draw_title_page() {
 		"Potions, concoctions, elixirs, draughts, tinctures, and infusions!"
 		+ "\n\nMy customers are going to love these magical brews!"
 		+ "\n\nI need to follow my recipes exactly to avoid dangerous side effects. Or worse, a dissatisfied customer!";
-	draw_text_good(obj_page_content_1.x, obj_page_content_1.y - 50, text, 0.3, 200);
+	draw_text_good(obj_page_content_1.x, obj_page_content_1.y - 50, text, 0.3, 180);
 }
 
 function draw_potion_page() {

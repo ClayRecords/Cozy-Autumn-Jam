@@ -112,6 +112,7 @@
     {"id":{"name":"obj_shelf","path":"objects/obj_shelf/obj_shelf.yy",},},
     {"id":{"name":"obj_sparkle","path":"objects/obj_sparkle/obj_sparkle.yy",},},
     {"id":{"name":"obj_storage_cover","path":"objects/obj_storage_cover/obj_storage_cover.yy",},},
+    {"id":{"name":"obj_title_draw","path":"objects/obj_title_draw/obj_title_draw.yy",},},
     {"id":{"name":"obj_upgrade_inventory","path":"objects/obj_upgrade_inventory/obj_upgrade_inventory.yy",},},
     {"id":{"name":"obj_upgrade_manager","path":"objects/obj_upgrade_manager/obj_upgrade_manager.yy",},},
     {"id":{"name":"obj_upgrade_speed","path":"objects/obj_upgrade_speed/obj_upgrade_speed.yy",},},
