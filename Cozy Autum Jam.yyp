@@ -50,6 +50,7 @@
   "resources":[
     {"id":{"name":"fnt_default_large","path":"fonts/fnt_default_large/fnt_default_large.yy",},},
     {"id":{"name":"fnt_default","path":"fonts/fnt_default/fnt_default.yy",},},
+    {"id":{"name":"obj_about","path":"objects/obj_about/obj_about.yy",},},
     {"id":{"name":"obj_btn_exit_about","path":"objects/obj_btn_exit_about/obj_btn_exit_about.yy",},},
     {"id":{"name":"obj_btn_exit_tutorial","path":"objects/obj_btn_exit_tutorial/obj_btn_exit_tutorial.yy",},},
     {"id":{"name":"obj_btn_parent","path":"objects/obj_btn_parent/obj_btn_parent.yy",},},
