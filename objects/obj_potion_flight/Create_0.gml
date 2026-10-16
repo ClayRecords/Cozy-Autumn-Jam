@@ -10,4 +10,4 @@ recipe = [
 	obj_ingredient_spider_silk,
 	obj_ingredient_dragon_blood
 ];
-cost = 5;
+cost = 8;

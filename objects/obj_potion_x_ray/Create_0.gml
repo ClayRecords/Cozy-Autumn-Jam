@@ -7,6 +7,7 @@ recipe = [
 	obj_ingredient_eye_of_newt,
 	obj_ingredient_eye_of_newt,
 	obj_ingredient_bat_wool,
-	obj_ingredient_moon_water
+	obj_ingredient_moon_water,
+    obj_ingredient_snail_slime
 ];
-cost = 5;
+cost = 8;

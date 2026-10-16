@@ -6,7 +6,7 @@ description = "For beings without blood, my customers are very interested in bei
 recipe = [
 	obj_ingredient_dragon_blood,
 	obj_ingredient_frog_breath,
-	obj_ingredient_bat_wool,
-	obj_ingredient_moon_water
+	obj_ingredient_spider_silk,
+	obj_ingredient_snail_slime
 ];
 cost = 5;

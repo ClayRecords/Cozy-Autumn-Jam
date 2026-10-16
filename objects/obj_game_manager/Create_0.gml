@@ -13,6 +13,7 @@ window_set_cursor(cr_none);
 
 money = 0;
 current_ghost = undefined;
+known_potions_count = 3;
 
 menu_music = audio_play_sound(snd_mainTheme, 10, true, 1);
 
@@ -37,16 +38,17 @@ for (var i = 0; i <= array_length(ingredient_indexes) - 1; i++) {
 }
 
 // Create potion instances
+// Ordered here by unlock order and complexity
 potion_indexes = [
-	obj_potion_find_lost_items,
-	obj_potion_flight,
-	obj_potion_hair_growth,
-	obj_potion_healing,
+	obj_potion_strength,
 	obj_potion_invisibility,
 	obj_potion_stink_bomb,
-	obj_potion_strength,
-	obj_potion_water_breathing,
+	obj_potion_find_lost_items,
+	obj_potion_hair_growth,
+	obj_potion_healing,
+	obj_potion_flight,
 	obj_potion_x_ray,
+	obj_potion_water_breathing,
 	obj_potion_mystery
 ];
 potions = [];

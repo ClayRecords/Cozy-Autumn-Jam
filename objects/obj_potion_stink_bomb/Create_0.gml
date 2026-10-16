@@ -6,7 +6,6 @@ description = "Every ghost should be equipped with some ghastly smells during a 
 recipe = [
 	obj_ingredient_eye_of_newt,
 	obj_ingredient_frog_breath,
-	obj_ingredient_frog_breath,
 	obj_ingredient_snail_slime
 ];
-cost = 5;
+cost = 3;
