@@ -39,6 +39,9 @@
     {"$GMObjectProperty":"v2","%Name":"force_sprite","filters":[],"listItems":[
         "undefined",
         "spr_cobweb_NE",
+        "spr_cobweb_NW",
+        "spr_cobweb_SE",
+        "spr_cobweb_SW",
       ],"multiselect":false,"name":"force_sprite","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"undefined","varType":6,},
   ],
   "resourceType":"GMObject",

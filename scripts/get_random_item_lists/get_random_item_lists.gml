@@ -6,6 +6,6 @@ function get_random_item_lists(){
         board_sprites: [spr_board, spr_board_1, spr_board_2],
         shelf_sprites: [spr_bookshelf, spr_bookshelf_1, spr_bookshelf_2, spr_bookshelf_3, spr_bookshelf_4],
         herbs_sprites: [spr_herbs],
-        tile_sprites: [spr_puddle, spr_crack]
+        tile_sprites: [spr_puddle, spr_puddle_1, spr_puddle_2, spr_puddle_3, spr_crack, spr_crack_1, spr_crack_2, spr_crack_3, spr_crack_4]
     };
 }
