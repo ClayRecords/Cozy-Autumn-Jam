@@ -47,8 +47,8 @@ function complete_transaction(potion) {
 			false,
 			0.7
 		);
+		obj_game_manager.get_paid(self);
 	}
 	set_show_result();
 	order_complete = true;
-	obj_game_manager.get_paid(self);
 }
