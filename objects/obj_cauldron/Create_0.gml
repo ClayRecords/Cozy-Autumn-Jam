@@ -11,6 +11,9 @@ show_brew_timer_max = 300;
 
 last_brewed = undefined;
 
+do_depth_sorting = true;
+depth=199;
+
 function add_ingredient(ingredient) {
 	// Add something to the pot, check for resulting potion
 	array_push(current_ingredients, ingredient);
