@@ -68,6 +68,7 @@
     {"id":{"name":"obj_clickable","path":"objects/obj_clickable/obj_clickable.yy",},},
     {"id":{"name":"obj_close_recipes_book","path":"objects/obj_close_recipes_book/obj_close_recipes_book.yy",},},
     {"id":{"name":"obj_close_upgrades_book","path":"objects/obj_close_upgrades_book/obj_close_upgrades_book.yy",},},
+    {"id":{"name":"obj_counter_front","path":"objects/obj_counter_front/obj_counter_front.yy",},},
     {"id":{"name":"obj_empty_inventory_ingredient","path":"objects/obj_empty_inventory_ingredient/obj_empty_inventory_ingredient.yy",},},
     {"id":{"name":"obj_exit_game","path":"objects/obj_exit_game/obj_exit_game.yy",},},
     {"id":{"name":"obj_game_manager","path":"objects/obj_game_manager/obj_game_manager.yy",},},
