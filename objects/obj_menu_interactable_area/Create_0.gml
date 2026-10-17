@@ -24,7 +24,7 @@ function create_menu() {
 	if (menu_sequence_ref == undefined) {
 		throw "Menu must set sequence";
 	}
-	if (menu_sequence == undefined || !layer_sequence_exists("menu_sequence", menu_sequence)) {
+	if (!seq_exists("menu_sequence", menu_sequence)) {
 		menu_sequence = layer_sequence_create(
 			"menu_sequence",
 			obj_storage_cover.x,

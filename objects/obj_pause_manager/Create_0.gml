@@ -50,7 +50,7 @@ function cleanup() {
 	if (buffer_exists(pause_surface_buffer)) {
 		buffer_delete(pause_surface_buffer);
 	}
-	if (seq_exists(pause_seq)) {
+	if (seq_exists("PauseMenu", pause_seq)) {
 		layer_sequence_destroy(pause_seq);
 	}
 	pause_seq = -1;

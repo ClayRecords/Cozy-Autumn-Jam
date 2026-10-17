@@ -1,6 +1,6 @@
-function seq_exists(seq){
-    if (seq == undefined ||  seq == -1) {
+function seq_exists(layer_name, seq) {
+    if (is_undefined(seq) || seq == -1) {
         return false;
     }
-    return sequence_exists(seq);
+    return layer_sequence_exists(layer_name, seq);
 }

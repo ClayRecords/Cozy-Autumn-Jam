@@ -15,20 +15,21 @@ if (menu_opening) {
 		menu_opening = false; //done opening
 		in_about = true;
 	}
-	if (seq_exists(menu_sequence)) {
+	if (seq_exists("menu_sequence", menu_sequence)) {
 		layer_sequence_alpha(menu_sequence, seq_alpha);
 	}
 }
 
 if (menu_closing) {
 	seq_alpha -= close_speed;
-	if (seq_exists(menu_sequence)) {
+	if (seq_exists("menu_sequence", menu_sequence)) {
 		layer_sequence_alpha(menu_sequence, seq_alpha);
 		if (seq_alpha <= 0) {
 			seq_alpha = 0;
 			menu_closing = false; //done closing
 			in_about = false;
 			layer_sequence_destroy(menu_sequence);
+			menu_sequence = -1;
 		}
 	}
 }
