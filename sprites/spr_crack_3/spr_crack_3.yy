@@ -19,7 +19,7 @@
   "height":48,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"d268ec37-9290-4e57-9770-d9f7ffe223c7","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"d268ec37-9290-4e57-9770-d9f7ffe223c7","opacity":59.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"d268ec37-9290-4e57-9770-d9f7ffe223c7","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"d268ec37-9290-4e57-9770-d9f7ffe223c7","opacity":49.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"207361cd-50fe-42f3-b43e-0b811988e3cd","blendMode":0,"displayName":"default","isLocked":false,"name":"207361cd-50fe-42f3-b43e-0b811988e3cd","opacity":30.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_crack_3",
