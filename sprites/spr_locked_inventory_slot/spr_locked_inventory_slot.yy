@@ -4,7 +4,7 @@
   "bboxMode":0,
   "bbox_bottom":63,
   "bbox_left":0,
-  "bbox_right":63,
+  "bbox_right":61,
   "bbox_top":0,
   "collisionKind":1,
   "collisionTolerance":0,
@@ -19,6 +19,7 @@
   "height":64,
   "HTile":false,
   "layers":[
+    {"$GMImageLayer":"","%Name":"61b398c6-4057-4daa-a962-21bdcc085165","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"61b398c6-4057-4daa-a962-21bdcc085165","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"8bd60a56-075d-4d56-89c3-a398066ebca1","blendMode":0,"displayName":"default","isLocked":false,"name":"8bd60a56-075d-4d56-89c3-a398066ebca1","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_locked_inventory_slot",
@@ -75,7 +76,7 @@
     ],
     "visibleRange":null,
     "volume":1.0,
-    "xorigin":32,
+    "xorigin":31,
     "yorigin":32,
   },
   "swatchColours":null,
@@ -86,5 +87,5 @@
   },
   "type":0,
   "VTile":false,
-  "width":64,
+  "width":62,
 }
