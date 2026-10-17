@@ -14,7 +14,9 @@ function pause() {
 	resolution_h = room_height;
 
 	if (!layer_exists("PauseMenu")) {
-		layer_create(depth - 1, "PauseMenu");
+		layer_create(-15000, "PauseMenu");
+	} else {
+		layer_depth("PauseMenu", -15000);
 	}
 
 	pause_seq = layer_sequence_create("PauseMenu", 0, 0, seq_pause);
