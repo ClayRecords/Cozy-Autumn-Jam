@@ -5,7 +5,7 @@
   "bbox_bottom":31,
   "bbox_left":4,
   "bbox_right":27,
-  "bbox_top":4,
+  "bbox_top":6,
   "collisionKind":1,
   "collisionTolerance":0,
   "DynamicTexturePage":false,
@@ -19,8 +19,8 @@
   "height":32,
   "HTile":false,
   "layers":[
-    {"$GMImageLayer":"","%Name":"f8d53dc8-ca61-482b-8dfb-89f88c9eb8f7","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"f8d53dc8-ca61-482b-8dfb-89f88c9eb8f7","opacity":36.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
     {"$GMImageLayer":"","%Name":"c48cff14-f682-4e14-b46e-b23161988568","blendMode":0,"displayName":"default","isLocked":false,"name":"c48cff14-f682-4e14-b46e-b23161988568","opacity":100.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
+    {"$GMImageLayer":"","%Name":"f8d53dc8-ca61-482b-8dfb-89f88c9eb8f7","blendMode":0,"displayName":"Layer 1","isLocked":false,"name":"f8d53dc8-ca61-482b-8dfb-89f88c9eb8f7","opacity":31.0,"resourceType":"GMImageLayer","resourceVersion":"2.0","visible":true,},
   ],
   "name":"spr_bottle",
   "nineSlice":null,
