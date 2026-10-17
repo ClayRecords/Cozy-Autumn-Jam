@@ -1,11 +1,10 @@
 // Inherit the parent event
 event_inherited();
 
-if (obj_exit_game.active){
-    active = true;
-}
-else{
-    active = false;
+if (obj_exit_game.active) {
+	active = true;
+} else {
+	active = false;
 }
 
 // fade in and out menu
@@ -14,7 +13,7 @@ if (menu_opening) {
 	if (seq_alpha >= 1) {
 		seq_alpha = 1;
 		menu_opening = false; //done opening
-        in_about = true;
+		in_about = true;
 	}
 	if (layer_sequence_exists("menu_sequence", menu_sequence)) {
 		layer_sequence_alpha(menu_sequence, seq_alpha);
@@ -28,7 +27,7 @@ if (menu_closing) {
 		if (seq_alpha <= 0) {
 			seq_alpha = 0;
 			menu_closing = false; //done closing
-            in_about = false;
+			in_about = false;
 			layer_sequence_destroy(menu_sequence);
 		}
 	}

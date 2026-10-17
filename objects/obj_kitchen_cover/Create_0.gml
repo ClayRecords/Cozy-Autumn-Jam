@@ -33,7 +33,8 @@ function cover_up() {
 	if (image_alpha >= 1) {
 		image_alpha = 1;
 	}
-	if (layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) { //match seq alpha to cover
+	if (layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
+		//match seq alpha to cover
 		layer_sequence_alpha(kitchen_cover_sequence, image_alpha);
 	}
 }

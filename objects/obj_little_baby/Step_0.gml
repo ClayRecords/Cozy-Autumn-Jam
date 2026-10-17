@@ -10,11 +10,11 @@ if (instance_exists(parent)) {
 }
 
 if (is_moving) {
-    not_moving_count = 0
+	not_moving_count = 0;
 	move_towards_point(parent.x, parent.y, move_speed - 1);
 } else {
 	speed = 0;
-    not_moving_count++
+	not_moving_count++;
 }
 
 var x_difference = x - parent.x;

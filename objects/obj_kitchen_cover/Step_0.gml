@@ -3,11 +3,10 @@ if (place_meeting(x, y, obj_player)) {
 	if (is_in_maze) {
 		is_in_maze = false;
 		print("You've entered the kitchen");
-        
-        with (obj_random_item) {
-            randomize_sprite();
-        }
-        
+
+		with (obj_random_item) {
+			randomize_sprite();
+		}
 	}
 	if (image_alpha != 0) {
 		uncover();

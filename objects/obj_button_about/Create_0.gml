@@ -24,11 +24,12 @@ function create_menu() {
 	if (menu_sequence_ref == undefined) {
 		throw "Menu must set sequence";
 	}
-	if (!layer_sequence_exists("menu_sequence", menu_sequence)) { //if menu doesn't exist, make it
+	if (!layer_sequence_exists("menu_sequence", menu_sequence)) {
+		//if menu doesn't exist, make it
 		menu_sequence = layer_sequence_create(
 			"menu_sequence",
-			room_width/2,
-			room_height/2,
+			room_width / 2,
+			room_height / 2,
 			menu_sequence_ref
 		);
 	}

@@ -15,7 +15,11 @@ previous_parent = obj_player;
 
 function do_upgrade() {
 	obj_inventory.inventory_size += 1;
-    previous_parent = instance_create_layer(obj_player.x, obj_player.y, "Instances", obj_little_baby, {
-        parent: previous_parent
-    })
+	previous_parent = instance_create_layer(
+		obj_player.x,
+		obj_player.y,
+		"Instances",
+		obj_little_baby,
+		{parent: previous_parent}
+	);
 }
