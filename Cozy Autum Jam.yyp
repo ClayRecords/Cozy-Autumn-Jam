@@ -140,6 +140,7 @@
     {"id":{"name":"macros","path":"scripts/macros/macros.yy",},},
     {"id":{"name":"maze_build","path":"scripts/maze_build/maze_build.yy",},},
     {"id":{"name":"move_to_solid","path":"scripts/move_to_solid/move_to_solid.yy",},},
+    {"id":{"name":"music_sync","path":"scripts/music_sync/music_sync.yy",},},
     {"id":{"name":"print","path":"scripts/print/print.yy",},},
     {"id":{"name":"seq_exists","path":"scripts/seq_exists/seq_exists.yy",},},
     {"id":{"name":"sine_wave","path":"scripts/sine_wave/sine_wave.yy",},},

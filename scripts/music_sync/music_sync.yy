@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"music_sync",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"music_sync",
+  "parent":{
+    "name":"scripts",
+    "path":"folders/scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
