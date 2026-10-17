@@ -6,7 +6,7 @@ kitchen_cover_sequence = undefined;
 is_in_maze = false;
 
 function create_menu() {
-	if (!layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
+	if (!seq_exists(kitchen_cover_sequence)) {
 		print("creating sequence");
 		kitchen_cover_sequence = layer_sequence_create(
 			"menu_sequence",
@@ -22,7 +22,7 @@ function create_menu() {
 }
 
 function destroy_menu() {
-	if (layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
+	if (seq_exists(kitchen_cover_sequence)) {
 		layer_sequence_destroy(kitchen_cover_sequence);
 	}
 }
@@ -33,7 +33,7 @@ function cover_up() {
 	if (image_alpha >= 1) {
 		image_alpha = 1;
 	}
-	if (layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
+	if (seq_exists(kitchen_cover_sequence)) {
 		//match seq alpha to cover
 		layer_sequence_alpha(kitchen_cover_sequence, image_alpha);
 	}
@@ -45,7 +45,7 @@ function uncover() {
 		image_alpha = 0;
 		destroy_menu();
 	}
-	if (layer_sequence_exists("menu_sequence", kitchen_cover_sequence)) {
+	if (seq_exists(kitchen_cover_sequence)) {
 		layer_sequence_alpha(kitchen_cover_sequence, image_alpha);
 	}
 }
