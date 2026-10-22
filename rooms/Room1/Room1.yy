@@ -19,7 +19,6 @@
     {"name":"inst_6C9483E7","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4AB43B26","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2B4A4E88","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_69222D84","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_4723257C","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_312A9F2C","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_10BB2F7A","path":"rooms/Room1/Room1.yy",},
@@ -83,7 +82,6 @@
     {"name":"inst_3113088C","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_3260C01D","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_1BF40756","path":"rooms/Room1/Room1.yy",},
-    {"name":"inst_2CB56315","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2ADD19D4","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_76C84A39","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_7898F2B1","path":"rooms/Room1/Room1.yy",},
@@ -117,6 +115,7 @@
     {"name":"inst_736B4476","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_2F6A8BFE","path":"rooms/Room1/Room1.yy",},
     {"name":"inst_6B4BC45B","path":"rooms/Room1/Room1.yy",},
+    {"name":"inst_2CB56315","path":"rooms/Room1/Room1.yy",},
   ],
   "isDnd":false,
   "layers":[
@@ -137,7 +136,6 @@
         {"$GMRInstance":"v4","%Name":"inst_2CB56315","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CB56315","objectId":{"name":"obj_maze_builder","path":"objects/obj_maze_builder/obj_maze_builder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":96.0,},
         {"$GMRInstance":"v4","%Name":"inst_2CB56315","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2CB56315","objectId":{"name":"obj_maze_builder","path":"objects/obj_maze_builder/obj_maze_builder.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":96.0,"y":480.0,},
         {"$GMRInstance":"v4","%Name":"inst_4AB43B26","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_4AB43B26","objectId":{"name":"obj_kitchen_cover","path":"objects/obj_kitchen_cover/obj_kitchen_cover.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":18.074497,"scaleY":31.988815,"x":160.5,"y":256.5,},
-        {"$GMRInstance":"v4","%Name":"inst_69222D84","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_69222D84","objectId":{"name":"obj_upgrade_manager","path":"objects/obj_upgrade_manager/obj_upgrade_manager.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
       ],"layers":[],"name":"game_managers","properties":[],"resourceType":"GMRInstanceLayer","resourceVersion":"2.0","userdefinedDepth":false,"visible":true,},
     {"$GMRInstanceLayer":"","%Name":"Instances_foreground","depth":-500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"$GMRInstance":"v4","%Name":"inst_2ADD19D4","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"name":"inst_2ADD19D4","objectId":{"name":"obj_counter_front","path":"objects/obj_counter_front/obj_counter_front.yy",},"properties":[],"resourceType":"GMRInstance","resourceVersion":"2.0","rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
