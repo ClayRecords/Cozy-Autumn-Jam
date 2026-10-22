@@ -15,6 +15,7 @@ money = 0;
 current_ghost = undefined;
 known_potions_start_count = 3;
 known_potions_count = known_potions_start_count;
+little_baby_previous_parent = obj_player;
 
 menu_music = -1;
 menu_music = music_sync(snd_mainTheme, menu_music, window_has_focus(), 1000);
